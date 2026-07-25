@@ -776,6 +776,12 @@ body.on-light-band #ata{mix-blend-mode:multiply;opacity:.17;filter:grayscale(1) 
 }
 .skip:focus{left:12px;top:12px}
 
+/* visually hidden but present for assistive tech — never use display:none/visibility:hidden here */
+.sr-only{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0,0,0,0);white-space:nowrap;border:0;
+}
+
 /* the address is information, not a destination — same rhythm, no link affordance */
 .links .row{
   display:flex;align-items:baseline;gap:14px;padding:17px 4px;
@@ -1053,58 +1059,58 @@ body.on-light-band #ata{mix-blend-mode:multiply;opacity:.17;filter:grayscale(1) 
         <h3>Generative AI</h3>
         <p class="k-note">Not a topic I teach — the workshop I build in.</p>
         <div class="chips">
-          <span class="chip lv3">Claude</span><span class="chip lv3">ChatGPT</span><span class="chip lv3">Gemini</span>
-          <span class="chip lv2">NotebookLM</span><span class="chip lv2">Perplexity</span><span class="chip lv2">HeyGen</span>
-          <span class="chip lv2">ElevenLabs</span><span class="chip lv2">Gamma</span><span class="chip lv1">Copilot Studio</span>
+          <span class="chip lv3">Claude<span class="sr-only"> — Fluent</span></span><span class="chip lv3">ChatGPT<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Gemini<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">NotebookLM<span class="sr-only"> — Working</span></span><span class="chip lv2">Perplexity<span class="sr-only"> — Working</span></span><span class="chip lv2">HeyGen<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">ElevenLabs<span class="sr-only"> — Working</span></span><span class="chip lv2">Gamma<span class="sr-only"> — Working</span></span><span class="chip lv1">Copilot Studio<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Google Workspace</h3>
         <p class="k-note">Where the day-to-day L&amp;D operation actually lives.</p>
         <div class="chips">
-          <span class="chip lv3">Sheets</span><span class="chip lv3">Docs</span><span class="chip lv3">Slides</span>
-          <span class="chip lv3">Forms</span><span class="chip lv3">Drive</span><span class="chip lv3">Gmail</span>
-          <span class="chip lv3">Calendar</span><span class="chip lv3">Meet</span>
-          <span class="chip lv2">Apps Script</span><span class="chip lv2">Looker Studio</span><span class="chip lv1">Sites</span>
+          <span class="chip lv3">Sheets<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Docs<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Slides<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv3">Forms<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Drive<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Gmail<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv3">Calendar<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Meet<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">Apps Script<span class="sr-only"> — Working</span></span><span class="chip lv2">Looker Studio<span class="sr-only"> — Working</span></span><span class="chip lv1">Sites<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Microsoft 365</h3>
         <p class="k-note">The reporting stack — and where the analytics work is heading.</p>
         <div class="chips">
-          <span class="chip lv3">Excel</span><span class="chip lv3">PowerPoint</span><span class="chip lv3">Word</span>
-          <span class="chip lv3">Teams</span><span class="chip lv3">Outlook</span>
-          <span class="chip lv2">Power Query</span><span class="chip lv2">Power BI</span><span class="chip lv2">Power Automate</span>
-          <span class="chip lv2">SharePoint</span><span class="chip lv1">PL-300</span>
+          <span class="chip lv3">Excel<span class="sr-only"> — Fluent</span></span><span class="chip lv3">PowerPoint<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Word<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv3">Teams<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Outlook<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">Power Query<span class="sr-only"> — Working</span></span><span class="chip lv2">Power BI<span class="sr-only"> — Working</span></span><span class="chip lv2">Power Automate<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">SharePoint<span class="sr-only"> — Working</span></span><span class="chip lv1">PL-300<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Learning platforms &amp; authoring</h3>
         <p class="k-note">One enterprise LMS administered deeply beats five demoed once.</p>
         <div class="chips">
-          <span class="chip lv3">Digital Learning Zone</span><span class="chip lv2">Articulate Rise 360</span>
-          <span class="chip lv2">Kahoot</span><span class="chip lv2">Mentimeter</span><span class="chip lv2">Quizizz</span>
-          <span class="chip lv1">Articulate Storyline</span><span class="chip lv1">SCORM / xAPI</span>
-          <span class="chip lv1">Cornerstone</span><span class="chip lv1">Docebo</span><span class="chip lv1">Moodle</span>
+          <span class="chip lv3">Digital Learning Zone<span class="sr-only"> — Fluent</span></span><span class="chip lv2">Articulate Rise 360<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">Kahoot<span class="sr-only"> — Working</span></span><span class="chip lv2">Mentimeter<span class="sr-only"> — Working</span></span><span class="chip lv2">Quizizz<span class="sr-only"> — Working</span></span>
+          <span class="chip lv1">Articulate Storyline<span class="sr-only"> — Scoped</span></span><span class="chip lv1">SCORM / xAPI<span class="sr-only"> — Scoped</span></span>
+          <span class="chip lv1">Cornerstone<span class="sr-only"> — Scoped</span></span><span class="chip lv1">Docebo<span class="sr-only"> — Scoped</span></span><span class="chip lv1">Moodle<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Design, video &amp; content</h3>
         <p class="k-note">Culture week, orientation decks, fanpage and LinkedIn — produced in-house.</p>
         <div class="chips">
-          <span class="chip lv3">Canva</span><span class="chip lv3">CapCut</span>
-          <span class="chip lv2">Figma</span><span class="chip lv2">Adobe Express</span>
-          <span class="chip lv2">Descript</span><span class="chip lv2">Lightroom</span><span class="chip lv1">Premiere Pro</span>
+          <span class="chip lv3">Canva<span class="sr-only"> — Fluent</span></span><span class="chip lv3">CapCut<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">Figma<span class="sr-only"> — Working</span></span><span class="chip lv2">Adobe Express<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">Descript<span class="sr-only"> — Working</span></span><span class="chip lv2">Lightroom<span class="sr-only"> — Working</span></span><span class="chip lv1">Premiere Pro<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Collaboration &amp; data</h3>
         <p class="k-note">Where a program stops being a document and becomes a system.</p>
         <div class="chips">
-          <span class="chip lv3">Zoom</span><span class="chip lv3">Trello</span>
-          <span class="chip lv2">Notion</span><span class="chip lv2">Miro</span><span class="chip lv2">Slack</span>
-          <span class="chip lv2">Padlet</span><span class="chip lv1">SQL</span><span class="chip lv1">Python (pandas)</span>
-          <span class="chip lv1">Kirkpatrick certification</span>
+          <span class="chip lv3">Zoom<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Trello<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">Notion<span class="sr-only"> — Working</span></span><span class="chip lv2">Miro<span class="sr-only"> — Working</span></span><span class="chip lv2">Slack<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">Padlet<span class="sr-only"> — Working</span></span><span class="chip lv1">SQL<span class="sr-only"> — Scoped</span></span><span class="chip lv1">Python (pandas)<span class="sr-only"> — Scoped</span></span>
+          <span class="chip lv1">Kirkpatrick certification<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
     </div>
