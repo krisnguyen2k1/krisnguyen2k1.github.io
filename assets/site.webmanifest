@@ -1,0 +1,12 @@
+{
+  "name": "Kris Nguyen — Learning & Development",
+  "short_name": "Kris Nguyen",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    { "src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
