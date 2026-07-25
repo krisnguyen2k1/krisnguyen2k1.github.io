@@ -56,12 +56,12 @@ Confirm this is the programme actually chosen before it ships as anything more d
 
 ## Also flagged this pass, not part of the original six
 
-**7. BA Psychology card status (`AUDIT.md` §8).**
+**7. BA Psychology card status (`AUDIT.md` §8)** — **decided: reworded.**
 The card showed "Completed" against dates `08/2024 — 09/2026`, with the end date still in
 the future relative to today. You confirmed: coursework is done, degree conferral is
-pending, and the dates are correct as printed. Proposed wording is in the PR description /
-chat — waiting on your go-ahead for the exact label before I change the chip text.
+pending, and the dates are correct as printed. Chip now reads "Coursework complete" —
+wording only, same visual style as before.
 
-**8. Toolkit chip accessibility pattern.**
-You asked for a demo on one chip before I touch the other ~49. Also in the PR
-description / chat, waiting on your go-ahead.
+**8. Toolkit chip accessibility pattern** — **decided: applied to all chips.**
+Demoed on one chip (Claude), then applied the same `.sr-only` pattern to all 56 — each
+chip's visible name plus a hidden "— Fluent / Working / Scoped" suffix matching its level.
