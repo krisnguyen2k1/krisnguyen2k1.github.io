@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="lang-both">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,16 +33,42 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="manifest" href="assets/site.webmanifest">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kris Nguyen",
+  "alternateName": "Nguyen Trung Kien",
+  "jobTitle": "L&D Specialist",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "The Westin Resort & Spa Cam Ranh",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Marriott International"
+    }
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Da Nang · Ho Chi Minh City",
+    "addressCountry": "VN"
+  },
+  "url": "https://krisnguyen2k1.github.io/",
+  "sameAs": [
+    "https://www.linkedin.com/in/krisnguyen2k1",
+    "https://www.facebook.com/kris.nguyen2k1/"
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
    KRIS NGUYEN — "THE READING ROOM"
    Palette : ink / brass / jade / paper — a library after hours
-   Type    : Inter (all English) · Be Vietnam Pro italic (all Vietnamese)
-             · IBM Plex Mono (catalogue metadata)
-   Rule    : English sets upright. Vietnamese always sets italic.
+   Type    : Inter (display and body) · IBM Plex Mono (catalogue metadata)
    ============================================================ */
 
 :root{
@@ -64,10 +90,8 @@
   --edge-ink:rgba(220,227,224,.14);
   --edge-paper:rgba(22,33,31,.16);
 
-  /* English sets in Inter. Vietnamese sets in Be Vietnam Pro, italic,
-     with a taller line so stacked tone marks never collide. */
   --f-en:"Inter",-apple-system,"Segoe UI",Roboto,sans-serif;
-  --f-vi:"Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
+  --f-alt:-apple-system,"Segoe UI",sans-serif;
   --f-display:var(--f-en);
   --f-body:var(--f-en);
   --f-mono:"IBM Plex Mono",ui-monospace,monospace;
@@ -89,16 +113,6 @@ a{color:inherit}
 ::selection{background:var(--brass);color:var(--ink)}
 :focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
 
-/* ---------- bilingual system ---------------------------------- */
-.vi{font-family:var(--f-vi);font-style:italic;font-weight:300;line-height:1.68;letter-spacing:0}
-.en{font-style:normal}
-.pair{display:block}
-.pair .vi{display:block;margin-top:.42em;color:var(--on-ink-mute);font-size:.95em}
-.on-paper .pair .vi{color:var(--on-paper-mute)}
-html.lang-en .vi{display:none !important}
-html.lang-vi .en{display:none !important}
-html.lang-vi .pair .vi{margin-top:0;color:inherit;font-size:1em}
-
 /* ---------- shared type --------------------------------------- */
 .display{
   font-family:var(--f-display);font-weight:700;font-style:normal;
@@ -108,7 +122,6 @@ html.lang-vi .pair .vi{margin-top:0;color:inherit;font-size:1em}
   font-family:var(--f-mono);font-size:11px;letter-spacing:.19em;text-transform:uppercase;
   color:var(--brass);font-weight:500;
 }
-.mark .vi{letter-spacing:.14em;color:var(--brass-lo)}
 .rule{height:1px;background:var(--edge-ink);border:0;margin:0}
 .on-paper .rule{background:var(--edge-paper)}
 
@@ -133,8 +146,6 @@ html.lang-vi .pair .vi{margin-top:0;color:inherit;font-size:1em}
 }
 .on-paper .s-shelf{color:var(--brass-lo)}
 .s-title{font-size:clamp(27px,3.3vw,44px);margin:0;font-weight:700;letter-spacing:-.03em}
-.s-title .vi{font-size:.52em;display:block;margin-top:.55em;letter-spacing:0;color:var(--on-ink-mute);font-family:var(--f-vi);font-weight:300;line-height:1.5}
-.on-paper .s-title .vi{color:var(--on-paper-mute)}
 .s-note{max-width:60ch;margin:14px 0 0;color:var(--on-ink-mute)}
 .on-paper .s-note{color:var(--on-paper-mute)}
 
@@ -187,12 +198,11 @@ html.lang-vi .pair .vi{margin-top:0;color:inherit;font-size:1em}
   font-size:clamp(48px,8.8vw,124px);line-height:.92;letter-spacing:-.052em;margin:0 0 8px;
 }
 #hero h1 em{font-style:normal;color:var(--brass)}
-.hero-vn-name{font-family:var(--f-vi);font-style:italic;font-weight:300;color:var(--on-ink-mute);font-size:clamp(14px,1.5vw,19px);letter-spacing:.02em;margin:0 0 30px}
+.hero-vn-name{font-family:var(--f-alt);font-style:italic;font-weight:300;color:var(--on-ink-mute);font-size:clamp(14px,1.5vw,19px);letter-spacing:.02em;margin:0 0 30px}
 .hero-claim{
   font-family:var(--f-display);font-weight:600;
   font-size:clamp(21px,2.5vw,33px);line-height:1.24;letter-spacing:-.028em;max-width:20ch;margin:0;
 }
-.hero-claim .vi{display:block;font-family:var(--f-vi);font-weight:300;font-size:.58em;line-height:1.62;color:var(--on-ink-mute);margin-top:.9em;max-width:34ch;letter-spacing:0}
 .hero-side{display:flex;flex-direction:column;align-items:flex-end;gap:18px;text-align:right}
 .hero-meta{font-family:var(--f-mono);font-size:11px;letter-spacing:.13em;color:var(--on-ink-mute);line-height:2}
 .hero-meta b{color:var(--brass);font-weight:500}
@@ -250,7 +260,6 @@ html.lang-vi .pair .vi{margin-top:0;color:inherit;font-size:1em}
 .tl-role{font-family:var(--f-display);font-weight:700;font-size:clamp(19px,2vw,26px);line-height:1.2;margin:0 0 4px;letter-spacing:-.03em}
 .tl-org{font-family:var(--f-mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--on-paper-mute);margin:0 0 12px}
 .tl-body{margin:0;max-width:62ch;font-size:.94em;color:var(--on-paper-mute)}
-.tl-body .vi{color:var(--on-paper-mute);opacity:.85}
 .tl-tag{
   font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
   border:1px solid var(--edge-paper);border-radius:2px;padding:5px 8px 4px;white-space:nowrap;color:var(--on-paper-mute);
@@ -294,7 +303,6 @@ html.lang-vi .pair .vi{margin-top:0;color:inherit;font-size:1em}
 .cmp-name{display:flex;gap:12px;align-items:baseline;min-width:0}
 .cmp-name em{font-family:var(--f-mono);font-style:normal;font-size:10.5px;color:var(--brass-lo);letter-spacing:.1em;flex:0 0 auto}
 .cmp-name span{font-weight:400;font-size:.95em;line-height:1.3}
-.cmp-name .vi{display:block;font-size:.82em;color:var(--on-paper-mute)}
 .bar{position:relative;height:9px;background:rgba(22,33,31,.09);border-radius:1px;overflow:visible}
 .bar .fill{position:absolute;left:0;top:0;bottom:0;background:var(--jade);width:0;transition:width 1s cubic-bezier(.2,.8,.25,1);border-radius:1px}
 .bar .tgt{position:absolute;top:-3px;bottom:-3px;width:0;border-right:1.5px dashed var(--brass-lo)}
@@ -413,7 +421,6 @@ html.lang-vi .pair .vi{margin-top:0;color:inherit;font-size:1em}
 #contact{border-top:1px solid var(--edge-ink)}
 .ct-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(34px,6vw,90px);align-items:start}
 .ct-h{font-family:var(--f-display);font-weight:800;font-size:clamp(32px,5vw,68px);line-height:1.06;letter-spacing:-.045em;margin:0 0 18px}
-.ct-h .vi{display:block;font-family:var(--f-vi);font-weight:300;font-size:.32em;line-height:1.65;color:var(--on-ink-mute);margin-top:22px;max-width:44ch;letter-spacing:0}
 .links{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--edge-ink)}
 .links a{
   display:flex;align-items:baseline;gap:14px;padding:17px 4px;border-bottom:1px solid var(--edge-ink);
@@ -448,55 +455,9 @@ footer{border-top:1px solid var(--edge-ink);padding:34px 0 46px}
 }
 
 /* ============================================================
-   REFINEMENT PASS — hierarchy between the two languages,
-   the visible gap in the capability map, and small courtesies
+   REFINEMENT PASS — the visible gap in the capability map,
+   and small courtesies
    ============================================================ */
-
-/* Vietnamese always italic; in bilingual mode it sits one step back
-   so English leads and Vietnamese accompanies. In VI-only mode it
-   takes the full weight of the page. */
-.vi{opacity:.9}
-html.lang-vi .vi{opacity:1}
-
-h1 .vi, h2 .vi, h3 .vi,
-.s-title .vi, .tl-role .vi, .hero-claim .vi, .ct-h .vi{opacity:.82}
-
-.thesis-grid h3 .vi,
-.practice h3 .vi,
-.ev h3 .vi,
-.card h3 .vi,
-.traj h3 .vi,
-.tl-role .vi,
-.shopnote h3 .vi{
-  display:block;font-family:var(--f-vi);font-style:italic;font-weight:300;
-  font-size:.8em;line-height:1.58;margin-top:.6em;letter-spacing:0;
-}
-html.lang-vi .thesis-grid h3 .vi,
-html.lang-vi .practice h3 .vi,
-html.lang-vi .ev h3 .vi,
-html.lang-vi .card h3 .vi,
-html.lang-vi .traj h3 .vi,
-html.lang-vi .tl-role .vi,
-html.lang-vi .shopnote h3 .vi{font-size:.92em;margin-top:0;opacity:1}
-
-.thesis-grid p .vi,
-.practice p .vi,
-.ev p .vi,
-.traj p .vi,
-.tl-body .vi,
-.s-note .vi,
-.k-note .vi,
-.cmp-more .vi,
-.shopnote p .vi{display:block;margin-top:.7em}
-html.lang-vi .thesis-grid p .vi,
-html.lang-vi .practice p .vi,
-html.lang-vi .ev p .vi,
-html.lang-vi .traj p .vi,
-html.lang-vi .tl-body .vi,
-html.lang-vi .s-note .vi,
-html.lang-vi .k-note .vi,
-html.lang-vi .cmp-more .vi,
-html.lang-vi .shopnote p .vi{margin-top:0}
 
 /* the gap between where I am and where I need to be — made visible */
 .bar .gap{
@@ -534,38 +495,6 @@ html.lang-vi .shopnote p .vi{margin-top:0}
   .chip{font-size:10px}
 }
 
-/* ------------------------------------------------------------
-   Vietnamese-only mode: Vietnamese stops accompanying and starts
-   leading — so it takes the display face, still italic. The rule
-   holds either way: English upright, Vietnamese italic.
-   ------------------------------------------------------------ */
-html.lang-vi .s-title .vi,
-html.lang-vi #hero h1 .vi,
-html.lang-vi .ct-h .vi,
-html.lang-vi .hero-claim .vi,
-html.lang-vi .thesis-grid h3 .vi,
-html.lang-vi .practice h3 .vi,
-html.lang-vi .ev h3 .vi,
-html.lang-vi .card h3 .vi,
-html.lang-vi .traj h3 .vi,
-html.lang-vi .tl-role .vi,
-html.lang-vi .shopnote h3 .vi,
-html.lang-vi .quotes blockquote .vi{
-  font-family:var(--f-vi);font-style:italic;font-weight:500;
-  letter-spacing:-.012em;line-height:1.32;margin-top:0;opacity:1;
-}
-html.lang-vi .s-title .vi{font-size:1em}
-html.lang-vi .thesis-grid h3 .vi,
-html.lang-vi .practice h3 .vi,
-html.lang-vi .ev h3 .vi,
-html.lang-vi .card h3 .vi,
-html.lang-vi .traj h3 .vi,
-html.lang-vi .tl-role .vi,
-html.lang-vi .shopnote h3 .vi{font-size:1em}
-html.lang-vi .hero-claim .vi{font-size:1em;line-height:1.2;max-width:20ch}
-html.lang-vi .ct-h .vi{font-size:.46em;line-height:1.22;max-width:24ch}
-html.lang-vi .quotes blockquote .vi{font-size:1em}
-
 html{overflow-x:hidden}
 /* keep the smallest labels legible on small screens */
 @media (max-width:640px){
@@ -573,19 +502,6 @@ html{overflow-x:hidden}
   .tl-tag,.ev-k,.colophon,.cmp-lvl{font-size:10.5px}
   .hero-eyebrow span,.mark,.s-shelf,.thesis-num{font-size:11px}
 }
-
-/* ------------------------------------------------------------
-   Vietnamese stacks a vowel mark and a tone mark on the same
-   letter (ề, ộ, ữ). Every Vietnamese run gets vertical headroom
-   so nothing collides — labels included.
-   ------------------------------------------------------------ */
-.vi{line-height:1.68}
-.mark .vi,.s-shelf .vi,.tl-tag .vi,.c-state .vi,.ev-k .vi,.thesis-num .vi,
-.cmp-lvl .vi,.t-when .vi,.t-here .vi,.colophon .vi,.kit h3 .vi,.c-inst .vi,
-.l-k .vi,.c-when .vi,figcaption .vi,.hero-eyebrow .vi,
-.scroll-cue .vi,.cert b .vi,.tl-when .vi,.navlinks a .vi,.cmp-name em .vi,
-.tl-org .vi,.bignum-cap .vi,#printbtn .vi{line-height:1.55}
-.cmp-name span .vi,.cmp-name .vi{line-height:1.55}
 
 /* ============================================================
    MONOCHROME — after the silver-gelatin portrait: deep blacks,
@@ -791,7 +707,7 @@ body{font-size:clamp(16px,1.12vw,18.5px);line-height:1.62}
   font-size:clamp(21px,2.7vw,34px);line-height:1.22;letter-spacing:-.03em;
 }
 .q-orig{
-  margin:16px 0 0;font-family:var(--f-vi);font-style:italic;font-weight:300;
+  margin:16px 0 0;font-family:var(--f-alt);font-style:italic;font-weight:300;
   font-size:clamp(14px,1.25vw,17px);line-height:1.6;color:var(--on-ink-mute);
 }
 .q-foot{
@@ -859,6 +775,12 @@ body.on-light-band #ata{mix-blend-mode:multiply;opacity:.17;filter:grayscale(1) 
   text-decoration:none;
 }
 .skip:focus{left:12px;top:12px}
+
+/* visually hidden but present for assistive tech — never use display:none/visibility:hidden here */
+.sr-only{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0,0,0,0);white-space:nowrap;border:0;
+}
 
 /* the address is information, not a destination — same rhythm, no link affordance */
 .links .row{
@@ -977,32 +899,32 @@ body.on-light-band #ata{mix-blend-mode:multiply;opacity:.17;filter:grayscale(1) 
     <p class="s-note rise">Six lines of work I own inside an upper-upscale Marriott property — from first CV to certified trainer.</p>
     <div class="practice rise">
       <article>
-        <svg class="p-ico" viewBox="0 0 24 24"><path d="M4 5h16v14H4z"/><path d="M4 9h16M9 9v10"/></svg>
+        <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="M4 9h16M9 9v10"/></svg>
         <h3>Program design</h3>
         <p>Turning a vague request into objectives, practice, assessment and reinforcement — with a reason behind every choice.</p>
       </article>
       <article>
-        <svg class="p-ico" viewBox="0 0 24 24"><path d="M3 18V7l9-4 9 4v11"/><path d="M3 18h18M8 18v-5h8v5"/></svg>
+        <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18V7l9-4 9 4v11"/><path d="M3 18h18M8 18v-5h8v5"/></svg>
         <h3>Onboarding &amp; orientation</h3>
         <p>Marriott orientation, brand immersion and the first ninety days — the window where retention is actually won or lost.</p>
       </article>
       <article>
-        <svg class="p-ico" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M17 8h4M19 6v4"/></svg>
+        <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M17 8h4M19 6v4"/></svg>
         <h3>Recruitment &amp; the trainee pipeline</h3>
         <p>Running the Marriotternship intake end to end: sourcing, screening, scheduling, offer, pre-boarding, release back to schools.</p>
       </article>
       <article>
-        <svg class="p-ico" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+        <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
         <h3>Learning data &amp; compliance</h3>
         <p>Digital Learning Zone tracking, role-based learning paths, completion and compliance reporting that department heads act on.</p>
       </article>
       <article>
-        <svg class="p-ico" viewBox="0 0 24 24"><path d="M12 3v3M5 7l2 2M19 7l-2 2"/><rect x="6" y="10" width="12" height="9" rx="1.5"/><path d="M10 19v2h4v-2"/></svg>
+        <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v3M5 7l2 2M19 7l-2 2"/><rect x="6" y="10" width="12" height="9" rx="1.5"/><path d="M10 19v2h4v-2"/></svg>
         <h3>AI systems for L&amp;D</h3>
         <p>Documented prompt libraries and workflows that cut preparation from days to hours — content, scenarios, assessments, bilingual materials.</p>
       </article>
       <article>
-        <svg class="p-ico" viewBox="0 0 24 24"><path d="M3 11l18-6-6 18-3-7-9-5z"/></svg>
+        <svg class="p-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l18-6-6 18-3-7-9-5z"/></svg>
         <h3>Facilitation &amp; internal comms</h3>
         <p>Daily stand-up, culture events, MC duty and the property's internal channels — in Vietnamese and English, in front of the room.</p>
       </article>
@@ -1137,58 +1059,58 @@ body.on-light-band #ata{mix-blend-mode:multiply;opacity:.17;filter:grayscale(1) 
         <h3>Generative AI</h3>
         <p class="k-note">Not a topic I teach — the workshop I build in.</p>
         <div class="chips">
-          <span class="chip lv3">Claude</span><span class="chip lv3">ChatGPT</span><span class="chip lv3">Gemini</span>
-          <span class="chip lv2">NotebookLM</span><span class="chip lv2">Perplexity</span><span class="chip lv2">HeyGen</span>
-          <span class="chip lv2">ElevenLabs</span><span class="chip lv2">Gamma</span><span class="chip lv1">Copilot Studio</span>
+          <span class="chip lv3">Claude<span class="sr-only"> — Fluent</span></span><span class="chip lv3">ChatGPT<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Gemini<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">NotebookLM<span class="sr-only"> — Working</span></span><span class="chip lv2">Perplexity<span class="sr-only"> — Working</span></span><span class="chip lv2">HeyGen<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">ElevenLabs<span class="sr-only"> — Working</span></span><span class="chip lv2">Gamma<span class="sr-only"> — Working</span></span><span class="chip lv1">Copilot Studio<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Google Workspace</h3>
         <p class="k-note">Where the day-to-day L&amp;D operation actually lives.</p>
         <div class="chips">
-          <span class="chip lv3">Sheets</span><span class="chip lv3">Docs</span><span class="chip lv3">Slides</span>
-          <span class="chip lv3">Forms</span><span class="chip lv3">Drive</span><span class="chip lv3">Gmail</span>
-          <span class="chip lv3">Calendar</span><span class="chip lv3">Meet</span>
-          <span class="chip lv2">Apps Script</span><span class="chip lv2">Looker Studio</span><span class="chip lv1">Sites</span>
+          <span class="chip lv3">Sheets<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Docs<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Slides<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv3">Forms<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Drive<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Gmail<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv3">Calendar<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Meet<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">Apps Script<span class="sr-only"> — Working</span></span><span class="chip lv2">Looker Studio<span class="sr-only"> — Working</span></span><span class="chip lv1">Sites<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Microsoft 365</h3>
         <p class="k-note">The reporting stack — and where the analytics work is heading.</p>
         <div class="chips">
-          <span class="chip lv3">Excel</span><span class="chip lv3">PowerPoint</span><span class="chip lv3">Word</span>
-          <span class="chip lv3">Teams</span><span class="chip lv3">Outlook</span>
-          <span class="chip lv2">Power Query</span><span class="chip lv2">Power BI</span><span class="chip lv2">Power Automate</span>
-          <span class="chip lv2">SharePoint</span><span class="chip lv1">PL-300</span>
+          <span class="chip lv3">Excel<span class="sr-only"> — Fluent</span></span><span class="chip lv3">PowerPoint<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Word<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv3">Teams<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Outlook<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">Power Query<span class="sr-only"> — Working</span></span><span class="chip lv2">Power BI<span class="sr-only"> — Working</span></span><span class="chip lv2">Power Automate<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">SharePoint<span class="sr-only"> — Working</span></span><span class="chip lv1">PL-300<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Learning platforms &amp; authoring</h3>
         <p class="k-note">One enterprise LMS administered deeply beats five demoed once.</p>
         <div class="chips">
-          <span class="chip lv3">Digital Learning Zone</span><span class="chip lv2">Articulate Rise 360</span>
-          <span class="chip lv2">Kahoot</span><span class="chip lv2">Mentimeter</span><span class="chip lv2">Quizizz</span>
-          <span class="chip lv1">Articulate Storyline</span><span class="chip lv1">SCORM / xAPI</span>
-          <span class="chip lv1">Cornerstone</span><span class="chip lv1">Docebo</span><span class="chip lv1">Moodle</span>
+          <span class="chip lv3">Digital Learning Zone<span class="sr-only"> — Fluent</span></span><span class="chip lv2">Articulate Rise 360<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">Kahoot<span class="sr-only"> — Working</span></span><span class="chip lv2">Mentimeter<span class="sr-only"> — Working</span></span><span class="chip lv2">Quizizz<span class="sr-only"> — Working</span></span>
+          <span class="chip lv1">Articulate Storyline<span class="sr-only"> — Scoped</span></span><span class="chip lv1">SCORM / xAPI<span class="sr-only"> — Scoped</span></span>
+          <span class="chip lv1">Cornerstone<span class="sr-only"> — Scoped</span></span><span class="chip lv1">Docebo<span class="sr-only"> — Scoped</span></span><span class="chip lv1">Moodle<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Design, video &amp; content</h3>
         <p class="k-note">Culture week, orientation decks, fanpage and LinkedIn — produced in-house.</p>
         <div class="chips">
-          <span class="chip lv3">Canva</span><span class="chip lv3">CapCut</span>
-          <span class="chip lv2">Figma</span><span class="chip lv2">Adobe Express</span>
-          <span class="chip lv2">Descript</span><span class="chip lv2">Lightroom</span><span class="chip lv1">Premiere Pro</span>
+          <span class="chip lv3">Canva<span class="sr-only"> — Fluent</span></span><span class="chip lv3">CapCut<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">Figma<span class="sr-only"> — Working</span></span><span class="chip lv2">Adobe Express<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">Descript<span class="sr-only"> — Working</span></span><span class="chip lv2">Lightroom<span class="sr-only"> — Working</span></span><span class="chip lv1">Premiere Pro<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
       <section>
         <h3>Collaboration &amp; data</h3>
         <p class="k-note">Where a program stops being a document and becomes a system.</p>
         <div class="chips">
-          <span class="chip lv3">Zoom</span><span class="chip lv3">Trello</span>
-          <span class="chip lv2">Notion</span><span class="chip lv2">Miro</span><span class="chip lv2">Slack</span>
-          <span class="chip lv2">Padlet</span><span class="chip lv1">SQL</span><span class="chip lv1">Python (pandas)</span>
-          <span class="chip lv1">Kirkpatrick certification</span>
+          <span class="chip lv3">Zoom<span class="sr-only"> — Fluent</span></span><span class="chip lv3">Trello<span class="sr-only"> — Fluent</span></span>
+          <span class="chip lv2">Notion<span class="sr-only"> — Working</span></span><span class="chip lv2">Miro<span class="sr-only"> — Working</span></span><span class="chip lv2">Slack<span class="sr-only"> — Working</span></span>
+          <span class="chip lv2">Padlet<span class="sr-only"> — Working</span></span><span class="chip lv1">SQL<span class="sr-only"> — Scoped</span></span><span class="chip lv1">Python (pandas)<span class="sr-only"> — Scoped</span></span>
+          <span class="chip lv1">Kirkpatrick certification<span class="sr-only"> — Scoped</span></span>
         </div>
       </section>
     </div>
@@ -1212,7 +1134,7 @@ body.on-light-band #ata{mix-blend-mode:multiply;opacity:.17;filter:grayscale(1) 
         <div class="c-gpa"><b>2.76</b><span>GPA / 4.0</span></div>
       </article>
       <article class="card">
-        <span class="c-state">Completed</span>
+        <span class="c-state">Coursework complete</span>
         <span class="c-inst">HUTECH · HCMC</span>
         <h3>BA, Psychology</h3>
         <span class="c-when">08/2024 — 09/2026</span>
@@ -1384,7 +1306,7 @@ body.on-light-band #ata{mix-blend-mode:multiply;opacity:.17;filter:grayscale(1) 
     <button id="printbtn" type="button">Print as a dossier</button>
     <span>Born <b>12.12.2001</b> · Sagittarius</span>
     <span>Kon Tum → Da Nang → Cam Ranh → Ho Chi Minh City</span>
-    <span>Set in <b>Inter</b>, <b>Be Vietnam Pro</b> &amp; <b>IBM Plex Mono</b></span>
+    <span>Set in <b>Inter</b> &amp; <b>IBM Plex Mono</b></span>
     <span class="upd">Updated <time datetime="2026-07-25">July 2026</time></span>
   </div>
 </footer>

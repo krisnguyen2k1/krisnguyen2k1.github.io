@@ -34,9 +34,15 @@ The site is a monochrome, print-influenced document. Restraint is the whole aest
   gradients, coloured buttons, or accent hues. Contrast does all the work.
 - **Alternating bands.** Sections alternate `.on-ink` (dark) and `.on-paper` (light). Keep
   the rhythm; do not put two identical bands next to each other.
-- **Type.** Inter for English (upright), Be Vietnam Pro for Vietnamese (always italic),
-  IBM Plex Mono for labels, numbers and metadata. That English-upright / Vietnamese-italic
-  rule is deliberate and load-bearing — keep it.
+- **Type.** Inter for display and body copy, IBM Plex Mono for labels, numbers and metadata.
+  Two families only. A third, Be Vietnam Pro, existed for a bilingual English/Vietnamese
+  display system that had no toggle and no live Vietnamese content — it was removed in the
+  2026-07 improvement pass (see `AUDIT.md` in that PR for the measurements). Don't reintroduce
+  a second display typeface without a real bilingual content plan behind it.
+- **Background portrait.** A fixed, faded photograph of Mustafa Kemal Atatürk sits behind the
+  ink bands, hidden below 1180px by design. This was raised as a judgement call for an
+  international audience and Kris decided to keep it — it is a settled choice, not an open
+  question. Leave it unless he asks to change it.
 - **No decoration.** No stock illustration, no emoji, no icon sets beyond the small inline
   contact SVGs, no marketing slogans, no animated flourishes. Motion is limited to the
   existing subtle reveal-on-scroll, and it respects `prefers-reduced-motion`.
@@ -95,7 +101,7 @@ background portrait is hidden below 1180px by design — keep it that way.
 Conventional style, imperative mood, one concern per commit:
 
 ```
-feat: add Vietnamese language toggle
+feat: add a print stylesheet for the dossier view
 fix: prevent horizontal overflow on the toolkit grid at 390px
 style: reduce hero name size on mobile
 docs: update README deployment steps
@@ -119,8 +125,11 @@ Raised in review, not yet actioned — Kris decides these, do not act unilateral
 - No photograph of Kris on the site.
 - The Evidence section describes six projects but carries no metrics.
 - No downloadable CV.
-- The bilingual CSS system (`html.lang-vi`, `.vi` rules) is fully built but has no toggle
-  and no Vietnamese content — either wire it up or strip it.
 - The Study section lists a UEH HRM master's; confirm against the programme actually chosen.
-- The background portrait is a political figure; flagged as a judgement call for an
-  international audience.
+
+Resolved in the 2026-07 improvement pass, kept here for history:
+
+- ~~The bilingual CSS system (`html.lang-vi`, `.vi` rules)~~ — stripped. See the "Type" note
+  above.
+- ~~The background portrait is a political figure~~ — Kris decided to keep it. See the
+  "Background portrait" note under Design language.
