@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cam Ranh → Sài Gòn · Bản đồ chiến lược tháng 3/2027</title>
+<meta name="description" content="Bản đồ chiến lược 217 ngày của Kris Nguyễn Trung Kiên: từ L&D Coordinator tại Cam Ranh đến L&D Specialist tại Sài Gòn vào tháng 3/2027.">
+<meta name="author" content="Kris Nguyễn Trung Kiên">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#16241E">
+<link rel="canonical" href="https://krisnguyen2k1.github.io/ban-do-chien-luoc/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:url" content="https://krisnguyen2k1.github.io/ban-do-chien-luoc/">
+<meta property="og:title" content="Cam Ranh → Sài Gòn · Bản đồ chiến lược tháng 3/2027">
+<meta property="og:description" content="Đích đến, bản đồ ngành, lộ trình 217 ngày và bốn kịch bản nghề nghiệp cho hành trình L&D của Kris.">
+<meta property="article:published_time" content="2026-07-27">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Be+Vietnam+Pro:wght@200;300;400;500;600;800&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pine:#284137;
+  --pine-deep:#16241E;
+  --pine-mid:#35543F;
+  --sage:#AFC1B8;
+  --sage-lt:#C5DDD1;
+  --bone:#F5F2ED;
+  --bone-dk:#E8E3D9;
+  --rose:#B3786C;
+  --rose-dp:#8E574C;
+  --char:#3A3E40;
+  --taupe:#A59E9B;
+  --gold:#B99B5E;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{
+  background:var(--bone);
+  color:var(--char);
+  font-family:'Be Vietnam Pro',system-ui,sans-serif;
+  font-weight:300;
+  font-size:16px;
+  line-height:1.68;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 32px}
+.sr-only{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;
+}
+.skip-link{
+  position:fixed;top:12px;left:12px;z-index:1000;
+  background:var(--bone);color:var(--pine-deep);
+  padding:10px 14px;font-size:.82rem;font-weight:600;text-decoration:none;
+  transform:translateY(-180%);transition:transform .2s;
+}
+.skip-link:focus{transform:translateY(0);outline:3px solid var(--rose);outline-offset:2px}
+.read-progress{
+  position:fixed;inset:0 0 auto;z-index:1001;height:3px;
+  background:rgba(175,193,184,.22);
+}
+.read-progress span{
+  display:block;width:0;height:100%;background:var(--rose);
+  transform-origin:left center;
+}
+.site-nav{
+  position:sticky;top:3px;z-index:80;
+  background:rgba(245,242,237,.94);
+  border-bottom:1px solid var(--bone-dk);
+  backdrop-filter:blur(14px);
+}
+.nav-inner{
+  max-width:1200px;margin:0 auto;padding:0 28px;
+  display:flex;align-items:center;justify-content:space-between;gap:28px;
+  min-height:58px;
+}
+.nav-brand{
+  color:var(--pine-deep);font-family:'IBM Plex Mono',monospace;
+  font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;
+  white-space:nowrap;
+}
+.nav-links{
+  display:flex;align-items:center;gap:3px;list-style:none;
+  overflow-x:auto;scrollbar-width:none;
+}
+.nav-links::-webkit-scrollbar{display:none}
+.nav-links a{
+  display:block;padding:19px 11px 17px;
+  border-bottom:2px solid transparent;
+  color:var(--taupe);font-family:'IBM Plex Mono',monospace;
+  font-size:9.5px;line-height:1.2;letter-spacing:.09em;text-transform:uppercase;
+  text-decoration:none;white-space:nowrap;transition:color .2s,border-color .2s;
+}
+.nav-links a:hover,.nav-links a[aria-current="true"]{
+  color:var(--pine);border-bottom-color:var(--rose);
+}
+.nav-links a:focus-visible{
+  outline:2px solid var(--rose);outline-offset:-4px;color:var(--pine);
+}
+
+/* ============ HEADER ============ */
+.masthead{
+  background:var(--pine-deep);
+  color:var(--bone);
+  padding:76px 0 0;
+  position:relative;
+  overflow:hidden;
+}
+.masthead::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--sage),transparent);
+}
+.eyebrow{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--sage);font-weight:400;
+}
+.route{
+  font-family:'Lora',Georgia,serif;
+  font-weight:700;
+  font-size:clamp(2.6rem,7vw,5.1rem);
+  line-height:1.02;
+  letter-spacing:-.025em;
+  margin:20px 0 6px;
+  color:var(--bone);
+}
+.route .arw{color:var(--sage);font-weight:400;padding:0 .1em}
+.route .dest{font-style:italic;color:var(--sage-lt)}
+.subline{
+  font-size:1.02rem;color:var(--sage);font-weight:200;
+  max-width:640px;margin-bottom:52px;line-height:1.6;
+}
+.counters{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-top:1px solid rgba(175,193,184,.28);
+}
+.ctr{padding:26px 22px 34px;border-right:1px solid rgba(175,193,184,.18)}
+.ctr:last-child{border-right:none}
+.ctr .num{
+  font-family:'Lora',serif;font-size:2.05rem;font-weight:600;
+  color:var(--sage-lt);line-height:1;letter-spacing:-.02em;
+}
+.ctr .num.warn{color:var(--rose)}
+.ctr .lab{
+  font-family:'IBM Plex Mono',monospace;font-size:10px;
+  letter-spacing:.16em;text-transform:uppercase;
+  color:var(--sage);margin-top:10px;opacity:.82;line-height:1.5;
+}
+
+/* ============ SECTIONS ============ */
+section{padding:78px 0 12px}
+.sechead{display:flex;align-items:baseline;gap:18px;margin-bottom:12px}
+.secnum{
+  font-family:'IBM Plex Mono',monospace;font-size:11px;
+  letter-spacing:.2em;color:var(--rose);font-weight:500;
+  padding-top:8px;flex-shrink:0;
+}
+h2{
+  font-family:'Lora',serif;font-weight:600;
+  font-size:clamp(1.55rem,3.3vw,2.25rem);
+  color:var(--pine);letter-spacing:-.02em;line-height:1.2;
+}
+.deck{
+  font-size:1.02rem;color:var(--char);opacity:.86;
+  max-width:660px;margin:14px 0 36px;font-weight:300;
+}
+.deck strong{font-weight:600;color:var(--pine)}
+.rule{height:1px;background:var(--bone-dk);margin:0}
+
+/* ============ LADDER ============ */
+.ladder{display:flex;flex-direction:column;gap:0;margin:8px 0 20px}
+.rung{
+  display:grid;grid-template-columns:82px 1fr;
+  gap:22px;padding:19px 22px;
+  border-left:2px solid var(--bone-dk);
+  transition:background .2s;
+}
+.rung .lv{
+  font-family:'IBM Plex Mono',monospace;font-size:10px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--taupe);
+  padding-top:4px;
+}
+.rung .ti{font-weight:500;font-size:1.02rem;color:var(--char)}
+.rung .ds{font-size:.88rem;color:var(--taupe);margin-top:3px;line-height:1.5}
+.rung.here{
+  background:rgba(179,120,108,.09);
+  border-left:2px solid var(--rose);
+}
+.rung.here .lv{color:var(--rose-dp)}
+.rung.target{
+  background:var(--pine);border-left:2px solid var(--sage-lt);
+}
+.rung.target .lv{color:var(--sage-lt)}
+.rung.target .ti{color:var(--bone);font-weight:600}
+.rung.target .ds{color:var(--sage)}
+.tag{
+  display:inline-block;font-family:'IBM Plex Mono',monospace;
+  font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  padding:3px 8px;border-radius:2px;margin-left:10px;vertical-align:2px;
+}
+.tag.now{background:var(--rose);color:#fff}
+.tag.goal{background:var(--sage-lt);color:var(--pine-deep)}
+
+.alert{
+  border-left:3px solid var(--rose);
+  background:#fff;padding:22px 26px;margin:30px 0 0;
+}
+.alert h4{
+  font-family:'Lora',serif;font-size:1.06rem;color:var(--rose-dp);
+  font-weight:600;margin-bottom:8px;
+}
+.alert p{font-size:.95rem;line-height:1.62}
+
+/* ============ INDUSTRY TABLE ============ */
+.tbl-scroll{overflow-x:auto;margin:0 -4px}
+table{width:100%;border-collapse:collapse;min-width:760px;font-size:.9rem}
+thead th{
+  font-family:'IBM Plex Mono',monospace;font-size:9.5px;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--taupe);
+  font-weight:400;text-align:left;padding:0 12px 12px;
+  border-bottom:1px solid var(--pine);vertical-align:bottom;
+}
+tbody td{padding:17px 12px;border-bottom:1px solid var(--bone-dk);vertical-align:top}
+tbody tr:hover{background:rgba(175,193,184,.13)}
+.ind{font-weight:600;color:var(--pine);font-size:.98rem;line-height:1.35}
+.ind small{
+  display:block;font-weight:300;color:var(--taupe);
+  font-size:.79rem;margin-top:4px;line-height:1.45;
+}
+.dots{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.1em;color:var(--pine);white-space:nowrap}
+.dots .off{color:var(--bone-dk)}
+.press{font-size:.83rem;color:var(--char);line-height:1.5}
+.rk{
+  font-family:'Lora',serif;font-size:1.5rem;font-weight:600;
+  color:var(--sage);line-height:1;
+}
+.rk.top{color:var(--pine)}
+.rk.bot{color:var(--bone-dk)}
+
+.datacard{
+  background:var(--pine);color:var(--sage-lt);
+  padding:30px 34px;margin:34px 0 0;
+}
+.datacard .kd{
+  font-family:'IBM Plex Mono',monospace;font-size:10px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--sage);margin-bottom:16px;
+}
+.datagrid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-bottom:18px}
+.datagrid .v{font-family:'Lora',serif;font-size:1.75rem;font-weight:600;color:var(--rose);line-height:1}
+.datagrid .v.up{color:var(--sage-lt)}
+.datagrid .k{font-size:.76rem;color:var(--sage);margin-top:7px;line-height:1.45}
+.datacard p{font-size:.9rem;color:var(--sage);line-height:1.62;border-top:1px solid rgba(175,193,184,.24);padding-top:16px}
+
+/* ============ TIMELINE SPINE ============ */
+.spine{position:relative;margin:10px 0 0;padding-left:0}
+.leg{
+  display:grid;grid-template-columns:118px 1fr;gap:0;
+  position:relative;
+}
+.leg .when{
+  font-family:'IBM Plex Mono',monospace;font-size:11px;
+  letter-spacing:.06em;color:var(--pine);font-weight:500;
+  padding:26px 20px 26px 0;text-align:right;line-height:1.55;
+}
+.leg .when em{display:block;font-style:normal;color:var(--taupe);font-size:9.5px;letter-spacing:.14em;margin-top:5px}
+.leg .track{
+  border-left:2px solid var(--pine);
+  padding:26px 0 26px 30px;position:relative;
+}
+.leg .track::before{
+  content:"";position:absolute;left:-6px;top:32px;
+  width:10px;height:10px;border-radius:50%;
+  background:var(--bone);border:2px solid var(--pine);
+}
+.leg.final .track::before{background:var(--rose);border-color:var(--rose);width:14px;height:14px;left:-8px}
+.leg .ph{
+  font-family:'Lora',serif;font-size:1.16rem;font-weight:600;
+  color:var(--pine);margin-bottom:12px;letter-spacing:-.01em;
+}
+.tasks{list-style:none;display:flex;flex-direction:column;gap:9px}
+.tasks li{
+  font-size:.93rem;line-height:1.58;padding-left:20px;position:relative;
+}
+.tasks li::before{
+  content:"";position:absolute;left:0;top:.62em;
+  width:7px;height:1px;background:var(--sage);
+}
+.tasks li b{font-weight:600;color:var(--pine)}
+.tasks li .must{
+  font-family:'IBM Plex Mono',monospace;font-size:8.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--rose-dp);
+  border:1px solid var(--rose);padding:1px 5px;margin-left:7px;vertical-align:1.5px;
+}
+
+/* ============ FORK ============ */
+.forkwrap{margin:6px 0 0}
+.forksvg{display:block;width:100%;max-width:100%;height:auto}
+.routes{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:4px}
+.rt{
+  background:#fff;border-top:3px solid var(--pine);
+  padding:26px 26px 28px;display:flex;flex-direction:column;
+}
+.rt.b{border-top-color:var(--sage)}
+.rt.c{border-top-color:var(--taupe)}
+.rt.d{border-top-color:var(--rose)}
+.rt .code{
+  font-family:'IBM Plex Mono',monospace;font-size:10px;
+  letter-spacing:.2em;color:var(--taupe);margin-bottom:9px;
+}
+.rt h3{
+  font-family:'Lora',serif;font-size:1.24rem;font-weight:600;
+  color:var(--pine);line-height:1.25;margin-bottom:5px;letter-spacing:-.01em;
+}
+.rt .who{font-size:.83rem;color:var(--taupe);margin-bottom:18px;line-height:1.5}
+.rt dl{display:flex;flex-direction:column;gap:13px;margin-bottom:20px;flex-grow:1}
+.rt dt{
+  font-family:'IBM Plex Mono',monospace;font-size:9px;
+  letter-spacing:.15em;text-transform:uppercase;color:var(--sage);margin-bottom:3px;
+}
+.rt dd{font-size:.9rem;line-height:1.56}
+.rt dd.neg{color:var(--rose-dp)}
+.rt .foot{
+  border-top:1px solid var(--bone-dk);padding-top:15px;
+  display:flex;justify-content:space-between;gap:14px;
+}
+.rt .foot div{flex:1}
+.rt .foot .fk{
+  font-family:'IBM Plex Mono',monospace;font-size:9px;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--taupe);
+}
+.rt .foot .fv{
+  font-family:'Lora',serif;font-size:1.12rem;font-weight:600;
+  color:var(--pine);margin-top:4px;line-height:1.2;
+}
+.verdict{
+  background:var(--pine);color:var(--sage-lt);
+  padding:26px 32px;margin-top:20px;
+  font-size:.97rem;line-height:1.66;
+}
+.verdict b{color:#fff;font-weight:600}
+
+/* ============ ARTIFACTS ============ */
+.arts{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--pine)}
+.art{padding:28px 26px 30px;border-right:1px solid var(--bone-dk)}
+.art:last-child{border-right:none}
+.art .n{
+  font-family:'Lora',serif;font-size:2.4rem;font-weight:600;
+  color:var(--sage);line-height:1;margin-bottom:14px;
+}
+.art h4{font-weight:600;font-size:1.02rem;color:var(--pine);margin-bottom:9px;line-height:1.35}
+.art p{font-size:.88rem;line-height:1.58;color:var(--char)}
+.art .tool{
+  font-family:'IBM Plex Mono',monospace;font-size:9.5px;
+  letter-spacing:.11em;color:var(--taupe);margin-top:14px;
+  padding-top:12px;border-top:1px solid var(--bone-dk);
+}
+
+/* ============ PRESSURE ============ */
+.press-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pcard{background:#fff;padding:26px 24px 28px;border-left:3px solid var(--taupe)}
+.pcard.cur{border-left-color:var(--rose)}
+.pcard.rec{border-left-color:var(--pine)}
+.pcard .plab{
+  font-family:'IBM Plex Mono',monospace;font-size:9px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--taupe);margin-bottom:8px;
+}
+.pcard h4{font-family:'Lora',serif;font-size:1.1rem;color:var(--pine);font-weight:600;margin-bottom:6px}
+.pcard .kind{
+  font-size:.82rem;color:var(--rose-dp);font-weight:500;
+  margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--bone-dk);
+}
+.pcard ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.pcard li{font-size:.87rem;line-height:1.55;padding-left:16px;position:relative}
+.pcard li::before{content:"";position:absolute;left:0;top:.6em;width:6px;height:1px;background:var(--sage)}
+
+/* ============ WARNING ============ */
+.warnbox{background:var(--rose-dp);color:#fff;padding:38px 40px}
+.warnbox .wl{
+  font-family:'IBM Plex Mono',monospace;font-size:10px;
+  letter-spacing:.22em;text-transform:uppercase;opacity:.72;margin-bottom:14px;
+}
+.warnbox h3{font-family:'Lora',serif;font-size:1.5rem;font-weight:600;margin-bottom:16px;line-height:1.28}
+.warnbox p{font-size:.97rem;line-height:1.68;opacity:.94;max-width:720px}
+.stack{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0}
+.stack span{
+  font-size:.83rem;padding:6px 13px;border:1px solid rgba(255,255,255,.42);
+  border-radius:2px;
+}
+.order{
+  margin-top:22px;padding-top:20px;border-top:1px solid rgba(255,255,255,.3);
+  font-family:'IBM Plex Mono',monospace;font-size:.86rem;letter-spacing:.04em;line-height:2;
+}
+.order b{font-weight:500;background:rgba(255,255,255,.16);padding:4px 10px}
+
+/* ============ CLOSER ============ */
+.closer{background:var(--pine-deep);color:var(--bone);padding:70px 0 76px;margin-top:80px}
+.closer .rl{
+  font-family:'IBM Plex Mono',monospace;font-size:10px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--sage);margin-bottom:22px;
+}
+.closer blockquote{
+  font-family:'Lora',serif;font-size:clamp(1.3rem,3vw,1.9rem);
+  font-weight:400;font-style:italic;line-height:1.42;
+  color:var(--sage-lt);max-width:800px;letter-spacing:-.01em;
+}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:44px;border-top:1px solid rgba(175,193,184,.28)}
+.three div{padding:24px 22px 0;border-right:1px solid rgba(175,193,184,.16)}
+.three div:last-child{border-right:none}
+.three .tn{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;color:var(--sage);margin-bottom:8px}
+.three .tt{font-size:.94rem;color:var(--bone);line-height:1.55;font-weight:300}
+.sig{margin-top:52px;font-size:.82rem;color:var(--taupe);line-height:1.7;border-top:1px solid rgba(175,193,184,.2);padding-top:22px}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:860px){
+  .wrap{padding:0 22px}
+  .nav-inner{padding:0 14px;gap:12px}
+  .nav-brand{font-size:9px}
+  .nav-links a{padding:18px 9px 16px;font-size:9px}
+  .counters{grid-template-columns:repeat(2,1fr)}
+  .ctr{border-bottom:1px solid rgba(175,193,184,.18)}
+  .datagrid{grid-template-columns:repeat(2,1fr)}
+  .routes{grid-template-columns:1fr}
+  .arts{grid-template-columns:1fr}
+  .art{border-right:none;border-bottom:1px solid var(--bone-dk)}
+  .press-grid{grid-template-columns:1fr}
+  .three{grid-template-columns:1fr}
+  .three div{border-right:none;border-bottom:1px solid rgba(175,193,184,.16);padding-bottom:20px}
+  .leg{grid-template-columns:1fr}
+  .leg .when{text-align:left;padding:22px 0 0;border-left:2px solid var(--pine);padding-left:30px}
+  .leg .track{padding-top:8px}
+  .leg .track::before{top:26px}
+  section{padding:56px 0 10px}
+  .masthead{padding-top:52px}
+  .warnbox{padding:30px 26px}
+  .datacard{padding:24px 22px}
+  .verdict{padding:22px 24px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@media print{
+  body{background:#fff}
+  .site-nav,.read-progress,.skip-link{display:none!important}
+  .masthead,.closer,.warnbox,.datacard,.verdict,.rung.target{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  section{page-break-inside:avoid;padding:30px 0}
+}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+<div class="read-progress" aria-hidden="true"><span id="readProgress"></span></div>
+<nav class="site-nav" aria-label="Điều hướng bản đồ chiến lược">
+  <div class="nav-inner">
+    <div class="nav-brand">Kris · Strategy Map</div>
+    <ul class="nav-links">
+      <li><a href="#dich-den">Đích đến</a></li>
+      <li><a href="#ban-do-nganh">Bản đồ ngành</a></li>
+      <li><a href="#lo-trinh">Lộ trình</a></li>
+      <li><a href="#vien-canh">Viễn cảnh</a></li>
+      <li><a href="#hien-vat">Hiện vật</a></li>
+      <li><a href="#ap-luc">Áp lực</a></li>
+      <li><a href="#canh-bao">Cảnh báo</a></li>
+      <li><a href="#ai">AI</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">Bản đồ chiến lược · Kris Nguyễn Trung Kiên</div>
+    <h1 class="route">Cam&nbsp;Ranh <span class="arw">→</span> <span class="dest">Sài&nbsp;Gòn</span></h1>
+    <p class="subline">Tổng hợp toàn bộ cuộc trò chuyện: đích đến, các ngành có thể đi, bốn viễn cảnh sau khi vào TP.HCM, và chính xác việc phải làm trong từng tháng còn lại.</p>
+    <div class="counters">
+      <div class="ctr"><div class="num warn">217</div><div class="lab">Ngày còn lại<br>tính đến 01/03/2027</div></div>
+      <div class="ctr"><div class="num">Cấp 1</div><div class="lab">Vị trí hiện tại<br>L&amp;D Coordinator</div></div>
+      <div class="ctr"><div class="num">Cấp 2</div><div class="lab">Đích của lần chuyển này<br>L&amp;D Specialist</div></div>
+      <div class="ctr"><div class="num">3</div><div class="lab">Hiện vật bắt buộc<br>trước khi phỏng vấn</div></div>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+<!-- 01 -->
+<section id="dich-den">
+  <div class="wrap">
+    <div class="sechead"><span class="secnum">01</span><h2>Điều chỉnh quan trọng nhất</h2></div>
+    <p class="deck">Bạn hỏi về vị trí <strong>“L&amp;D Officer”</strong>. Nhưng Officer, Coordinator và Executive nằm chung một cấp. Chuyển sang Officer là <strong>đi ngang</strong> — mất thương hiệu Marriott, mất đà thăng tiến, nhận lại cùng một tầng công việc. Chức danh cần nhắm là <strong>Specialist</strong>.</p>
+
+    <div class="ladder">
+      <div class="rung here">
+        <div class="lv">Cấp 1</div>
+        <div>
+          <div class="ti">Coordinator · Officer · Executive<span class="tag now">Bạn ở đây</span></div>
+          <div class="ds">Vận hành chương trình: hậu cần, quản trị LMS, điểm danh, báo cáo, triển khai hội nhập.</div>
+        </div>
+      </div>
+      <div class="rung target">
+        <div class="lv">Cấp 2</div>
+        <div>
+          <div class="ti">Specialist · Instructional Designer<span class="tag goal">Đích 03/2027</span></div>
+          <div class="ds">Thiết kế chứ không chỉ vận hành: phân tích nhu cầu, thiết kế giáo trình, đứng lớp, phân tích dữ liệu học tập.</div>
+        </div>
+      </div>
+      <div class="rung">
+        <div class="lv">Cấp 3</div>
+        <div>
+          <div class="ti">L&amp;D Manager · Training Manager</div>
+          <div class="ds">Làm chủ kế hoạch năm và ngân sách, quản lý đội, đàm phán với trưởng bộ phận. <em>Mục tiêu năm 2029–2030.</em></div>
+        </div>
+      </div>
+      <div class="rung">
+        <div class="lv">Cấp 4</div>
+        <div>
+          <div class="ti">Head of L&amp;D · Learning Director</div>
+          <div class="ds">Chiến lược nhân tài, kế nhiệm, quyết định công nghệ nhân sự. Phần lớn là chính trị và ngân sách.</div>
+        </div>
+      </div>
+      <div class="rung">
+        <div class="lv">Cấp 5</div>
+        <div>
+          <div class="ti">CLO · Nhà sáng lập công ty tư vấn</div>
+          <div class="ds">Không ai thăng chức cho bạn nữa. Thương hiệu, mạng lưới và tài sản trí tuệ chính là sự thăng chức.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert">
+      <h4>Biến số bạn đang bỏ qua hoàn toàn</h4>
+      <p>Không phải công ty. Không phải ngành. Là <strong>có ai giỏi nghề hơn bạn ngồi phía trên bạn hay không.</strong> Bạn đã làm một mình quá lâu — tiến bộ theo kiểu tự học, có lỗ hổng mà không biết lỗ hổng ở đâu. Khi phỏng vấn, luôn hỏi: <em>“Ai sẽ quản lý trực tiếp vị trí này, và anh/chị ấy có nền tảng gì?”</em> Nếu là HR generalist kiêm nhiệm đào tạo — bỏ qua, dù lương cao. Bạn sẽ lại làm một mình, chỉ là ở thành phố khác.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section id="ban-do-nganh">
+  <div class="wrap">
+    <div class="sechead"><span class="secnum">02</span><h2>Bản đồ ngành</h2></div>
+    <p class="deck">Năm ngành đã bàn, chấm theo bốn tiêu chí thật. Cột <strong>áp lực</strong> quan trọng hơn bạn nghĩ — vì áp lực khác nhau về <em>loại</em>, không chỉ về mức độ.</p>
+
+    <div class="tbl-scroll">
+      <table>
+        <caption class="sr-only">So sánh năm ngành nghề mục tiêu theo độ dễ vào, trần lương, mạng lưới, tương lai L&amp;D và loại áp lực.</caption>
+        <thead>
+          <tr>
+            <th style="width:34px">#</th>
+            <th style="width:24%">Ngành</th>
+            <th>Độ dễ vào</th>
+            <th>Trần lương</th>
+            <th>Network</th>
+            <th>Tương lai L&amp;D</th>
+            <th style="width:21%">Áp lực loại gì</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="rk top">1</span></td>
+            <td class="ind">Ngân hàng<small>Techcombank · VPBank · ACB · VIB · HSBC · Standard Chartered</small></td>
+            <td><span class="dots">●●<span class="off">●●●</span></span></td>
+            <td><span class="dots">●●●●<span class="off">●</span></span></td>
+            <td><span class="dots">●●●●●</span></td>
+            <td><span class="dots">●●●●●</span></td>
+            <td class="press">Trí óc &amp; chính trị. KPI theo quý, kiểm toán NHNN, giành ngân sách. Giờ giấc dễ đoán.</td>
+          </tr>
+          <tr>
+            <td><span class="rk">2</span></td>
+            <td class="ind">Bán lẻ &amp; F&amp;B nước ngoài<small>Central Retail · AEON — <em>không phải</em> chuỗi Việt</small></td>
+            <td><span class="dots">●●●●●</span></td>
+            <td><span class="dots">●●<span class="off">●●●</span></span></td>
+            <td><span class="dots">●●<span class="off">●●●</span></span></td>
+            <td><span class="dots">●●●<span class="off">●●</span></span></td>
+            <td class="press">Khối lượng &amp; di chuyển. Nhiều điểm bán, turnover cao. L&amp;D vẫn là trung tâm chi phí.</td>
+          </tr>
+          <tr>
+            <td><span class="rk">3</span></td>
+            <td class="ind">FMCG / MNC<small>Unilever · Nestlé · Suntory PepsiCo · Abbott · Heineken</small></td>
+            <td><span class="dots">●<span class="off">●●●●</span></span></td>
+            <td><span class="dots">●●●●●</span></td>
+            <td><span class="dots">●●●●●</span></td>
+            <td><span class="dots">●●●●<span class="off">●</span></span></td>
+            <td class="press">Chuẩn mực cao. Ít việc vặt, nhưng mọi thứ bạn làm bị so với chuẩn khu vực.</td>
+          </tr>
+          <tr>
+            <td><span class="rk bot">4</span></td>
+            <td class="ind">Bảo hiểm nhân thọ<small>Prudential · Manulife · AIA · Dai-ichi — <strong>đang co lại</strong></small></td>
+            <td><span class="dots">●●●●<span class="off">●</span></span></td>
+            <td><span class="dots">●●●<span class="off">●●</span></span></td>
+            <td><span class="dots">●●●<span class="off">●●</span></span></td>
+            <td><span class="dots">●●<span class="off">●●●</span></span></td>
+            <td class="press">Thể lực &amp; cảm xúc. Đứng lớp cuối tuần, đi tỉnh, đào tạo người sẽ nghỉ trong một năm.</td>
+          </tr>
+          <tr>
+            <td><span class="rk bot">5</span></td>
+            <td class="ind">Hàng không<small>Vietjet (TP.HCM) · Vietnam Airlines (Hà Nội)</small></td>
+            <td><span class="dots">●●<span class="off">●●●</span></span></td>
+            <td><span class="dots">●●<span class="off">●●●</span></span></td>
+            <td><span class="dots">●●<span class="off">●●●</span></span></td>
+            <td><span class="dots">●<span class="off">●●●●</span></span></td>
+            <td class="press">Quy chuẩn. Giáo trình bị đóng khung bởi CAAV. Cả ngành chỉ vài ghế L&amp;D mỗi năm.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="datacard">
+      <div class="kd">Vì sao bảo hiểm nhân thọ bị hạ hạng — bạn đọc thị trường đúng</div>
+      <div class="datagrid">
+        <div><div class="v">−22,2%</div><div class="k">Hợp đồng khai thác mới<br>4 tháng đầu 2026</div></div>
+        <div><div class="v">−11,5%</div><div class="k">Doanh thu phí mới<br>6.653 tỷ đồng</div></div>
+        <div><div class="v">−4,3%</div><div class="k">Tổng doanh thu phí<br>toàn thị trường nhân thọ</div></div>
+        <div><div class="v up">+15%</div><div class="k">Phi nhân thọ 5T/2026<br>hai thế giới khác nhau</div></div>
+      </div>
+      <p>Ba năm liên tiếp đi xuống giữa khủng hoảng niềm tin. Lập luận “ngành khủng hoảng thì càng cần đào tạo” nghe hợp lý nhưng không vận hành như thế — cắt ngân sách đào tạo là động tác đầu tiên, và đội L&amp;D co lại chứ không nở ra. Nếu vẫn muốn nhìn ngành bảo hiểm: hãy nhìn <strong style="color:var(--sage-lt)">phi nhân thọ và bảo hiểm sức khỏe</strong>, không phải đại lý nhân thọ.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="lo-trinh">
+  <div class="wrap">
+    <div class="sechead"><span class="secnum">03</span><h2>Lộ trình 217 ngày</h2></div>
+    <p class="deck">Bảy tháng, không phải mười hai. Chặt hơn lộ trình chuẩn — nghĩa là <strong>phải cắt bớt</strong>, không làm hết mọi thứ. Đây là bản đã cắt.</p>
+
+    <div class="spine">
+      <div class="leg">
+        <div class="when">T8 – T9/2026<em>62 ngày</em></div>
+        <div class="track">
+          <div class="ph">Dựng bằng chứng</div>
+          <ul class="tasks">
+            <li>Biến hệ theo dõi DLZ thành <b>dashboard phân tích thật</b> — không phải bảng đếm người hoàn thành, mà trả lời được: bộ phận nào chậm, chậm ở giai đoạn nào, liên hệ với nghỉ việc ra sao <span class="must">Ưu tiên 1</span></li>
+            <li>Học <b>Power BI</b> đến mức dựng được dashboard trên. Đây là kỹ năng cứng tạo khác biệt lớn nhất cho CV L&amp;D lúc này</li>
+            <li><b>Đứng lớp một lần ngoài phạm vi Westin</b> — hội nhóm HR, câu lạc bộ sinh viên du lịch, webinar cộng đồng. Quay lại làm bằng chứng <span class="must">Ưu tiên 1</span></li>
+            <li>Tham gia thật vào 3 cộng đồng HR/L&amp;D Việt Nam — bình luận có chiều sâu, không chỉ theo dõi</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="leg">
+        <div class="when">T10 – T11/2026<em>61 ngày</em></div>
+        <div class="track">
+          <div class="ph">Đóng gói &amp; lộ diện</div>
+          <ul class="tasks">
+            <li>Thiết kế trọn vẹn <b>một chương trình có đo lường Kirkpatrick cấp 3</b> — theo dõi thay đổi hành vi sau 60 ngày. Đây là case study phỏng vấn của bạn <span class="must">Ưu tiên 1</span></li>
+            <li>Quy đổi kết quả ra <b>ngôn ngữ kinh doanh</b>: giảm bao nhiêu ngày time-to-productivity, bao nhiêu % nghỉ việc trong 90 ngày đầu, bao nhiêu giờ vận hành tiết kiệm</li>
+            <li>Bài dài đầu tiên trên LinkedIn: <b>“AI đã thực sự thay đổi điều gì trong công việc L&amp;D của tôi”</b> — kèm ảnh chụp màn hình và prompt thật</li>
+            <li><b>Gõ cửa đội cộng tác viên</b> của PACE / Dale Carnegie / FranklinCovey. Không cần nghỉ việc — đây là cửa bên</li>
+            <li>Chuẩn hoá CV và LinkedIn theo <b>phạm vi chức năng</b>, không theo chức danh</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="leg">
+        <div class="when">T12/2026 – T1/2027<em>62 ngày</em></div>
+        <div class="track">
+          <div class="ph">Ứng tuyển có chọn lọc</div>
+          <ul class="tasks">
+            <li>Nộp hồ sơ <b>L&amp;D Specialist</b> tại ngân hàng và bán lẻ nước ngoài ở TP.HCM. Không nộp đại trà — 8–12 chỗ được chọn kỹ</li>
+            <li><b>Sàng lọc theo sếp, không theo thương hiệu.</b> Hỏi thẳng về nền tảng của người quản lý trực tiếp <span class="must">Không thoả hiệp</span></li>
+            <li>Thi <b>Microsoft PL-300</b> nếu kịp — chứng chỉ Power BI, khác biệt tức thì trên CV</li>
+            <li>Phỏng vấn bằng hồ sơ năng lực: dashboard + thiết kế chương trình + quy trình AI. Không phỏng vấn bằng kể chuyện</li>
+            <li>Tận dụng Tết: mùa sau Tết là mùa tuyển mạnh nhất của tập đoàn Việt Nam</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="leg final">
+        <div class="when">T2 – T3/2027<em>Mốc cố định</em></div>
+        <div class="track">
+          <div class="ph">Chốt &amp; vào thành phố</div>
+          <ul class="tasks">
+            <li>Nhận offer, đàm phán, bàn giao tại Westin. Giữ quan hệ tốt với chị Phương và Joshua — họ là người giới thiệu của bạn về sau</li>
+            <li>Nếu chưa có offer đúng ý: <b>vào TP.HCM theo Kịch bản C hoặc D</b> (bên dưới) — vẫn đi, không hoãn</li>
+            <li>Chưa nhập học MBA. Ổn định công việc và thành phố trước đã</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="vien-canh">
+  <div class="wrap">
+    <div class="sechead"><span class="secnum">04</span><h2>Bốn viễn cảnh sau tháng 3/2027</h2></div>
+    <p class="deck">Cùng một ngày rời Cam Ranh, bốn đường khác nhau. Không có đường sai — chỉ có đường bạn <strong>chọn có ý thức</strong> và đường bạn trôi vào.</p>
+
+    <div class="forkwrap">
+      <svg class="forksvg" viewBox="0 0 1000 132" preserveAspectRatio="none" role="img" aria-label="Sơ đồ bốn hướng rẽ từ mốc tháng 3 năm 2027">
+        <line x1="500" y1="0" x2="500" y2="34" stroke="#284137" stroke-width="2.5"/>
+        <circle cx="500" cy="38" r="7" fill="#B3786C"/>
+        <path d="M500 46 C500 92, 125 74, 125 128" fill="none" stroke="#284137" stroke-width="2"/>
+        <path d="M500 46 C500 92, 375 78, 375 128" fill="none" stroke="#AFC1B8" stroke-width="2"/>
+        <path d="M500 46 C500 92, 625 78, 625 128" fill="none" stroke="#A59E9B" stroke-width="2"/>
+        <path d="M500 46 C500 92, 875 74, 875 128" fill="none" stroke="#B3786C" stroke-width="2"/>
+        <text x="514" y="34" font-family="IBM Plex Mono, monospace" font-size="12" fill="#284137" letter-spacing="1.5">01/03/2027</text>
+      </svg>
+    </div>
+
+    <div class="routes">
+      <div class="rt">
+        <div class="code">KỊCH BẢN A · KHUYẾN NGHỊ</div>
+        <h3>Ngân hàng — L&amp;D Specialist</h3>
+        <p class="who">Khối đào tạo kỹ năng mềm, trải nghiệm khách hàng, văn hoá, onboarding. Không cần background ngân hàng cho mảng này.</p>
+        <dl>
+          <div><dt>Chọn nếu</dt><dd>Bạn muốn vị thế, network có địa vị, và một ngành đang tăng trưởng cần tái đào tạo hàng chục nghìn người.</dd></div>
+          <div><dt>Được</dt><dd>Học ngân sách, đo lường dài hạn, chính trị tổ chức. Cửa lên Manager sau 2–3 năm. Vào đúng vòng tròn bạn muốn.</dd></div>
+          <div><dt>Mất</dt><dd class="neg">Chính trị nội bộ nặng. Phải học sản phẩm tài chính từ đầu. Mất tự do so với hiện tại.</dd></div>
+        </dl>
+        <div class="foot">
+          <div><div class="fk">Lương ước tính</div><div class="fv">22–35tr</div></div>
+          <div><div class="fk">Khả năng đạt</div><div class="fv">Trung bình</div></div>
+        </div>
+      </div>
+
+      <div class="rt b">
+        <div class="code">KỊCH BẢN B · AN TOÀN</div>
+        <h3>Bán lẻ nước ngoài — Central Retail, AEON</h3>
+        <p class="who">Cùng bài toán với khách sạn: frontline đông, turnover cao, nhiều điểm, chuẩn dịch vụ phải đồng nhất. Kinh nghiệm dùng ngay không cần dịch.</p>
+        <dl>
+          <div><dt>Chọn nếu</dt><dd>Ưu tiên vào được TP.HCM đúng hạn và lên Specialist nhanh, chấp nhận trần thấp hơn.</dd></div>
+          <div><dt>Được</dt><dd>Vào dễ nhất. Quy mô đa điểm là kinh nghiệm quý. Công ty Thái/Nhật có hệ thống và cơ hội tiếp xúc khu vực.</dd></div>
+          <div><dt>Mất</dt><dd class="neg">L&amp;D vẫn là trung tâm chi phí — đúng bệnh bạn đang chịu. Network thuần nội địa.</dd></div>
+        </dl>
+        <div class="foot">
+          <div><div class="fk">Lương ước tính</div><div class="fv">18–28tr</div></div>
+          <div><div class="fk">Khả năng đạt</div><div class="fv">Cao</div></div>
+        </div>
+      </div>
+
+      <div class="rt c">
+        <div class="code">KỊCH BẢN C · DỰ PHÒNG</div>
+        <h3>Marriott TP.HCM — chuyển nội bộ</h3>
+        <p class="who">Cùng tập đoàn, cùng hệ thống, cùng người quen — chỉ đổi địa lý. Joshua là người đầu tiên nên nói chuyện.</p>
+        <dl>
+          <div><dt>Chọn nếu</dt><dd>Đến tháng 2/2027 chưa có offer ngoài ngành. Đừng hoãn chuyến đi — đổi phương tiện.</dd></div>
+          <div><dt>Được</dt><dd>Giữ thương hiệu Marriott và đà thăng tiến. Rủi ro thấp nhất. Vẫn vào đúng thành phố có network.</dd></div>
+          <div><dt>Mất</dt><dd class="neg">Vẫn trong hospitality, vẫn có thể là Cấp 1. Chỉ hoãn bài toán chuyển ngành 1–2 năm.</dd></div>
+        </dl>
+        <div class="foot">
+          <div><div class="fk">Lương ước tính</div><div class="fv">Tương đương</div></div>
+          <div><div class="fk">Khả năng đạt</div><div class="fv">Rất cao</div></div>
+        </div>
+      </div>
+
+      <div class="rt d">
+        <div class="code">KỊCH BẢN D · ĐỘNG CƠ THỨ HAI</div>
+        <h3>Cộng tác viên đào tạo — chạy song song</h3>
+        <p class="who">Không phải lựa chọn thay thế A/B/C. Là <strong>lớp chồng lên bất kỳ kịch bản nào</strong> — vài ngày giảng mỗi tháng cho PACE, Dale Carnegie, FranklinCovey.</p>
+        <dl>
+          <div><dt>Chọn nếu</dt><dd>Luôn luôn. Đây là câu trả lời cho dòng thu nhập phụ 5–15tr/tháng bạn hỏi từ đầu.</dd></div>
+          <div><dt>Được</dt><dd>Thu nhập phụ + học nghề từ người giỏi + mạng lưới khách hàng doanh nghiệp khắp TP.HCM. Ba mục tiêu, một hành động.</dd></div>
+          <div><dt>Điều kiện</dt><dd class="neg">Phải chứng minh đứng lớp được trước. Không ai mời người họ chưa từng thấy giảng — đó là lý do việc đứng lớp tháng 8–9 không thể bỏ.</dd></div>
+        </dl>
+        <div class="foot">
+          <div><div class="fk">Thu nhập thêm</div><div class="fv">5–15tr</div></div>
+          <div><div class="fk">Vào toàn thời gian</div><div class="fv">Năm 4+</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="verdict">
+      <b>Thứ tự khuyến nghị:</b> nhắm A, chuẩn bị B làm phương án song song, giữ C làm lưới an toàn để chuyến đi tháng 3 không bao giờ bị hoãn — và chạy D chồng lên bất kể kết quả. Ba động cơ: lương doanh nghiệp nuôi hành trình, thương hiệu công khai tích luỹ uy tín, nguồn thu bên ngoài đến một lúc sẽ vượt qua chính tiền lương.
+    </div>
+  </div>
+</section>
+
+<!-- 05 -->
+<section id="hien-vat">
+  <div class="wrap">
+    <div class="sechead"><span class="secnum">05</span><h2>Ba hiện vật phải mang đi phỏng vấn</h2></div>
+    <p class="deck">Làm được ngay tại Westin, không cần xin phép ai, không cần ngân sách. Không có ba thứ này, bạn bị đọc như <em>“người làm training ở khách sạn muốn ra ngoài”</em> — và bị định giá ở mức Officer.</p>
+
+    <div class="arts">
+      <div class="art">
+        <div class="n">01</div>
+        <h4>Dashboard phân tích thật</h4>
+        <p>Không phải bảng đếm số người hoàn thành. Phải trả lời được: bộ phận nào chậm, chậm ở giai đoạn nào, tương quan với tỉ lệ nghỉ việc. Tỷ lệ hoàn thành khoá học là chỉ số kém thú vị nhất một chuyên gia L&amp;D giỏi theo dõi — và người phỏng vấn ở ngân hàng biết điều đó.</p>
+        <div class="tool">Power BI · Excel Power Query · dữ liệu DLZ</div>
+      </div>
+      <div class="art">
+        <div class="n">02</div>
+        <h4>Một chương trình bạn tự thiết kế</h4>
+        <p>Không phải “tôi chạy Orientation Workshop”. Mà là: đây là khoảng trống năng lực tôi chẩn đoán, đây là thiết kế, đây là hành vi thay đổi sau 60 ngày, đây là con số. Kirkpatrick cấp 3 là chuẩn.</p>
+        <div class="tool">ADDIE / SAM · Kirkpatrick L3 · Rise 360</div>
+      </div>
+      <div class="art">
+        <div class="n">03</div>
+        <h4>Kết quả nói bằng tiền</h4>
+        <p>Quy đổi bất kỳ chương trình nào ra: giảm bao nhiêu ngày time-to-productivity, bao nhiêu % nghỉ việc trong 90 ngày đầu, bao nhiêu giờ vận hành tiết kiệm. Trước ban điều hành, người giỏi nói bằng tiền, rủi ro và tốc độ — không bao giờ bằng thuật ngữ đào tạo.</p>
+        <div class="tool">Chi phí nghỉ việc · time-to-productivity · ROI</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 -->
+<section id="ap-luc">
+  <div class="wrap">
+    <div class="sechead"><span class="secnum">06</span><h2>Áp lực — loại nào, không phải bao nhiêu</h2></div>
+    <p class="deck">Bạn lo không chịu nổi áp lực lớn hơn. Nhưng áp lực bạn đang chịu là <strong>loại tệ nhất trong nghề</strong>: bỏ ra rất nhiều công, nhận lại rất ít đòn bẩy, và gần như không ai ở tầng trên nhìn thấy.</p>
+
+    <div class="press-grid">
+      <div class="pcard cur">
+        <div class="plab">Hiện tại</div>
+        <h4>Westin Cam Ranh</h4>
+        <div class="kind">Rộng · đơn độc · đòn bẩy thấp</div>
+        <ul>
+          <li>Mười lăm việc cùng lúc, không ai đỡ</li>
+          <li>Vừa thiết kế, vừa in tài liệu, vừa điểm danh</li>
+          <li>Không ngân sách, không ai để hỏi khi bí</li>
+          <li>Mệt vì khối lượng và cô độc, không vì mức độ nghiêm trọng</li>
+        </ul>
+      </div>
+      <div class="pcard rec">
+        <div class="plab">Kịch bản A</div>
+        <h4>Ngân hàng</h4>
+        <div class="kind">Trí óc &amp; chính trị · dễ đoán hơn</div>
+        <ul>
+          <li>KPI theo quý, có con số phải trả lời</li>
+          <li>Kiểm toán nội bộ và NHNN — hồ sơ chuẩn từng dấu chấm</li>
+          <li>Phải thuyết phục người không tin vào đào tạo</li>
+          <li><strong>Nhưng:</strong> có đội, có ngân sách, giờ giấc ổn định, việc của bạn được cấp cao nhìn thấy</li>
+        </ul>
+      </div>
+      <div class="pcard">
+        <div class="plab">Đã loại</div>
+        <h4>Bảo hiểm nhân thọ</h4>
+        <div class="kind">Thể lực &amp; cảm xúc · nặng nhất</div>
+        <ul>
+          <li>Đứng lớp cuối tuần vì đại lý đi làm ngày thường</li>
+          <li>Đi tỉnh liên tục, mùa chiến dịch gần như không nghỉ</li>
+          <li>Đào tạo hàng trăm người, biết phần lớn sẽ nghỉ trong một năm</li>
+          <li>Cộng thêm ngành đang âm ba năm liền</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="alert">
+      <h4>Cú sốc thật khi chuyển từ khách sạn sang tập đoàn</h4>
+      <p>Không phải khối lượng. Là <strong>mất tự do</strong>. Ở Westin bạn tự làm gì cũng được vì chẳng ai kiểm. Ở tập đoàn, mọi thứ phải qua quy trình. Đổi lại bạn được <strong>chuyên sâu thay vì dàn mỏng</strong> — với rất nhiều người, đó không phải áp lực tăng lên, mà là nhẹ đi.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 -->
+<section id="canh-bao">
+  <div class="wrap">
+    <div class="sechead"><span class="secnum">07</span><h2>Cảnh báo</h2></div>
+    <div class="warnbox">
+      <div class="wl">Rủi ro lớn nhất của kế hoạch này</div>
+      <h3>Bạn đang chồng năm thứ cùng lúc. Không ai làm được cả năm.</h3>
+      <div class="stack">
+        <span>Toàn bộ chức năng L&amp;D một mình</span>
+        <span>Bằng thứ ba ở Hoa Sen</span>
+        <span>MBA ở FSB</span>
+        <span>Dòng thu nhập online</span>
+        <span>Chuyển vào TP.HCM</span>
+        <span>Hai chứng chỉ quốc tế</span>
+      </div>
+      <p>Cụ thể hơn: <strong>MBA và vòng ứng tuyển TP.HCM sẽ đâm vào nhau.</strong> Bạn không thể vừa nhập học, vừa nhảy việc, vừa chuyển thành phố trong cùng một quý. Và tấm bằng MBA không mở cửa cho bạn ở bước này — dashboard và chương trình bạn tự thiết kế mới mở. MBA có giá trị ở bước từ Manager lên Head, không phải ở bước từ Coordinator lên Specialist.</p>
+      <div class="order">
+        <b>1 · Hồ sơ năng lực</b> &nbsp;→&nbsp; <b>2 · Chuyển việc &amp; chuyển thành phố</b> &nbsp;→&nbsp; <b>3 · MBA</b>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 -->
+<section id="ai">
+  <div class="wrap">
+    <div class="sechead"><span class="secnum">08</span><h2>Định vị AI — cửa sổ đang mở</h2></div>
+    <p class="deck">Bạn hỏi nơi nào ứng dụng AI mạnh trong L&amp;D. Sự thật hơi phũ: <strong>gần như chưa có nơi nào mạnh thật</strong>, và nơi nói nhiều nhất thường làm ít nhất. Công ty đào tạo marketing về AI nhưng mô hình là người thật đứng lớp. MNC được rót công cụ từ khu vực — bạn được <em>dùng</em> đồ tốt nhưng không <em>xây</em>.</p>
+
+    <div class="alert" style="border-left-color:var(--pine)">
+      <h4 style="color:var(--pine)">Đừng đi tìm nơi dạy bạn AI. Hãy là người mang nó tới.</h4>
+      <p>Định vị của bạn đã được hoàn cảnh quyết định sẵn, và nó rất đắt giá: <strong>người thực chiến chỉ cho cộng đồng L&amp;D và HR Việt Nam cách dùng AI thật sự — kèm bằng chứng.</strong> Không phải nhà lý thuyết, không phải influencer: một người đang hành nghề, xây hệ thống bên trong một thương hiệu toàn cầu và trưng ra sản phẩm thật. Cách làm: theo dõi Donald Clark, Philippa Hardman, Ross Stevenson — rồi bản địa hoá cho Việt Nam, điều gần như chưa ai làm. <strong>Cửa sổ này còn khoảng 2–3 năm.</strong></p>
+    </div>
+
+    <div class="arts" style="margin-top:36px">
+      <div class="art">
+        <div class="n">A</div>
+        <h4>Chứng chỉ — đúng thứ tự</h4>
+        <p><strong>Microsoft PL-300 (Power BI) trước Dale Carnegie TTT.</strong> Ở bước Coordinator → Specialist, thứ tạo khác biệt là dữ liệu, không phải kỹ năng đứng lớp. Kỹ năng đứng lớp là thứ bạn bán ở Cấp 3 trở lên. Sau đó: ATD (Training &amp; Facilitation hoặc Instructional Design), rồi Kirkpatrick Bronze.</p>
+        <div class="tool">PL-300 → ATD → Kirkpatrick → CIPD (sau MBA)</div>
+      </div>
+      <div class="art">
+        <div class="n">B</div>
+        <h4>Bốn cuốn sách, đọc thật sâu</h4>
+        <p><em>Design for How People Learn</em> — Julie Dirksen. <em>Map It</em> — Cathy Moore. <em>Performance Consulting</em> — Robinson. <em>Telling Ain’t Training</em> — Stolovitch &amp; Keeps. Đọc kỹ bốn cuốn này giá trị hơn nhiều so với một khoá online 40 giờ.</p>
+        <div class="tool">Chiều sâu thắng chiều rộng</div>
+      </div>
+      <div class="art">
+        <div class="n">C</div>
+        <h4>Công cụ — đào sâu, đừng dàn trải</h4>
+        <p>Một người tinh thông <strong>Claude + Power BI + Excel + kỹ năng đứng lớp</strong> đáng giá hơn người biết hời hợt ba mươi công cụ. Tại mỗi thời điểm: đào sâu một công cụ cốt lõi, duy trì phần còn lại, thí nghiệm nhỏ với một công cụ mới.</p>
+        <div class="tool">Thư viện prompt có quản lý phiên bản = tài sản trí tuệ</div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="closer">
+  <div class="wrap">
+    <div class="rl">Nguyên tắc chi phối cả bảy tháng</div>
+    <blockquote>Mỗi phần việc thật phải sinh ra ba tài sản — chính sản phẩm bàn giao, một hiện vật cho hồ sơ năng lực, và một mẩu nội dung.</blockquote>
+    <div class="three">
+      <div><div class="tn">Tài sản 1</div><div class="tt">Sản phẩm bàn giao — thứ Westin trả lương cho bạn để làm.</div></div>
+      <div><div class="tn">Tài sản 2</div><div class="tt">Hiện vật hồ sơ — thứ bạn mang vào phòng phỏng vấn tháng 12.</div></div>
+      <div><div class="tn">Tài sản 3</div><div class="tt">Mẩu nội dung — thứ xây “Kris in L&amp;D” và mở cửa hợp đồng giảng.</div></div>
+    </div>
+    <div class="sig">
+      <strong style="color:var(--sage-lt);font-weight:500">Việc gần nhất, làm trong 60 ngày:</strong> đứng lớp một lần ngoài phạm vi Westin. Rẻ, nhanh, và nó mở đúng cánh cửa cộng tác viên đào tạo — thứ giải quyết cùng lúc thu nhập phụ, học nghề, và mạng lưới TP.HCM.<br><br>
+      Tổng hợp từ cuộc trò chuyện ngày 27/07/2026 · Các con số lương là ước lượng thị trường, nên kiểm chứng lại qua mạng lưới trước khi quyết định · Dữ liệu ngành bảo hiểm từ Hiệp hội Bảo hiểm Việt Nam và Cục Thống kê, 4–6 tháng đầu 2026
+    </div>
+  </div>
+</footer>
+
+<script>
+(() => {
+  const progress = document.getElementById('readProgress');
+  const sections = Array.from(document.querySelectorAll('main section[id]'));
+  const navLinks = Array.from(document.querySelectorAll('.nav-links a'));
+
+  const updateProgress = () => {
+    const root = document.documentElement;
+    const distance = root.scrollHeight - root.clientHeight;
+    const ratio = distance > 0 ? Math.min(1, Math.max(0, root.scrollTop / distance)) : 0;
+    progress.style.width = `${ratio * 100}%`;
+  };
+
+  const setCurrent = (id) => {
+    navLinks.forEach((link) => {
+      if (link.getAttribute('href') === `#${id}`) {
+        link.setAttribute('aria-current', 'true');
+      } else {
+        link.removeAttribute('aria-current');
+      }
+    });
+  };
+
+  const sectionObserver = new IntersectionObserver((entries) => {
+    const visible = entries
+      .filter((entry) => entry.isIntersecting)
+      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+    if (visible) setCurrent(visible.target.id);
+  }, { rootMargin: '-18% 0px -68% 0px', threshold: [0, 0.12, 0.35] });
+
+  sections.forEach((section) => sectionObserver.observe(section));
+  updateProgress();
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  window.addEventListener('resize', updateProgress);
+})();
+</script>
+</body>
+</html>
