@@ -42,7 +42,7 @@ The six main sections are:
 5. Learning
 6. Roadmap
 
-Contact follows as the closing call to action.
+The Learning section includes an interactive archive of 325 books and 81 films, with category filters, Vietnamese-insensitive search, favourite markers and reread counts. Contact follows as the closing call to action.
 
 ## Preview locally
 
