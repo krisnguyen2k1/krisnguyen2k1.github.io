@@ -60,6 +60,14 @@ Keep the six numbered sections in this order:
 
 Contact is the closing call to action. If the structure changes, update `README.md` in the same work.
 
+The Learning section contains the personal reading and film archive:
+
+- 115 fiction titles;
+- 210 non-fiction titles;
+- 81 films.
+
+Keep the category totals, search, keyboard-accessible modal, favourite markers and reread counts working. Do not alter a title, author, year or marker without verified source data from Kris.
+
 ## Technical constraints
 
 - One static `index.html`; no framework or build system.
