@@ -1,135 +1,98 @@
 # CLAUDE.md — working rules for this repository
 
-Personal portfolio site for Kris Nguyen (Nguyễn Trung Kiên), L&D at Marriott International.
-Its audience is recruiters and hiring managers. Every decision serves that.
+This repository contains the personal portfolio of Kris Nguyen (Nguyen Trung Kien), currently an L&D Coordinator at The Westin Resort & Spa Cam Ranh.
 
-Read this before touching anything.
+The primary audience is recruiters, hiring managers and L&D leaders. Every change should make the current evidence, professional point of view and future direction easier to understand.
 
----
+## Hard rules
 
-## Hard rules — never break these
+1. **Keep the title truthful.** The current title is `L&D Coordinator`. `L&D Manager` and `Enterprise L&D Leader` are future goals shown only in the roadmap.
+2. **Never publish a residential address.** Location must remain city-level only: `Da Nang · Ho Chi Minh City, Viet Nam`.
+3. **Never commit credentials.** Do not add secrets, tokens, cookies, passwords, `.env` files or private account data.
+4. **Never invent facts.** Do not create job titles, dates, degrees, GPAs, metrics, certificates, testimonials or confidential business results.
+5. **Protect employer confidentiality.** Program-level scope may be shown. Do not add guest data, associate identities, internal financial data or restricted Marriott material.
 
-1. **Never publish the full residential address.** Location is city-level only:
-   `Da Nang · Ho Chi Minh City, Viet Nam`. Do not restore a street address, house number or
-   ward, in visible copy, in a `maps.google.com` link, in metadata, in a comment, or in
-   structured data. If asked to add "my address", confirm the person means city-level.
-2. **Never commit credentials.** No tokens, keys, `.env` files, cookies or passwords. Check
-   `git status` before every commit. `.gitignore` already covers the common cases.
-3. **Never invent facts.** Job titles, dates, GPAs, metrics, certificates, book counts,
-   testimonials and contact details are real. If information is missing, leave the existing
-   content alone or use an obvious placeholder like `[TBC]`. Ask rather than guess.
-4. **Never quote a source you have not verified.** The quote dialog holds ten lines, each
-   tied to a named work, speech or letter. Two famous lines were deliberately excluded as
-   misattributions — "culture eats strategy for breakfast" and "what gets measured gets
-   managed" are not Drucker's. Any new quote needs a real citation before it ships.
+## Brand position
 
----
+The site presents Kris as an early-career professional with a credible trajectory:
 
-## Design language
+- **Now:** L&D Coordinator with real operating evidence.
+- **Next:** specialist capability in needs analysis, instructional design and measurement.
+- **Direction:** L&D Manager and, over time, enterprise L&D leadership.
 
-The site is a monochrome, print-influenced document. Restraint is the whole aesthetic.
+The three brand pillars are:
 
-- **Colour: monochrome only.** Near-black `#0A0A0A`, off-white `#F4F4F2`, and greys between.
-  The palette variables live at the top of the `<style>` block. Do not add brand colours,
-  gradients, coloured buttons, or accent hues. Contrast does all the work.
-- **Alternating bands.** Sections alternate `.on-ink` (dark) and `.on-paper` (light). Keep
-  the rhythm; do not put two identical bands next to each other.
-- **Type.** Inter for display and body copy, IBM Plex Mono for labels, numbers and metadata.
-  Two families only. A third, Be Vietnam Pro, existed for a bilingual English/Vietnamese
-  display system that had no toggle and no live Vietnamese content — it was removed in the
-  2026-07 improvement pass (see `AUDIT.md` in that PR for the measurements). Don't reintroduce
-  a second display typeface without a real bilingual content plan behind it.
-- **Background portrait.** A fixed, faded photograph of Mustafa Kemal Atatürk sits behind the
-  ink bands, hidden below 1180px by design. This was raised as a judgement call for an
-  international audience and Kris decided to keep it — it is a settled choice, not an open
-  question. Leave it unless he asks to change it.
-- **No decoration.** No stock illustration, no emoji, no icon sets beyond the small inline
-  contact SVGs, no marketing slogans, no animated flourishes. Motion is limited to the
-  existing subtle reveal-on-scroll, and it respects `prefers-reduced-motion`.
-- **Section numbering** is Roman numerals I–X in the `.s-shelf` badge. If you add a section,
-  renumber the sequence and update the nav.
+- human-centred learning;
+- AI-enabled systems;
+- business-minded growth.
+
+Do not turn aspiration into inflated present-tense claims.
 
 ## Copy
 
-- English: natural, concise, professional. Plain words over corporate register. Contractions
-  are fine. No exclamation marks.
-- Vietnamese, where present: contextually accurate, not literal machine translation. Match
-  the register of the English.
-- Kris is a non-native English speaker improving deliberately — if you spot an error in
-  copy he wrote, fix it and say what changed and why.
+- English should be concise, natural and professional.
+- Prefer evidence, scope and contribution over self-congratulation.
+- Use plain language over corporate jargon.
+- No exclamation marks or emoji.
+- Keep the distinction between completed, in-progress and planned education explicit.
+- Keep the total page focused enough for a recruiter to scan in one visit.
 
----
+## Design language
+
+- Monochrome only: near-black, off-white and accessible greys.
+- Inter for display and body; IBM Plex Mono for labels and metadata.
+- Alternate dark and light editorial bands.
+- Strong typography and spacing do the visual work.
+- No stock illustrations, decorative icon sets, coloured gradients or ornamental animation.
+- The fixed faded portrait remains a background element on large screens and is hidden below 960px.
+- Motion is limited to reveal-on-scroll and must respect `prefers-reduced-motion`.
+
+## Page structure
+
+Keep the six numbered sections in this order:
+
+1. Position
+2. Evidence
+3. Story
+4. Edge
+5. Learning
+6. Roadmap
+
+Contact is the closing call to action. If the structure changes, update `README.md` in the same work.
 
 ## Technical constraints
 
-- **One file, no build.** All CSS in the single `<style>` block, all JS in the single
-  `<script>` block. Do not introduce a framework, bundler, package manager, CSS
-  preprocessor or CI pipeline. There is no `node_modules` and there should not be one.
-- **Vanilla ES5-style JavaScript**, wrapped in an IIFE, no dependencies.
-- **No browser storage.** No `localStorage` or `sessionStorage`.
-- **Assets are relative paths** (`assets/...`), never absolute, so the site works locally
-  and on Pages alike.
-- `.nojekyll` must stay, or GitHub Pages may mangle paths.
+- One static `index.html`; no framework or build system.
+- All CSS stays in the page `<style>` block.
+- All JavaScript stays in the page `<script>` block.
+- Vanilla dependency-free JavaScript.
+- No browser storage.
+- Assets use relative `assets/...` paths.
+- Keep `.nojekyll`.
 
-## Accessibility — verify after any structural or visual change
+## Accessibility and responsive QA
 
-- Colour contrast at least WCAG AA (4.5:1 body text). Current muted tones are `#9A9A96` on
-  ink and `#585855` on paper; both pass. Do not darken them.
-- The skip link, `<main>` landmark and heading order (one `h1`, then `h2` → `h3`) stay intact.
-- The quote dialog must keep its focus trap, `Escape` handling and focus restoration.
-- Everything reachable by keyboard; visible focus rings preserved.
-- Any new image needs real `alt` text, or `aria-hidden="true"` if purely decorative.
+- Maintain WCAG AA colour contrast.
+- Preserve the skip link, one `h1`, the `main` landmark and logical heading order.
+- Every link and button must work with a keyboard and retain a visible focus state.
+- Test at 390px, 768px and 1440px.
+- Horizontal overflow must remain false at every supported width.
+- Reduced-motion users must receive the content without animation.
 
-## Responsiveness
+## Before publishing
 
-Test at **390px, 768px and 1440px** after layout work. Check specifically for horizontal
-overflow (`document.documentElement.scrollWidth > window.innerWidth` must be false). The
-background portrait is hidden below 1180px by design — keep it that way.
+1. Confirm the page renders.
+2. Confirm JavaScript parses without errors.
+3. Verify the current title remains accurate.
+4. Search for residential address data and secrets.
+5. Check responsive layouts and horizontal overflow.
+6. Review the entire diff.
 
----
+Use conventional, imperative commit messages such as:
 
-## Before committing
-
-1. Open the page and confirm it renders.
-2. Check the browser console is clean.
-3. Test the three viewport widths above.
-4. Confirm no street address and no secrets: `git diff --staged`.
-5. Review the full diff. Do not commit unrelated changes together.
-
-## Commits
-
-Conventional style, imperative mood, one concern per commit:
-
+```text
+content: add a verified L&D case study
+style: tighten the roadmap layout on mobile
+fix: prevent overflow in the contact links
+a11y: improve focus visibility
 ```
-feat: add a print stylesheet for the dossier view
-fix: prevent horizontal overflow on the toolkit grid at 390px
-style: reduce hero name size on mobile
-docs: update README deployment steps
-content: update work experience with new role
-a11y: raise muted text contrast to AA
-```
-
-Push to `main`; GitHub Pages deploys automatically in under two minutes.
-
-## Keep the docs true
-
-If the file structure or deployment process changes, update `README.md` in the same commit.
-If a design or content rule changes, update this file.
-
----
-
-## Known open items
-
-Raised in review, not yet actioned — Kris decides these, do not act unilaterally:
-
-- No photograph of Kris on the site.
-- The Evidence section describes six projects but carries no metrics.
-- No downloadable CV.
-- The Study section lists a UEH HRM master's; confirm against the programme actually chosen.
-
-Resolved in the 2026-07 improvement pass, kept here for history:
-
-- ~~The bilingual CSS system (`html.lang-vi`, `.vi` rules)~~ — stripped. See the "Type" note
-  above.
-- ~~The background portrait is a political figure~~ — Kris decided to keep it. See the
-  "Background portrait" note under Design language.
