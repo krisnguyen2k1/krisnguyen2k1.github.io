@@ -535,6 +535,71 @@
     .library-marks { min-width: 48px; text-align: right; white-space: nowrap; }
     .library-empty { padding: 42px 0; color: var(--muted-light); }
 
+    /* Published websites */
+    .website-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      border-top: 1px solid var(--line-dark);
+      border-left: 1px solid var(--line-dark);
+    }
+    .website-card {
+      min-height: 330px;
+      padding: clamp(26px, 3.5vw, 44px);
+      border-right: 1px solid var(--line-dark);
+      border-bottom: 1px solid var(--line-dark);
+      display: flex;
+      flex-direction: column;
+      color: var(--white);
+      background: transparent;
+      text-decoration: none;
+      transition: color .22s ease, background-color .22s ease;
+    }
+    .website-card:last-child { grid-column: 1 / -1; }
+    .website-card:hover { color: var(--ink); background: var(--white); }
+    .website-card-top,
+    .website-card-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: .12em;
+      line-height: 1.45;
+      text-transform: uppercase;
+    }
+    .website-number,
+    .website-type,
+    .website-card-bottom { color: var(--muted-dark); }
+    .website-card h3 {
+      max-width: 25ch;
+      margin: clamp(42px, 5vw, 68px) 0 18px;
+    }
+    .website-card p {
+      max-width: 62ch;
+      margin: 0 0 36px;
+      color: var(--muted-dark);
+      font-size: .94em;
+    }
+    .website-card-bottom {
+      margin-top: auto;
+      padding-top: 20px;
+      border-top: 1px solid var(--line-dark);
+    }
+    .website-arrow { color: var(--white); font-size: 14px; }
+    .website-card:hover p,
+    .website-card:hover .website-number,
+    .website-card:hover .website-type,
+    .website-card:hover .website-card-bottom { color: var(--muted-light); }
+    .website-card:hover .website-card-bottom { border-top-color: var(--line-light); }
+    .website-card:hover .website-arrow { color: var(--ink); }
+
+    @media (max-width: 760px) {
+      .website-grid { grid-template-columns: 1fr; }
+      .website-card, .website-card:last-child { min-height: auto; grid-column: auto; }
+    }
+
     /* Contact */
     .contact-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(50px, 8vw, 120px); align-items: end; }
     .contact h2 { max-width: 11ch; }
@@ -986,6 +1051,111 @@
               <li>A recognised public L&amp;D voice</li>
             </ul>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="websites">
+      <div class="shell">
+        <div class="section-head reveal">
+          <div class="index">07 / Websites</div>
+          <div class="section-intro">
+            <h2>Websites, built and published.</h2>
+            <p class="body-copy">Seven independent web projects beyond this portfolio — learning tools, cultural essays, biographies and data stories I designed, built and shipped on GitHub.</p>
+          </div>
+        </div>
+
+        <div class="website-grid reveal">
+          <a class="website-card" href="https://krisnguyen2k1.github.io/gnurtneik2k1.github.io/" target="_blank" rel="noopener noreferrer">
+            <div class="website-card-top">
+              <span class="website-number">01</span>
+              <span class="website-type">Learning tool</span>
+            </div>
+            <h3>Kris's English Studio 2.0</h3>
+            <p>An interactive English-learning studio built to make practice playful, usable and repeatable.</p>
+            <div class="website-card-bottom">
+              <span>Visit website</span>
+              <span class="website-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="website-card" href="https://krisnguyen2k1.github.io/gnurtneik2k1.github.io-marriott/" target="_blank" rel="noopener noreferrer">
+            <div class="website-card-top">
+              <span class="website-number">02</span>
+              <span class="website-type">Biography</span>
+            </div>
+            <h3>Before Marriott</h3>
+            <p>A sourced digital biography of J. Willard Marriott, from a 14-year-old shepherd to a century of American enterprise.</p>
+            <div class="website-card-bottom">
+              <span>Visit website</span>
+              <span class="website-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="website-card" href="https://krisnguyen2k1.github.io/than-ai-nay-lo/" target="_blank" rel="noopener noreferrer">
+            <div class="website-card-top">
+              <span class="website-number">03</span>
+              <span class="website-type">Book review</span>
+            </div>
+            <h3>Thân Ai Nấy Lo</h3>
+            <p>A long-form Vietnamese review of Eric Barker's book on love, family and the realities of human relationships.</p>
+            <div class="website-card-bottom">
+              <span>Visit website</span>
+              <span class="website-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="website-card" href="https://krisnguyen2k1.github.io/psychology-in-vietnam/" target="_blank" rel="noopener noreferrer">
+            <div class="website-card-top">
+              <span class="website-number">04</span>
+              <span class="website-type">Career insight</span>
+            </div>
+            <h3>Psychology in Vietnam</h3>
+            <p>A candid guide to studying psychology in Vietnam: cost, competition, career paths and personal fit.</p>
+            <div class="website-card-bottom">
+              <span>Visit website</span>
+              <span class="website-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="website-card" href="https://krisnguyen2k1.github.io/thi-truong-lao-dong-tphcm-2026/" target="_blank" rel="noopener noreferrer">
+            <div class="website-card-top">
+              <span class="website-number">05</span>
+              <span class="website-type">Data dashboard</span>
+            </div>
+            <h3>Ho Chi Minh City Labour Market 2026</h3>
+            <p>A data dashboard exploring supply, demand, skills mismatch, administrative change and AI in the city's labour market.</p>
+            <div class="website-card-bottom">
+              <span>Visit website</span>
+              <span class="website-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="website-card" href="https://krisnguyen2k1.github.io/ataturk-viet-history/" target="_blank" rel="noopener noreferrer">
+            <div class="website-card-top">
+              <span class="website-number">06</span>
+              <span class="website-type">History</span>
+            </div>
+            <h3>The Man and His Country</h3>
+            <p>A sourced Vietnamese digital edition on Mustafa Kemal Atatürk and the making of the Republic of Türkiye.</p>
+            <div class="website-card-bottom">
+              <span>Visit website</span>
+              <span class="website-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a class="website-card" href="https://krisnguyen2k1.github.io/bill-marriott-cuoc-doi/" target="_blank" rel="noopener noreferrer">
+            <div class="website-card-top">
+              <span class="website-number">07</span>
+              <span class="website-type">Leadership biography</span>
+            </div>
+            <h3>Bill Marriott: A Life of Service</h3>
+            <p>A leadership biography of J.W. “Bill” Marriott Jr., told through service, decisions, loss and seven decades of work.</p>
+            <div class="website-card-bottom">
+              <span>Visit website</span>
+              <span class="website-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
