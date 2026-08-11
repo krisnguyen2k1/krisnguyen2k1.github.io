@@ -1,79 +1,62 @@
-# krisnguyen2k1.github.io
+# Kris Nguyen L&D portfolio
 
-Personal portfolio for **Kris Nguyen (Nguyen Trung Kien)**, an L&D Coordinator building toward enterprise learning leadership.
+An evidence-led portfolio for Kris Nguyen, a Learning and Development Coordinator working across learning operations, documentation, programme coordination and digital interaction.
 
-**Live:** https://krisnguyen2k1.github.io/
+Live site: https://krisnguyen2k1.github.io/
 
-The site is a single static page with no framework, build step or runtime dependency. GitHub Pages serves the `main` branch directly.
+## Stack
 
-## Positioning
+- Next.js App Router and TypeScript
+- Tailwind CSS with project design tokens
+- MDX case study drafts
+- Static export for GitHub Pages
+- Self-hosted Fraunces, Inter and JetBrains Mono fonts
 
-The portfolio is written for recruiters, hiring managers and L&D leaders. It presents three things clearly:
-
-- the current fact: Kris is an L&D Coordinator;
-- the evidence: real programs and systems already delivered;
-- the direction: a transparent capability roadmap toward L&D Manager and enterprise L&D leadership.
-
-The page is intentionally not a conventional online CV. It is an evidence-led personal brand built around human-centred learning, AI-enabled systems and business-minded growth.
-
-## Structure
-
-```text
-.
-├── index.html
-├── assets/
-│   ├── portrait.webp
-│   ├── og-image.png
-│   ├── favicon.svg
-│   ├── apple-touch-icon.png
-│   └── site.webmanifest
-├── .nojekyll
-├── .gitignore
-├── CLAUDE.md
-└── README.md
-```
-
-The six main sections are:
-
-1. Position
-2. Evidence
-3. Story
-4. Edge
-5. Learning
-6. Roadmap
-
-The Learning section includes an interactive archive of 325 books and 81 films, with category filters, Vietnamese-insensitive search, favourite markers and reread counts. Contact follows as the closing call to action.
-
-## Preview locally
-
-Open `index.html` directly, or serve the repository root:
+## Local development
 
 ```bash
-python3 -m http.server 8000
+npm install
+npm run dev
 ```
 
-Then open `http://localhost:8000`.
+Open `http://localhost:3000`.
+
+## Quality checks
+
+```bash
+npm run check:copy
+npm run lint
+npm run build
+npm run verify:static
+```
+
+When verifying inside a restricted container that does not expose Node process memory data, use `npm run build:sandbox`. The deployment workflow uses the normal build command.
+
+The copy check blocks the agreed banned terms and unicode dash characters in public source copy. The reading archive data is excluded because published titles must remain unchanged.
+
+Project research, positioning, copy, case-study and verification outputs are stored in [`docs/project-phases`](docs/project-phases). They travel with the repository and do not require a separate file store.
+
+## Content structure
+
+- `/` presents the positioning, selected work and digital proof.
+- `/work/` introduces three L&D workstreams and supporting operations.
+- `/digital-work/` indexes eight live web products.
+- `/about/` presents the professional practice and verified timeline.
+- `/notes/reading/` preserves the searchable reading and film archive.
+- `/writing/` is implemented but excluded from primary navigation and search indexing until a confirmed source list is available.
+
+The three case study routes are built as complete editorial shells. They remain excluded from public navigation and search indexing until the evidence requirements in `NEEDS-CONFIRMATION.md` are met.
 
 ## Deployment
 
-GitHub Pages serves the repository root from `main`.
+The GitHub Actions workflow builds the static export and deploys `out/` to GitHub Pages. In the repository settings, Pages must use GitHub Actions as its source.
 
-1. Commit a change.
-2. Push to `main`.
-3. Wait for GitHub Pages to publish.
-4. Hard-refresh the live URL if a cached version appears.
+The legacy `/am-bang-tu/` and `/ban-do-chien-luoc/` paths are copied through `public/` so existing URLs remain available.
 
-## Editing principles
+## Publication rules
 
-- Keep the current title accurate.
-- Treat L&D Manager as a future direction, never as a current credential.
-- Lead with evidence rather than adjectives.
-- Do not invent metrics, qualifications, dates or testimonials.
-- Keep the site concise enough for a recruiter to understand the story in one visit.
-- Preserve the one-file, no-build architecture.
-
-## Privacy
-
-Only city-level location is public: `Da Nang · Ho Chi Minh City, Viet Nam`.
-
-Never add a residential address, house number, ward or map pin. The professional email and phone number are intentionally public.
+- Do not invent outcomes, participant numbers, dates or testimonials.
+- Report output, adoption and effect as separate evidence states.
+- Redact company, associate and participant information before publication.
+- Do not publish workplace photographs until the people and brand usage rights are confirmed.
+- Keep L&D Specialist as the target role and L&D Coordinator as the current role.

@@ -1,0 +1,732 @@
+{
+  "generatedAt": "2026-08-11T13:49:23.289Z",
+  "summary": {
+    "total": 100,
+    "passed": 100,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "out/index.html exists",
+      "passed": true,
+      "evidence": "out/index.html"
+    },
+    {
+      "name": "out/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/work/index.html exists",
+      "passed": true,
+      "evidence": "out/work/index.html"
+    },
+    {
+      "name": "out/work/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/work/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/work/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/work/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/work/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/work/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/digital-work/index.html exists",
+      "passed": true,
+      "evidence": "out/digital-work/index.html"
+    },
+    {
+      "name": "out/digital-work/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/digital-work/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/digital-work/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/digital-work/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/digital-work/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/digital-work/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/about/index.html exists",
+      "passed": true,
+      "evidence": "out/about/index.html"
+    },
+    {
+      "name": "out/about/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/about/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/about/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/about/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/about/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/about/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/notes/reading/index.html exists",
+      "passed": true,
+      "evidence": "out/notes/reading/index.html"
+    },
+    {
+      "name": "out/notes/reading/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/notes/reading/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/notes/reading/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/notes/reading/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/notes/reading/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/notes/reading/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/writing/index.html exists",
+      "passed": true,
+      "evidence": "out/writing/index.html"
+    },
+    {
+      "name": "out/writing/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/writing/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/writing/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/writing/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/writing/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/writing/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/work/ld-operating-manual/index.html exists",
+      "passed": true,
+      "evidence": "out/work/ld-operating-manual/index.html"
+    },
+    {
+      "name": "out/work/ld-operating-manual/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/work/ld-operating-manual/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/work/ld-operating-manual/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/work/ld-operating-manual/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/work/ld-operating-manual/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/work/ld-operating-manual/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/work/role-based-learning-paths/index.html exists",
+      "passed": true,
+      "evidence": "out/work/role-based-learning-paths/index.html"
+    },
+    {
+      "name": "out/work/role-based-learning-paths/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/work/role-based-learning-paths/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/work/role-based-learning-paths/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/work/role-based-learning-paths/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/work/role-based-learning-paths/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/work/role-based-learning-paths/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/work/marriott-culture-week/index.html exists",
+      "passed": true,
+      "evidence": "out/work/marriott-culture-week/index.html"
+    },
+    {
+      "name": "out/work/marriott-culture-week/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/work/marriott-culture-week/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/work/marriott-culture-week/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/work/marriott-culture-week/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/work/marriott-culture-week/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/work/marriott-culture-week/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/404.html exists",
+      "passed": true,
+      "evidence": "out/404.html"
+    },
+    {
+      "name": "out/404.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/404.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/404.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/404.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/404.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/404.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/work/ld-operating-manual/index.html is noindex",
+      "passed": true,
+      "evidence": "noindex, nofollow metadata"
+    },
+    {
+      "name": "out/work/role-based-learning-paths/index.html is noindex",
+      "passed": true,
+      "evidence": "noindex, nofollow metadata"
+    },
+    {
+      "name": "out/work/marriott-culture-week/index.html is noindex",
+      "passed": true,
+      "evidence": "noindex, nofollow metadata"
+    },
+    {
+      "name": "Internal links and assets resolve",
+      "passed": true,
+      "evidence": "No missing generated targets"
+    },
+    {
+      "name": "out/am-bang-tu/index.html is preserved",
+      "passed": true,
+      "evidence": "out/am-bang-tu/index.html"
+    },
+    {
+      "name": "out/ban-do-chien-luoc/index.html is preserved",
+      "passed": true,
+      "evidence": "out/ban-do-chien-luoc/index.html"
+    },
+    {
+      "name": "out/.nojekyll is preserved",
+      "passed": true,
+      "evidence": "out/.nojekyll"
+    },
+    {
+      "name": "out/robots.txt is preserved",
+      "passed": true,
+      "evidence": "out/robots.txt"
+    },
+    {
+      "name": "out/sitemap.xml is preserved",
+      "passed": true,
+      "evidence": "out/sitemap.xml"
+    },
+    {
+      "name": "robots blocks /writing/",
+      "passed": true,
+      "evidence": "Disallow: /writing/"
+    },
+    {
+      "name": "sitemap excludes /writing/",
+      "passed": true,
+      "evidence": "Route absent from sitemap"
+    },
+    {
+      "name": "robots blocks /work/ld-operating-manual/",
+      "passed": true,
+      "evidence": "Disallow: /work/ld-operating-manual/"
+    },
+    {
+      "name": "sitemap excludes /work/ld-operating-manual/",
+      "passed": true,
+      "evidence": "Route absent from sitemap"
+    },
+    {
+      "name": "robots blocks /work/role-based-learning-paths/",
+      "passed": true,
+      "evidence": "Disallow: /work/role-based-learning-paths/"
+    },
+    {
+      "name": "sitemap excludes /work/role-based-learning-paths/",
+      "passed": true,
+      "evidence": "Route absent from sitemap"
+    },
+    {
+      "name": "robots blocks /work/marriott-culture-week/",
+      "passed": true,
+      "evidence": "Disallow: /work/marriott-culture-week/"
+    },
+    {
+      "name": "sitemap excludes /work/marriott-culture-week/",
+      "passed": true,
+      "evidence": "Route absent from sitemap"
+    },
+    {
+      "name": "No gradients",
+      "passed": true,
+      "evidence": "No gradient declaration in public source"
+    },
+    {
+      "name": "No blur",
+      "passed": true,
+      "evidence": "No blur declaration in public source"
+    },
+    {
+      "name": "No resting shadow",
+      "passed": true,
+      "evidence": "Only .card:hover declares box-shadow, with a mobile reset to none"
+    },
+    {
+      "name": "Reduced motion fallback",
+      "passed": true,
+      "evidence": "Reduced motion media query disables transitions and transforms"
+    },
+    {
+      "name": "Visible focus rule",
+      "passed": true,
+      "evidence": "2px focus outline with 2px offset"
+    },
+    {
+      "name": "Inverse focus override",
+      "passed": true,
+      "evidence": "Manilla focus outline on inverse surface"
+    },
+    {
+      "name": "Body measure token",
+      "passed": true,
+      "evidence": "68ch token and case-copy rule"
+    },
+    {
+      "name": "Minimum control size",
+      "passed": true,
+      "evidence": "44px buttons and Tailwind min-h-11 controls"
+    },
+    {
+      "name": "Self-hosted fonts",
+      "passed": true,
+      "evidence": "Three @fontsource imports"
+    },
+    {
+      "name": "Person JSON-LD",
+      "passed": true,
+      "evidence": "Person schema in root layout"
+    },
+    {
+      "name": "No dark-mode toggle",
+      "passed": true,
+      "evidence": "Light-only UI source"
+    },
+    {
+      "name": "Coral is not a section surface",
+      "passed": true,
+      "evidence": "No main or section uses an accent background"
+    },
+    {
+      "name": "Required contrast pairs pass",
+      "passed": true,
+      "evidence": []
+    }
+  ],
+  "contrastTable": [
+    {
+      "foreground": "primary",
+      "foregroundHex": "#141413",
+      "background": "canvas",
+      "backgroundHex": "#faf9f5",
+      "use": "Text",
+      "ratio": 17.5,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "primary",
+      "foregroundHex": "#141413",
+      "background": "surface",
+      "backgroundHex": "#f0eee6",
+      "use": "Text",
+      "ratio": 15.87,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "primary",
+      "foregroundHex": "#141413",
+      "background": "accent",
+      "backgroundHex": "#d97757",
+      "use": "Filled button text",
+      "ratio": 5.9,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "secondary",
+      "foregroundHex": "#56534d",
+      "background": "canvas",
+      "backgroundHex": "#faf9f5",
+      "use": "Text and interactive border",
+      "ratio": 7.27,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "secondary",
+      "foregroundHex": "#56534d",
+      "background": "surface",
+      "backgroundHex": "#f0eee6",
+      "use": "Text",
+      "ratio": 6.6,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "secondary",
+      "foregroundHex": "#56534d",
+      "background": "accentTint",
+      "backgroundHex": "#f7e3da",
+      "use": "Pill text",
+      "ratio": 6.19,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "accentPress",
+      "foregroundHex": "#a6462a",
+      "background": "canvas",
+      "backgroundHex": "#faf9f5",
+      "use": "Link text and focus",
+      "ratio": 5.65,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "accentPress",
+      "foregroundHex": "#a6462a",
+      "background": "surface",
+      "backgroundHex": "#f0eee6",
+      "use": "Link text and focus",
+      "ratio": 5.12,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "accentPress",
+      "foregroundHex": "#a6462a",
+      "background": "accentTint",
+      "backgroundHex": "#f7e3da",
+      "use": "Monogram text",
+      "ratio": 4.8,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "inverseText",
+      "foregroundHex": "#f5f4ef",
+      "background": "inverse",
+      "backgroundHex": "#1f1e1d",
+      "use": "Footer and CTA text",
+      "ratio": 15.11,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "manilla",
+      "foregroundHex": "#ebdbbc",
+      "background": "inverse",
+      "backgroundHex": "#1f1e1d",
+      "use": "Supporting text and inverse focus",
+      "ratio": 12.2,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "inverseText",
+      "foregroundHex": "#f5f4ef",
+      "background": "accentPress",
+      "backgroundHex": "#a6462a",
+      "use": "Primary button hover text",
+      "ratio": 5.4,
+      "threshold": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "accentHover",
+      "foregroundHex": "#c15f3c",
+      "background": "canvas",
+      "backgroundHex": "#faf9f5",
+      "use": "Hover underline",
+      "ratio": 4.01,
+      "threshold": 3,
+      "passed": true
+    },
+    {
+      "foreground": "accentHover",
+      "foregroundHex": "#c15f3c",
+      "background": "surface",
+      "backgroundHex": "#f0eee6",
+      "use": "Hover underline",
+      "ratio": 3.64,
+      "threshold": 3,
+      "passed": true
+    },
+    {
+      "foreground": "accent",
+      "foregroundHex": "#d97757",
+      "background": "canvas",
+      "backgroundHex": "#faf9f5",
+      "use": "Button fill and decorative metric rule",
+      "ratio": 2.96,
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "foreground": "accent",
+      "foregroundHex": "#d97757",
+      "background": "inverse",
+      "backgroundHex": "#1f1e1d",
+      "use": "Button boundary",
+      "ratio": 5.33,
+      "threshold": 3,
+      "passed": true
+    },
+    {
+      "foreground": "borderSubtle",
+      "foregroundHex": "#e3ded2",
+      "background": "canvas",
+      "backgroundHex": "#faf9f5",
+      "use": "Decorative hairline",
+      "ratio": 1.27,
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "foreground": "borderSubtle",
+      "foregroundHex": "#e3ded2",
+      "background": "surface",
+      "backgroundHex": "#f0eee6",
+      "use": "Decorative hairline",
+      "ratio": 1.16,
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "foreground": "borderStrong",
+      "foregroundHex": "#cfc9ba",
+      "background": "canvas",
+      "backgroundHex": "#faf9f5",
+      "use": "Decorative card hover line",
+      "ratio": 1.57,
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "foreground": "borderStrong",
+      "foregroundHex": "#cfc9ba",
+      "background": "surface",
+      "backgroundHex": "#f0eee6",
+      "use": "Decorative divider",
+      "ratio": 1.42,
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "foreground": "accentTint",
+      "foregroundHex": "#f7e3da",
+      "background": "canvas",
+      "backgroundHex": "#faf9f5",
+      "use": "Decorative pill fill",
+      "ratio": 1.18,
+      "threshold": null,
+      "passed": null
+    },
+    {
+      "foreground": "canvas",
+      "foregroundHex": "#faf9f5",
+      "background": "surface",
+      "backgroundHex": "#f0eee6",
+      "use": "Section surface separation",
+      "ratio": 1.1,
+      "threshold": null,
+      "passed": null
+    }
+  ]
+}

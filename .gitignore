@@ -30,10 +30,13 @@ secrets.json
 
 # ── Local scratch ───────────────────────────────────────────
 node_modules/
+.next/
+out/
 dist/
 build/
 tmp/
 _local/
 *.log
+*.tsbuildinfo
 *.bak
 *.orig
