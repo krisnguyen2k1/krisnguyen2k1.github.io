@@ -88,11 +88,22 @@ This is the complete input list required to remove publication gates. A case may
 ## CV and professional profile
 
 - Approve final current-role start date and trainee-to-coordinator chronology.
-- Confirm every education programme, completion state and conferral date.
 - Confirm current city and relocation wording.
 - Confirm whether the phone number should remain public on both website and CV.
 - Approve a final public PDF filename and version date.
 - Confirm whether Facebook should remain excluded.
+
+### Confirmed education facts
+
+Kris supplied and approved these publication facts on 12 August 2026:
+
+- Bachelor of Hotel Management, University of Economics - The University of Danang, completed Aug 2023, final GPA 2.76 / 4.00.
+- Bachelor of Psychology, HUTECH, in progress through Sep 2026, current GPA 3.27 / 4.00.
+- Bachelor of English Language, Hoa Sen University, in progress through Jan 2029, current GPA 3.60 / 4.00.
+- International Tour Guide (English), Pedagogical Skills (College/University Level), and School Psychological Counseling Skills - USSH HCMC.
+- English proficiency: IELTS 6.5.
+
+The public page states completion status and labels in-progress results as current GPAs. Certificate images and score-report images remain unpublished until public-safe copies are approved.
 
 ## Writing
 

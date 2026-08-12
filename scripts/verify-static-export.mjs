@@ -7,6 +7,7 @@ const primaryPages = [
   "out/index.html",
   "out/work/index.html",
   "out/digital-work/index.html",
+  "out/education/index.html",
   "out/about/index.html",
   "out/notes/reading/index.html",
   "out/writing/index.html",

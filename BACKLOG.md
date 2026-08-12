@@ -26,7 +26,7 @@ This backlog contains recommended work that is not part of the current public re
 - Add one measured learning or behaviour check to the next Culture Week iteration.
 - Add a confirmed writing index and open the Writing route to search engines.
 - Add one short methodology note explaining how project sources are selected and checked.
-- Add a current professional credential section after education and certification status is verified.
+- Add public-safe certificate or score-report images only after redaction and publication approval.
 
 ## P3 - Optional expansion
 
