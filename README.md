@@ -1,79 +1,171 @@
-# krisnguyen2k1.github.io
+# Kris Nguyen L&D portfolio
 
-Personal portfolio for **Kris Nguyen (Nguyen Trung Kien)**, an L&D Coordinator building toward enterprise learning leadership.
+An evidence-led portfolio for Kris Nguyen, a Learning and Development Coordinator working across learning operations, documentation, programme coordination and digital interaction.
 
-**Live:** https://krisnguyen2k1.github.io/
+Production URL: https://krisnguyen2k1.github.io/
 
-The site is a single static page with no framework, build step or runtime dependency. GitHub Pages serves the `main` branch directly.
+Review branch: `codex/ld-portfolio-rebuild`
 
-## Positioning
+## Current release status
 
-The portfolio is written for recruiters, hiring managers and L&D leaders. It presents three things clearly:
+- The rebuild is held in draft pull request #3.
+- The production site has not been replaced by this rebuild.
+- Static verification passes 100 of 100 checks.
+- Three case-study routes remain unlinked and `noindex` until their evidence gates are closed.
+- The CV, internal Obstacle Challenge file and workplace photographs are not in the public build.
 
-- the current fact: Kris is an L&D Coordinator;
-- the evidence: real programs and systems already delivered;
-- the direction: a transparent capability roadmap toward L&D Manager and enterprise L&D leadership.
+## Stack
 
-The page is intentionally not a conventional online CV. It is an evidence-led personal brand built around human-centred learning, AI-enabled systems and business-minded growth.
+- Next.js App Router and TypeScript
+- Tailwind CSS with named design tokens
+- MDX case-study content
+- Static export for GitHub Pages
+- Self-hosted Fraunces, Inter and JetBrains Mono fonts
 
-## Structure
+## Local development
 
-```text
-.
-├── index.html
-├── assets/
-│   ├── portrait.webp
-│   ├── og-image.png
-│   ├── favicon.svg
-│   ├── apple-touch-icon.png
-│   └── site.webmanifest
-├── .nojekyll
-├── .gitignore
-├── CLAUDE.md
-└── README.md
-```
-
-The six main sections are:
-
-1. Position
-2. Evidence
-3. Story
-4. Edge
-5. Learning
-6. Roadmap
-
-The Learning section includes an interactive archive of 325 books and 81 films, with category filters, Vietnamese-insensitive search, favourite markers and reread counts. Contact follows as the closing call to action.
-
-## Preview locally
-
-Open `index.html` directly, or serve the repository root:
+Requirements: Node.js 22 and npm.
 
 ```bash
-python3 -m http.server 8000
+npm ci
+npm run dev
 ```
 
-Then open `http://localhost:8000`.
+Open `http://localhost:3000`.
 
-## Deployment
+## Required checks
 
-GitHub Pages serves the repository root from `main`.
+Run these before every pull request or deployment:
 
-1. Commit a change.
-2. Push to `main`.
-3. Wait for GitHub Pages to publish.
-4. Hard-refresh the live URL if a cached version appears.
+```bash
+npm run check:copy
+npm run lint
+npm run build
+npm run verify:static
+```
 
-## Editing principles
+`check:copy` blocks the agreed filler terms and unicode dash characters in public source copy. Published titles in `lib/reading-data.ts` are excluded so source titles remain unchanged.
 
-- Keep the current title accurate.
-- Treat L&D Manager as a future direction, never as a current credential.
-- Lead with evidence rather than adjectives.
-- Do not invent metrics, qualifications, dates or testimonials.
-- Keep the site concise enough for a recruiter to understand the story in one visit.
-- Preserve the one-file, no-build architecture.
+Inside a restricted container that does not expose Node process-memory data, use `npm run build:sandbox`. GitHub Actions uses Node 22 and the normal build command.
 
-## Privacy
+## Where to edit content
 
-Only city-level location is public: `Da Nang · Ho Chi Minh City, Viet Nam`.
+| Content | File |
+|---|---|
+| Name, contact links, metadata defaults and navigation | `lib/site.ts` |
+| Case-card summaries, project cards, articles, timeline and supporting work | `lib/content.ts` |
+| Home page sections | `app/page.tsx` |
+| Work overview | `app/work/page.tsx` |
+| About page | `app/about/page.tsx` |
+| Digital-work index | `app/digital-work/page.tsx` |
+| Reading and film source records | `lib/reading-data.ts` |
+| Manual case narrative | `content/case-studies/ld-operating-manual.mdx` |
+| Role-path case narrative | `content/case-studies/role-based-learning-paths.mdx` |
+| Culture Week case narrative | `content/case-studies/marriott-culture-week.mdx` |
+| Colours, typography, spacing, focus and motion | `app/globals.css` and `tailwind.config.ts` |
+| SEO, Open Graph and Person schema | `app/layout.tsx`, page metadata, `app/sitemap.ts` and `app/robots.ts` |
+| Publication gates and missing evidence | `NEEDS-CONFIRMATION.md` |
+| Prioritised future work | `BACKLOG.md` |
 
-Never add a residential address, house number, ward or map pin. The professional email and phone number are intentionally public.
+## How to add a case study
+
+1. Add an entry to `caseStudies` in `lib/content.ts` with a unique lowercase slug.
+2. Set `publicReady: false` while evidence is being reviewed.
+3. Add metric blocks that separate output, adoption and effect. Use `Not measured` where evidence does not exist.
+4. Create `content/case-studies/<slug>.mdx` with these required sections:
+   - Context
+   - Challenge
+   - What I designed
+   - How I ran it
+   - Outcome and evidence
+   - What I would do differently
+5. Create `app/work/<slug>/page.tsx` and render the MDX through `CaseLayout`.
+6. While gated, add `robots: { index: false, follow: false }` to the route metadata, add the route to the disallow list in `app/robots.ts`, and keep it out of `app/sitemap.ts`.
+7. Put only approved, redacted artifacts in `public/artifacts/<slug>/`.
+8. Add the exact evidence requirements to `NEEDS-CONFIRMATION.md`.
+9. Run the complete check sequence.
+10. After evidence approval, set `publicReady: true`, remove the route-specific robots block, add it to the sitemap, and verify the card becomes a valid whole-card link.
+
+Never use an unverified number as placeholder copy. Keep `[NEEDS INPUT]` markers in project documentation, not in public-facing text.
+
+## How to add a digital project card
+
+1. Add an object to `projects` in `lib/content.ts`.
+2. Supply `title`, `category`, `summary`, `capability` and the canonical `https` URL.
+3. Set `selected: true` only when the project belongs in the three-card featured group.
+4. Keep exactly three selected projects unless the home grid is intentionally redesigned.
+5. Confirm the live URL, project ownership and contribution boundary.
+6. Run the complete check sequence and test the external link before merging.
+
+## How to update the reading archive
+
+Edit `fiction`, `nonfiction` or `films` in `lib/reading-data.ts`. Preserve original titles and creators. The search interface derives its counts directly from these arrays.
+
+After editing, confirm the displayed totals and run `npm run build` so the static Reading route is regenerated.
+
+## How to add a CV
+
+1. Prepare a public version with verified dates, education status and approved contact details.
+2. Save it as `public/documents/nguyen-trung-kien-ld-cv.pdf`.
+3. Set `cvHref` in `lib/site.ts` to `/documents/nguyen-trung-kien-ld-cv.pdf`.
+4. Add the CV link only to the approved navigation, home and contact locations.
+5. Verify the download filename and PDF contents before merging.
+
+## How to add a case artifact
+
+1. Remove names, associate IDs, internal links, confidential figures and unapproved brand material.
+2. Confirm creator ownership and consent for every identifiable person.
+3. Place the approved file under `public/artifacts/<case-slug>/`.
+4. Replace the matching artifact gate in the case route with a semantic `figure`, a descriptive caption and meaningful alt text.
+5. Record the evidence source and approval in the case documentation.
+
+There is deliberately no public upload form. Repository review is the publication control.
+
+## Route map
+
+| Route | Status |
+|---|---|
+| `/` | Public |
+| `/work/` | Public |
+| `/digital-work/` | Public |
+| `/about/` | Public |
+| `/notes/reading/` | Public |
+| `/writing/` | Built, unlinked from primary navigation, `noindex` |
+| `/work/ld-operating-manual/` | Built, unlinked, `noindex, nofollow` |
+| `/work/role-based-learning-paths/` | Built, unlinked, `noindex, nofollow` |
+| `/work/marriott-culture-week/` | Built, unlinked, `noindex, nofollow` |
+| `/am-bang-tu/` | Preserved legacy route |
+| `/ban-do-chien-luoc/` | Preserved legacy route |
+
+## Deployment and rollback
+
+GitHub Actions builds and deploys `out/` from `main`. In repository settings, Pages must use GitHub Actions as its source.
+
+Deployment sequence:
+
+1. Review the pull request and verify no sensitive artifact is present.
+2. Run the required checks.
+3. Complete the browser checks listed in the Phase 6 report.
+4. Merge into `main`.
+5. Watch `Deploy portfolio to GitHub Pages` in the Actions tab.
+6. Verify all public and preserved routes in production.
+
+If a release breaks production, revert the merge commit:
+
+```bash
+git revert <merge-commit-sha>
+git push origin main
+```
+
+## Project records
+
+Research, positioning, copy, case-study, build, verification and handover outputs live in [`docs/project-phases`](docs/project-phases). Machine-readable QA evidence lives in [`docs/verification`](docs/verification). These records travel with the GitHub project.
+
+## Publication rules
+
+- Do not invent outcomes, participant numbers, dates, ownership or testimonials.
+- Report output, adoption and effect as separate evidence states.
+- Redact company, associate and participant information before publication.
+- Do not publish workplace photographs until consent and brand usage rights are confirmed.
+- Keep L&D Specialist as the target role and L&D Coordinator as the current role.
+- Do not turn a completed artifact into an effectiveness claim.

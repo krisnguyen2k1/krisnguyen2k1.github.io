@@ -1,0 +1,1200 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ẩm Băng Tử — Lửa trong tim, băng trong trí</title>
+  <meta name="description" content="Một khảo luận về Lương Khải Siêu, biệt hiệu Ẩm Băng Tử và bài học giữ một trái tim nóng bên cạnh cái đầu lạnh.">
+  <meta name="author" content="Không ghi trong bản thảo">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://krisnguyen2k1.github.io/am-bang-tu/">
+  <meta name="theme-color" content="#F4F6F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#10161A" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:url" content="https://krisnguyen2k1.github.io/am-bang-tu/">
+  <meta property="og:title" content="Ẩm Băng Tử — Lửa trong tim, băng trong trí">
+  <meta property="og:description" content="Biết uống nước đá, không phải để dập tắt ngọn lửa trong lòng, mà để ngọn lửa ấy cháy sáng lâu bền.">
+  <meta property="article:published_time" content="2026-07-27">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --paper: #f4f6f7;
+      --paper-deep: #e8edef;
+      --ink: #1b1f24;
+      --muted: #5b666d;
+      --line: #c9d1d5;
+      --ice: #3e6b7c;
+      --ice-deep: #284f5e;
+      --fire: #b4552d;
+      --panel: rgba(244, 246, 247, 0.88);
+      --serif: "Montserrat", Arial, sans-serif;
+      --sans: "Montserrat", Arial, sans-serif;
+      --reading: 68ch;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 5rem;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--fire);
+      outline-offset: 4px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 1000;
+      top: 0.75rem;
+      left: 0.75rem;
+      padding: 0.75rem 1rem;
+      background: var(--ink);
+      color: var(--paper);
+      font: 700 0.82rem/1 var(--sans);
+      letter-spacing: 0.04em;
+      transform: translateY(-180%);
+      transition: transform 180ms ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .progress-track {
+      position: fixed;
+      z-index: 999;
+      inset: 0 0 auto;
+      height: 4px;
+      background: color-mix(in srgb, var(--paper-deep) 74%, transparent);
+    }
+
+    .progress-bar {
+      width: 0;
+      height: 100%;
+      background: var(--ice);
+      transform-origin: left;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 94svh;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+      background: #dfe7ea;
+      color: #172027;
+      isolation: isolate;
+    }
+
+    .hero-art {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(232, 238, 240, 0.94) 0%, rgba(232, 238, 240, 0.78) 38%, rgba(232, 238, 240, 0.06) 72%),
+        linear-gradient(0deg, rgba(19, 27, 32, 0.5) 0%, transparent 38%);
+    }
+
+    .hero-inner {
+      width: min(90rem, calc(100% - 3rem));
+      min-height: 94svh;
+      margin: 0 auto;
+      padding: clamp(7rem, 13vh, 10rem) 0 3rem;
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(20rem, 1.1fr);
+      align-items: center;
+    }
+
+    .hero-copy {
+      max-width: 46rem;
+    }
+
+    .kicker,
+    .section-number,
+    .hero-meta,
+    .toc-label,
+    .annotation strong,
+    .quote-label,
+    .timeline time,
+    .footer-label {
+      font-family: var(--sans);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .kicker {
+      margin: 0 0 1.25rem;
+      color: var(--ice-deep);
+      font-size: 0.76rem;
+      font-weight: 750;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: var(--sans);
+      font-size: clamp(4.25rem, 11vw, 9.5rem);
+      font-weight: 620;
+      line-height: 0.86;
+      letter-spacing: -0.075em;
+    }
+
+    .hero-subtitle {
+      max-width: 37rem;
+      margin: 2rem 0 0;
+      font-size: clamp(1.12rem, 2vw, 1.46rem);
+      line-height: 1.55;
+      color: #33424a;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem 1.25rem;
+      margin-top: 2rem;
+      color: #44535a;
+      font-size: 0.7rem;
+      font-weight: 680;
+    }
+
+    .hero-meta span + span {
+      position: relative;
+    }
+
+    .hero-meta span + span::before {
+      content: "·";
+      position: absolute;
+      left: -0.8rem;
+    }
+
+    .hero-lead {
+      max-width: 32rem;
+      margin: clamp(3rem, 9vh, 6rem) 0 0;
+      padding-left: 1.25rem;
+      border-left: 2px solid var(--fire);
+      font-size: clamp(1.02rem, 1.7vw, 1.25rem);
+      font-style: italic;
+      line-height: 1.65;
+    }
+
+    .scroll-cue {
+      display: inline-block;
+      margin-top: 2.25rem;
+      color: #405059;
+      font: 700 0.69rem/1 var(--sans);
+      letter-spacing: 0.16em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .scroll-cue::after {
+      content: "";
+      display: inline-block;
+      width: 2.5rem;
+      height: 1px;
+      margin: 0 0 0.2rem 0.75rem;
+      background: currentColor;
+      transition: width 180ms ease;
+    }
+
+    .scroll-cue:hover::after {
+      width: 3.5rem;
+    }
+
+    .layout {
+      width: min(94rem, calc(100% - 3rem));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 15rem minmax(0, 1fr);
+      gap: clamp(3rem, 6vw, 7rem);
+      align-items: start;
+    }
+
+    .toc-shell {
+      position: sticky;
+      top: 4.5rem;
+      align-self: start;
+      max-height: calc(100svh - 6rem);
+      padding: 6rem 0 2rem;
+      overflow: auto;
+      scrollbar-width: thin;
+    }
+
+    .toc-label {
+      margin: 0 0 1rem;
+      color: var(--muted);
+      font-size: 0.68rem;
+      font-weight: 760;
+    }
+
+    .toc {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border-left: 1px solid var(--line);
+    }
+
+    .toc a {
+      display: block;
+      margin-left: -1px;
+      padding: 0.48rem 0 0.48rem 1rem;
+      border-left: 2px solid transparent;
+      color: var(--muted);
+      font: 590 0.81rem/1.42 var(--sans);
+      text-decoration: none;
+      transition: border-color 150ms ease, color 150ms ease, transform 150ms ease;
+    }
+
+    .toc a:hover,
+    .toc a[aria-current="true"] {
+      border-color: var(--ice);
+      color: var(--ice-deep);
+      transform: translateX(0.2rem);
+    }
+
+    .mobile-toc {
+      display: none;
+    }
+
+    .essay {
+      min-width: 0;
+      padding: clamp(5.5rem, 10vw, 9rem) 0 8rem;
+    }
+
+    .reading-column {
+      width: min(100%, var(--reading));
+      margin-inline: auto;
+    }
+
+    .deck {
+      margin: 0 0 7rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font: 480 clamp(1.05rem, 1.7vw, 1.28rem)/1.72 var(--sans);
+    }
+
+    .essay-section {
+      margin: 0 0 clamp(7rem, 13vw, 11rem);
+    }
+
+    .section-number {
+      display: block;
+      margin-bottom: 1rem;
+      color: var(--fire);
+      font-size: 0.68rem;
+      font-weight: 780;
+    }
+
+    h2 {
+      max-width: 16ch;
+      margin: 0 0 2.75rem;
+      font-family: var(--sans);
+      font-size: clamp(2.3rem, 5vw, 4.9rem);
+      font-weight: 610;
+      line-height: 0.98;
+      letter-spacing: -0.055em;
+      text-wrap: balance;
+    }
+
+    .essay p {
+      margin: 0 0 1.75em;
+      font-size: clamp(1.19rem, 1.48vw, 1.31rem);
+      line-height: 1.78;
+      hanging-punctuation: first last;
+    }
+
+    .essay-section > .reading-column > p:first-of-type::first-letter {
+      float: left;
+      margin: 0.11em 0.12em 0 0;
+      color: var(--ice-deep);
+      font-family: var(--sans);
+      font-size: 4.55em;
+      font-weight: 650;
+      line-height: 0.76;
+    }
+
+    .text-divider {
+      width: min(100%, var(--reading));
+      margin: -4rem auto 7rem;
+      border: 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .text-divider::after {
+      content: "";
+      display: block;
+      width: 0.5rem;
+      height: 0.5rem;
+      margin: -0.3rem auto 0;
+      border: 1px solid var(--ice);
+      background: var(--paper);
+      transform: rotate(45deg);
+    }
+
+    .source-quote {
+      position: relative;
+      width: min(100%, 54rem);
+      margin: 3.5rem auto;
+      padding: clamp(2rem, 5vw, 4rem);
+      border-block: 1px solid var(--ice);
+      text-align: center;
+    }
+
+    .source-quote::before {
+      content: "冰";
+      display: block;
+      margin-bottom: 1.25rem;
+      color: var(--ice);
+      font-family: var(--serif);
+      font-size: 3.2rem;
+      line-height: 1;
+    }
+
+    .quote-label {
+      display: block;
+      margin-bottom: 1.5rem;
+      color: var(--muted);
+      font-size: 0.67rem;
+      font-style: normal;
+      font-weight: 760;
+    }
+
+    .source-quote blockquote {
+      margin: 0;
+    }
+
+    .source-quote .original {
+      margin: 0;
+      font-size: clamp(1.55rem, 3.2vw, 2.35rem);
+      font-style: italic;
+      line-height: 1.45;
+    }
+
+    .source-quote figcaption {
+      margin-top: 1.75rem;
+      color: var(--muted);
+      font-size: 0.98rem;
+      line-height: 1.7;
+    }
+
+    .annotation {
+      width: min(100%, var(--reading));
+      margin: 2.5rem auto;
+      padding: 1.2rem 1.35rem;
+      border-left: 2px solid var(--ice);
+      background: color-mix(in srgb, var(--paper-deep) 68%, transparent);
+      color: var(--muted);
+      font: 500 0.91rem/1.65 var(--sans);
+    }
+
+    .annotation strong {
+      display: block;
+      margin-bottom: 0.4rem;
+      color: var(--ice-deep);
+      font-size: 0.65rem;
+    }
+
+    .pull-quote {
+      width: min(88vw, 58rem);
+      margin: clamp(4rem, 8vw, 7rem) auto;
+      padding: 0 0 0 clamp(1.4rem, 3vw, 2.5rem);
+      border-left: 3px solid var(--fire);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: clamp(2rem, 4.7vw, 4.4rem);
+      font-weight: 570;
+      line-height: 1.07;
+      letter-spacing: -0.045em;
+      text-wrap: balance;
+    }
+
+    .pull-quote.ice {
+      border-left-color: var(--ice);
+    }
+
+    .pull-quote cite {
+      display: block;
+      margin-top: 1.25rem;
+      color: var(--muted);
+      font-size: 0.7rem;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .timeline-wrap {
+      width: min(100%, 76rem);
+      margin: 2rem auto clamp(7rem, 12vw, 10rem);
+      padding: 2.8rem 0;
+      border-block: 1px solid var(--line);
+    }
+
+    .timeline-title {
+      margin: 0 0 2.2rem;
+      color: var(--muted);
+      font: 760 0.68rem/1 var(--sans);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .timeline li {
+      position: relative;
+      min-height: 7.7rem;
+      padding: 1.35rem 1rem 0 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .timeline li::before {
+      content: "";
+      position: absolute;
+      top: -0.31rem;
+      left: 0;
+      width: 0.56rem;
+      height: 0.56rem;
+      border-radius: 50%;
+      background: var(--ice);
+    }
+
+    .timeline li:nth-child(2)::before,
+    .timeline li:nth-child(6)::before {
+      background: var(--fire);
+    }
+
+    .timeline time {
+      display: block;
+      margin-bottom: 0.7rem;
+      color: var(--ink);
+      font-size: 0.9rem;
+      font-weight: 780;
+    }
+
+    .timeline span {
+      display: block;
+      max-width: 13ch;
+      color: var(--muted);
+      font: 530 0.8rem/1.45 var(--sans);
+    }
+
+    .finale {
+      position: relative;
+      margin-top: 3rem;
+      padding: clamp(4rem, 9vw, 8rem) 0;
+      background: var(--ice-deep);
+      color: #f4f6f7;
+      overflow: hidden;
+    }
+
+    .finale::before {
+      content: "";
+      position: absolute;
+      inset: auto -10% -65% auto;
+      width: 36rem;
+      height: 36rem;
+      border: 1px solid rgba(244, 246, 247, 0.16);
+      border-radius: 50%;
+    }
+
+    .finale .essay-section {
+      margin-bottom: 0;
+    }
+
+    .finale .section-number {
+      color: #dda68d;
+    }
+
+    .finale h2 {
+      max-width: 13ch;
+    }
+
+    .finale .pull-quote {
+      color: #f4f6f7;
+      border-left-color: #d37b52;
+    }
+
+    .finale .pull-quote cite {
+      color: #c7d3d8;
+    }
+
+    footer {
+      padding: 4.5rem 0 5rem;
+      border-top: 1px solid var(--line);
+      background: var(--paper-deep);
+    }
+
+    .footer-grid {
+      width: min(76rem, calc(100% - 3rem));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 0.8fr;
+      gap: 3rem;
+    }
+
+    .footer-label {
+      display: block;
+      margin-bottom: 0.8rem;
+      color: var(--ice-deep);
+      font-size: 0.65rem;
+      font-weight: 780;
+    }
+
+    footer p,
+    footer li {
+      margin: 0;
+      color: var(--muted);
+      font: 500 0.82rem/1.65 var(--sans);
+    }
+
+    footer ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(1.4rem);
+      transition: opacity 700ms ease, transform 700ms ease;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    @media (max-width: 76rem) {
+      .layout {
+        grid-template-columns: 12rem minmax(0, 1fr);
+        gap: 3rem;
+      }
+
+      .hero-inner {
+        grid-template-columns: minmax(0, 1.15fr) minmax(12rem, 0.85fr);
+      }
+    }
+
+    @media (max-width: 58rem) {
+      .hero {
+        min-height: 88svh;
+      }
+
+      .hero-inner {
+        width: min(100% - 2rem, 46rem);
+        min-height: 88svh;
+        grid-template-columns: 1fr;
+        align-items: end;
+        padding-bottom: 3.2rem;
+      }
+
+      .hero::after {
+        background:
+          linear-gradient(0deg, rgba(232, 238, 240, 0.98) 0%, rgba(232, 238, 240, 0.79) 57%, rgba(232, 238, 240, 0.12) 100%);
+      }
+
+      h1 {
+        font-size: clamp(4rem, 19vw, 7rem);
+      }
+
+      .hero-lead {
+        margin-top: 2.5rem;
+      }
+
+      .layout {
+        display: block;
+        width: min(100% - 2rem, 52rem);
+      }
+
+      .toc-shell {
+        display: none;
+      }
+
+      .mobile-toc {
+        position: sticky;
+        z-index: 40;
+        top: 0.25rem;
+        display: block;
+        width: min(100% - 2rem, 52rem);
+        margin: 0 auto;
+        padding-top: 0.75rem;
+        font-family: var(--sans);
+      }
+
+      .mobile-toc button {
+        width: 100%;
+        min-height: 3rem;
+        padding: 0.8rem 1rem;
+        border: 1px solid var(--line);
+        border-radius: 0;
+        background: var(--panel);
+        color: var(--ink);
+        font: 730 0.72rem/1 var(--sans);
+        letter-spacing: 0.13em;
+        text-align: left;
+        text-transform: uppercase;
+        backdrop-filter: blur(14px);
+      }
+
+      .mobile-toc button::after {
+        content: "+";
+        float: right;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      .mobile-toc button[aria-expanded="true"]::after {
+        content: "−";
+      }
+
+      .mobile-toc nav {
+        display: none;
+        max-height: min(70svh, 34rem);
+        overflow: auto;
+        border: 1px solid var(--line);
+        border-top: 0;
+        background: var(--paper);
+      }
+
+      .mobile-toc nav.is-open {
+        display: block;
+      }
+
+      .mobile-toc .toc {
+        border: 0;
+        padding: 0.5rem 0;
+      }
+
+      .mobile-toc .toc a {
+        padding: 0.72rem 1rem;
+        border-left: 0;
+      }
+
+      .essay {
+        padding-top: 5rem;
+      }
+
+      .timeline {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.7rem 0;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 38rem) {
+      .hero-inner,
+      .layout,
+      .mobile-toc,
+      .footer-grid {
+        width: min(100% - 1.5rem, 36rem);
+      }
+
+      .hero-copy {
+        padding-bottom: 0;
+      }
+
+      .hero-meta {
+        display: grid;
+        gap: 0.55rem;
+      }
+
+      .hero-meta span + span::before {
+        display: none;
+      }
+
+      .essay {
+        padding-bottom: 4.5rem;
+      }
+
+      .deck {
+        margin-bottom: 5rem;
+      }
+
+      .essay-section {
+        margin-bottom: 6.5rem;
+      }
+
+      h2 {
+        font-size: clamp(2.45rem, 12.5vw, 3.7rem);
+      }
+
+      .essay p {
+        font-size: 1.16rem;
+        line-height: 1.75;
+      }
+
+      .pull-quote {
+        width: calc(100vw - 1.5rem);
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-size: clamp(1.8rem, 9.2vw, 3rem);
+      }
+
+      .pull-quote.reveal {
+        transform: translate(-50%, 1.4rem);
+      }
+
+      .pull-quote.reveal.is-visible {
+        transform: translateX(-50%);
+      }
+
+      .source-quote {
+        padding-inline: 1rem;
+      }
+
+      .timeline {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline li {
+        min-height: auto;
+        padding-bottom: 0.6rem;
+      }
+
+      .timeline span {
+        max-width: none;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #10161a;
+        --paper-deep: #182126;
+        --ink: #edf1f2;
+        --muted: #b1bdc2;
+        --line: #3c4a50;
+        --ice: #79a9ba;
+        --ice-deep: #9bc0cc;
+        --fire: #d47a51;
+        --panel: rgba(16, 22, 26, 0.9);
+      }
+
+      .hero {
+        background: #1c2b32;
+        color: #f4f6f7;
+      }
+
+      .hero::after {
+        background:
+          linear-gradient(90deg, rgba(16, 22, 26, 0.96) 0%, rgba(16, 22, 26, 0.78) 38%, rgba(16, 22, 26, 0.06) 72%),
+          linear-gradient(0deg, rgba(5, 8, 10, 0.72) 0%, transparent 44%);
+      }
+
+      .hero-art {
+        opacity: 0.72;
+        filter: brightness(0.72) saturate(0.65);
+      }
+
+      .hero-subtitle,
+      .hero-meta,
+      .scroll-cue {
+        color: #c7d3d8;
+      }
+
+      .text-divider::after {
+        background: var(--paper);
+      }
+
+      @media (max-width: 58rem) {
+        .hero::after {
+          background:
+            linear-gradient(0deg, rgba(16, 22, 26, 0.98) 0%, rgba(16, 22, 26, 0.78) 57%, rgba(16, 22, 26, 0.16) 100%);
+        }
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#noi-dung">Bỏ qua phần mở đầu</a>
+  <div class="progress-track" aria-hidden="true"><div class="progress-bar" id="progressBar"></div></div>
+
+  <header class="hero" aria-labelledby="page-title">
+    <svg class="hero-art" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="hero-art-title hero-art-desc">
+      <title id="hero-art-title">Người lữ hành giữa biển sương</title>
+      <desc id="hero-art-desc">Một dáng người nhỏ đứng trước núi non và biển sương rộng lớn, gợi tinh thần lãng mạn và trầm mặc.</desc>
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#cbd9de"/>
+          <stop offset="0.58" stop-color="#eaf0f1"/>
+          <stop offset="1" stop-color="#aebdc3"/>
+        </linearGradient>
+        <linearGradient id="fog" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#eef3f4" stop-opacity=".2"/>
+          <stop offset=".5" stop-color="#f7f9f9" stop-opacity=".92"/>
+          <stop offset="1" stop-color="#dbe4e7" stop-opacity=".35"/>
+        </linearGradient>
+        <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+          <feGaussianBlur stdDeviation="17"/>
+        </filter>
+      </defs>
+      <rect width="1600" height="1000" fill="url(#sky)"/>
+      <path d="M0 585L210 410L350 495L510 320L700 520L870 410L1020 535L1220 350L1440 465L1600 365V1000H0Z" fill="#82969e" opacity=".47"/>
+      <path d="M0 665L165 555L305 610L455 505L620 655L820 530L1020 650L1200 500L1390 590L1600 515V1000H0Z" fill="#586d75" opacity=".58"/>
+      <path d="M0 640C220 545 330 735 560 645C760 565 815 695 1035 630C1285 555 1370 710 1600 610V850H0Z" fill="url(#fog)" filter="url(#soft)"/>
+      <path d="M0 725C190 635 365 815 575 712C770 617 905 790 1115 700C1290 625 1430 760 1600 685V925H0Z" fill="#edf2f3" opacity=".76" filter="url(#soft)"/>
+      <path d="M0 1000V835L165 720L240 765L355 680L460 762L548 710L695 830L800 765L930 855L1060 735L1180 810L1340 690L1480 780L1600 720V1000Z" fill="#263139"/>
+      <path d="M840 1000L888 836L934 786L1005 766L1082 809L1154 904L1210 1000Z" fill="#1c252b"/>
+      <g transform="translate(1015 610)">
+        <circle cx="0" cy="0" r="28" fill="#8f6749"/>
+        <path d="M-22-13C-14-41 28-40 31-12C17-24-2-22-22-13Z" fill="#3b302b"/>
+        <path d="M-36 35L-11 21L20 28L50 146L28 255L-33 255L-58 146Z" fill="#172027"/>
+        <path d="M34 49L81 156L61 167L16 76Z" fill="#172027"/>
+        <path d="M-28 251L-44 364L-17 369L4 257Z" fill="#172027"/>
+        <path d="M20 251L39 365L67 360L49 250Z" fill="#172027"/>
+        <path d="M75 150L83 343" stroke="#4a2f23" stroke-width="7" stroke-linecap="round"/>
+      </g>
+    </svg>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="kicker">Long-form essay · Lửa &amp; băng</p>
+        <h1 id="page-title">Ẩm Băng<br>Tử</h1>
+        <p class="hero-subtitle">Một trái tim bốc lửa vì đại nghĩa và một cái đầu lạnh như băng để soi đường.</p>
+        <div class="hero-meta" aria-label="Thông tin bài viết">
+          <span>Tác giả: Không ghi trong bản thảo</span>
+          <span>27.07.2026</span>
+          <span>Khoảng 15 phút đọc</span>
+        </div>
+        <p class="hero-lead">“Biết uống nước đá, không phải để dập tắt ngọn lửa trong lòng, mà để ngọn lửa ấy cháy sáng lâu bền và soi rọi được cho người khác.”</p>
+        <a class="scroll-cue" href="#noi-dung">Bắt đầu đọc</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-toc">
+    <button type="button" id="tocToggle" aria-expanded="false" aria-controls="mobileTocNav">Mục lục</button>
+    <nav id="mobileTocNav" aria-label="Mục lục trên thiết bị di động">
+      <ol class="toc">
+        <li><a href="#can-nguyen">Căn nguyên hai chữ Ẩm Băng</a></li>
+        <li><a href="#noi-nhiet">Ngọn lửa của trách nhiệm</a></li>
+        <li><a href="#mau-tuat">Mùa thu Mậu Tuất</a></li>
+        <li><a href="#tan-dan">Tân Dân và ngọn bút</a></li>
+        <li><a href="#tu-phu-dinh">Dũng khí tự phủ định</a></li>
+        <li><a href="#viet-nam">Ngọn lửa vượt biên giới</a></li>
+        <li><a href="#cai-gia">Cái giá của một đời cháy sáng</a></li>
+        <li><a href="#bai-hoc">Bài học vượt thời gian</a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <main id="noi-dung" class="layout">
+    <aside class="toc-shell" aria-label="Mục lục bài viết">
+      <p class="toc-label">Mục lục</p>
+      <ol class="toc">
+        <li><a href="#can-nguyen">Căn nguyên hai chữ Ẩm Băng</a></li>
+        <li><a href="#noi-nhiet">Ngọn lửa của trách nhiệm</a></li>
+        <li><a href="#mau-tuat">Mùa thu Mậu Tuất</a></li>
+        <li><a href="#tan-dan">Tân Dân và ngọn bút</a></li>
+        <li><a href="#tu-phu-dinh">Dũng khí tự phủ định</a></li>
+        <li><a href="#viet-nam">Ngọn lửa vượt biên giới</a></li>
+        <li><a href="#cai-gia">Cái giá của một đời cháy sáng</a></li>
+        <li><a href="#bai-hoc">Bài học vượt thời gian</a></li>
+      </ol>
+    </aside>
+
+    <article class="essay">
+      <p class="deck reading-column reveal">Lương Khải Siêu, người tự nhận mình là “người uống nước đá”, đã sống giữa hai lực kéo: một ngọn lửa yêu nước đủ sức thiêu đốt và một lý trí đủ lạnh để dẫn đường.</p>
+
+      <section id="can-nguyen" class="essay-section" aria-labelledby="heading-can-nguyen">
+        <div class="reading-column">
+          <span class="section-number">Phần I</span>
+          <h2 id="heading-can-nguyen">Căn nguyên hai chữ Ẩm Băng</h2>
+          <p>Lương Khải Siêu (1873 - 1929) là một nhà tư tưởng, nhà báo, và là học trò xuất sắc của Khang Hữu Vi. Hai ông là những người lãnh đạo phong trào Biến pháp Mậu Tuất (1898) với mong muốn duy tân, canh tân đất nước Trung Hoa đang rệu rã dưới thời nhà Thanh.</p>
+          <p>Khi chứng kiến cảnh đất nước bị các cường quốc xâu xé, triều đình hủ bại, Lương Khải Siêu ngày đêm lo âu, sục sôi chí khí cứu nước. Lòng nhiệt huyết và sự lo lắng của ông lớn đến mức ông cảm thấy tâm can mình lúc nào cũng như có lửa đốt.</p>
+          <p>Để tự răn mình phải giữ một "cái đầu lạnh", sự bình tĩnh và lý trí trong công cuộc cứu quốc, Lương Khải Siêu đã mượn một điển tích trong sách Trang Tử để đặt bút hiệu cho mình.</p>
+          <p>Trong thiên Nhân gian thế của Trang Tử có câu:</p>
+        </div>
+
+        <figure class="source-quote reveal">
+          <span class="quote-label">Trang Tử · Nhân gian thế</span>
+          <blockquote>
+            <p class="original">"Kim ngô triều thụ mệnh nhi tịch ẩm băng, ngã kỳ nội nhiệt dữ?"</p>
+          </blockquote>
+          <figcaption>(Nghĩa là: Nay tôi buổi sáng nhận mệnh lệnh [đi sứ], mà buổi tối phải uống nước đá, chẳng phải vì trong lòng tôi quá nóng nảy, lo âu hay sao?).</figcaption>
+        </figure>
+
+        <aside class="annotation reveal">
+          <strong>Chú thích điển tích</strong>
+          “Ẩm băng” nghĩa là uống nước đá; trong ngữ cảnh này, đó là cách làm dịu cái “nội nhiệt” do sứ mệnh và lo âu thiêu đốt.
+        </aside>
+
+        <div class="reading-column">
+          <p>Lấy cảm hứng từ câu này, Lương Khải Siêu tự đặt biệt hiệu cho mình là Ẩm Băng Tử (Người uống nước đá) và đặt tên cho thư phòng (phòng đọc sách, làm việc) của mình là Ẩm Băng Thất (Ngôi nhà uống nước đá). Sau này, toàn bộ các tác phẩm văn luận, bài báo của ông được tập hợp lại thành bộ sách đồ sộ rất nổi tiếng mang tên Ẩm Băng Thất hợp tập.</p>
+          <p>Học giả Nguyễn Hiến Lê, trong các công trình nghiên cứu về văn học Trung Quốc, đã giải thích rất rõ chi tiết này. Ông phân tích rằng chữ "uống nước đá" ở đây là một sự ẩn dụ bi tráng: Lòng yêu nước của Lương Khải Siêu cuồng nhiệt đến mức nếu không có "nước đá" (sự lý trí, điềm tĩnh) để kiềm chế thì ông sẽ bị thiêu rụi bởi chính sự nôn nóng cứu nước đó. Người Pháp khi dịch bút hiệu của ông cũng dịch sát nghĩa là Buveur de glaçons.</p>
+        </div>
+      </section>
+
+      <hr class="text-divider" aria-hidden="true">
+
+      <section id="noi-nhiet" class="essay-section" aria-labelledby="heading-noi-nhiet">
+        <div class="reading-column">
+          <span class="section-number">Phần II</span>
+          <h2 id="heading-noi-nhiet">Ngọn lửa của trách nhiệm</h2>
+          <p>Cái "nội nhiệt" mà Trang Tử nói đến không phải là bệnh tật của thân xác, mà là ngọn lửa của trách nhiệm. Người nhận mệnh đi sứ buổi sáng, đến tối đã phải uống nước đá, ấy là vì gánh nặng của sứ mệnh đốt cháy tâm can từ bên trong. Lương Khải Siêu tự nhận mình là "người uống nước đá" chính là để thừa nhận rằng ông đang sống trong tình trạng ấy mỗi ngày. Đất nước đang tan rã, cường quốc đang xâu xé, đồng bào đang mê ngủ, và một mình ông cảm thấy như phải gánh cả sơn hà trên đôi vai gầy. Ngọn lửa yêu nước ấy nếu không được kiềm chế thì sẽ thiêu rụi chính người mang nó, biến nhiệt huyết thành sự nôn nóng mù quáng, biến lòng cứu quốc thành những hành động hồ đồ.</p>
+          <p>Điều đáng nói là Lương Khải Siêu không chọn cách dập tắt ngọn lửa. Ông không muốn trở thành một kẻ vô cảm, một người bàng quan trước vận nước. Ông chỉ muốn có "nước đá" để giữ cho ngọn lửa ấy cháy đúng cách: đủ nóng để soi đường và sưởi ấm, nhưng không đủ dữ để hủy diệt. Đó là sự cân bằng tinh tế giữa lý trí và tình cảm, giữa cái đầu và trái tim, mà cả một đời ông theo đuổi. Và như chúng ta sẽ thấy, chính sự theo đuổi ấy đã làm nên một trong những nhân cách trí thức phức tạp và đáng khâm phục nhất của lịch sử Đông Á cận đại.</p>
+        </div>
+
+        <blockquote class="pull-quote ice reveal">
+          Đủ nóng để soi đường và sưởi ấm, nhưng không đủ dữ để hủy diệt.
+          <cite>Ẩm Băng Tử</cite>
+        </blockquote>
+      </section>
+
+      <section id="mau-tuat" class="essay-section" aria-labelledby="heading-mau-tuat">
+        <div class="reading-column">
+          <span class="section-number">Phần III</span>
+          <h2 id="heading-mau-tuat">Mùa thu Mậu Tuất</h2>
+          <p>Để hiểu vì sao "nước đá" lại quan trọng đến thế với ông, ta phải quay về mùa thu năm 1898. Cuộc Biến pháp Mậu Tuất mà ông cùng thầy là Khang Hữu Vi dốc lòng cổ vũ đã chỉ tồn tại vỏn vẹn một trăm lẻ ba ngày. Vua Quang Tự bị Từ Hi Thái hậu giam lỏng. Cuộc canh tân bị bóp nghẹt trong máu. Đàm Tự Đồng, một trong những chí sĩ can trường nhất của phong trào, đã từ chối bỏ trốn. Ông chọn ở lại để chịu chém, nói rằng ở các nước khác, mọi cuộc cải cách đều phải có người đổ máu mới thành, còn ở Trung Quốc thì chưa nghe ai đổ máu vì biến pháp, vậy hãy để việc ấy bắt đầu từ ông. Sáu chí sĩ bị hành hình, sử sách gọi là "Mậu Tuất lục quân tử". Khang Hữu Vi và Lương Khải Siêu may mắn thoát được, phải sống lưu vong nơi đất khách.</p>
+          <p>Hãy hình dung tâm trạng của Lương Khải Siêu khi ấy. Ông mới hai mươi lăm tuổi. Người bạn, người đồng chí vừa bị chém đầu vì lý tưởng chung. Đất nước ông muốn cứu thì vẫn chìm trong u mê. Còn bản thân ông thì thành kẻ lưu vong, bị triều đình treo giá cái đầu. Trong hoàn cảnh ấy, một người bình thường có thể sẽ gục ngã trong tuyệt vọng, hoặc trở nên cực đoan, hằn học, chỉ còn biết đến hận thù và bạo lực. Ngọn lửa nội nhiệt hoàn toàn có thể thiêu cháy ông. Nhưng đây chính là lúc "nước đá" phát huy tác dụng.</p>
+          <p>Sang Nhật Bản, Lương Khải Siêu không cầm gươm mà cầm bút. Ông nhận ra rằng thứ vũ khí lợi hại nhất để cứu một dân tộc đang mê ngủ không phải là một cuộc chính biến chớp nhoáng ở thượng tầng, mà là công cuộc khai dân trí bền bỉ ở tầng sâu. Muốn đổi mới đất nước, trước hết phải đổi mới con người. Đó là tư tưởng cốt lõi mà ông gọi là "Tân Dân", nghĩa là làm mới người dân, xây dựng một mẫu công dân mới cho một quốc gia mới. Ông lập ra các tờ báo, trước là Thanh Nghị Báo, sau là Tân Dân Tùng Báo, và từ đó tuôn ra một dòng thác văn chương chính luận chưa từng có.</p>
+        </div>
+      </section>
+
+      <div class="timeline-wrap reveal" aria-label="Dòng thời gian Lương Khải Siêu">
+        <p class="timeline-title">Những mốc thời gian trong bài</p>
+        <ol class="timeline">
+          <li><time datetime="1873">1873</time><span>Lương Khải Siêu (1873 - 1929)</span></li>
+          <li><time datetime="1898">1898</time><span>Biến pháp Mậu Tuất</span></li>
+          <li><time datetime="1900">1900</time><span>“Thiếu niên Trung Quốc thuyết”</span></li>
+          <li><time datetime="1905">1905</time><span>Phan Bội Châu sang Nhật Bản</span></li>
+          <li><time datetime="1915">1915</time><span>Viên Thế Khải mưu toan xưng đế</span></li>
+          <li><time datetime="1929">1929</time><span>Ông qua đời</span></li>
+        </ol>
+      </div>
+
+      <section id="tan-dan" class="essay-section" aria-labelledby="heading-tan-dan">
+        <div class="reading-column">
+          <span class="section-number">Phần IV</span>
+          <h2 id="heading-tan-dan">Tân Dân và ngọn bút</h2>
+          <p>Lối văn của ông, người đời sau gọi là "Tân Dân thể", đã làm rung chuyển cả một thế hệ. Đó là thứ văn phá vỡ mọi khuôn sáo cổ điển gò bó, viết bằng ngôn ngữ gần với lời nói thường ngày, chan chứa cảm xúc, cuồn cuộn khí thế, có sức lay động lòng người ghê gớm. Có người nhận xét rằng văn Lương Khải Siêu như có một thứ ma lực, đọc lên là máu nóng sôi trào, khiến kẻ hèn nhát cũng muốn đứng dậy làm anh hùng. Đây chính là chỗ tài tình của ông: ông không giết chết ngọn lửa trong lòng mình, mà chuyển hóa nó thành ngọn lửa trong lòng hàng triệu độc giả. Nội nhiệt của một người biến thành nhiệt huyết của cả một dân tộc.</p>
+          <p>Áng văn tiêu biểu nhất cho tinh thần ấy là bài "Thiếu niên Trung Quốc thuyết" viết năm 1900. Trong đó, ông bác bỏ cái luận điệu bi quan cho rằng Trung Quốc là một "lão đại đế quốc" già nua sắp chết. Ông tuyên bố rằng một Trung Quốc già cỗi là của các thế hệ đã qua, còn tương lai thuộc về một Trung Quốc thiếu niên, trẻ trung và tràn đầy sinh lực. Câu nói bất hủ "thiếu niên cường tắc quốc cường", nghĩa là tuổi trẻ mạnh thì đất nước mạnh, cho đến nay vẫn còn vang vọng. Ở đây, ta thấy rõ sự hòa quyện giữa lửa và băng: nhiệt huyết bừng bừng được dẫn dắt bởi một tầm nhìn sáng suốt, biết đặt niềm tin vào đúng nơi có thể sinh ra thay đổi thực sự, đó là thế hệ trẻ.</p>
+        </div>
+
+        <blockquote class="pull-quote reveal">
+          “Thiếu niên cường tắc quốc cường.”
+          <cite>Thiếu niên Trung Quốc thuyết · 1900</cite>
+        </blockquote>
+      </section>
+
+      <section id="tu-phu-dinh" class="essay-section" aria-labelledby="heading-tu-phu-dinh">
+        <div class="reading-column">
+          <span class="section-number">Phần V</span>
+          <h2 id="heading-tu-phu-dinh">Dũng khí tự phủ định</h2>
+          <p>Thế nhưng, phẩm chất khiến tôi kính phục Lương Khải Siêu nhất không nằm ở tài văn chương, mà nằm ở một điều hiếm có hơn nhiều: sự trung thực với chân lý, kể cả khi chân lý ấy phủ nhận chính mình. Ông có một câu nói nổi tiếng, đại ý rằng ông không ngần ngại lấy cái tôi của hôm nay để công kích cái tôi của ngày hôm qua. "Bất tích dĩ kim nhật chi ngã, nan tích nhật chi ngã." Đây là một tuyên ngôn về lòng dũng cảm trí thức. Phần lớn con người ta, một khi đã đưa ra một quan điểm, đã xây dựng danh tiếng trên một lập trường, thì sẽ bảo vệ nó đến cùng, ngay cả khi đã biết nó sai. Cái tôi không cho phép họ thừa nhận sai lầm. Họ đọc sách chỉ để tìm những gì củng cố cho niềm tin sẵn có, biến tri thức thành công cụ để tự vệ chứ không phải để soi sáng.</p>
+        </div>
+
+        <blockquote class="pull-quote ice reveal">
+          “Bất tích dĩ kim nhật chi ngã, nan tích nhật chi ngã.”
+          <cite>Lương Khải Siêu</cite>
+        </blockquote>
+
+        <div class="reading-column">
+          <p>Lương Khải Siêu thì ngược lại. Ông sẵn sàng thay đổi quan điểm khi thực tế chứng minh ông đã sai. Ông coi việc trưởng thành về tư tưởng, việc dám phủ nhận con người cũ của mình để bước tới một nhận thức đúng đắn hơn, là điều đáng tự hào chứ không phải điều đáng xấu hổ. Đây chính là biểu hiện cao nhất của cái "đầu lạnh". Bởi giữ cái đầu lạnh không chỉ là bình tĩnh trước biến cố bên ngoài, mà sâu xa hơn, là đủ tỉnh táo để nhìn lại và phán xét chính bản thân mình một cách công bằng. Kẻ để cho nội nhiệt thiêu đốt sẽ bám chặt vào lập trường cũ như bám vào một tín điều, còn người biết uống nước đá thì đủ tỉnh để buông bỏ cái sai, dù cái sai ấy là của chính mình.</p>
+          <p>Sự khác biệt này thể hiện rõ nhất qua mối quan hệ đầy bi kịch giữa ông và người thầy Khang Hữu Vi. Hai thầy trò từng sát cánh trong cuộc biến pháp, cùng chung một lý tưởng duy tân. Nhưng thời cuộc đổi thay, và con đường của họ dần rẽ đôi. Khang Hữu Vi càng về sau càng trở nên bảo thủ, cứng nhắc. Ông vẫn khăng khăng trung thành với nhà Thanh, vẫn mơ về chế độ quân chủ lập hiến với một ông vua trên ngai, thậm chí về cuối đời còn dính líu đến âm mưu phục hồi ngôi báu cho vị hoàng đế cuối cùng. Ngọn lửa lý tưởng trong lòng Khang Hữu Vi đã đông cứng lại thành một khối tín điều không gì lay chuyển nổi. Ông là một người tài, nhưng là cái tài của một kẻ không còn khả năng học hỏi cái mới.</p>
+          <p>Lương Khải Siêu, dù mang ơn thầy sâu nặng, đã không thể đi theo con đường ấy. Ông tách dần khỏi những quan điểm mà ông cho là đã lỗi thời. Và khi Viên Thế Khải mưu toan xưng đế, phản bội nền cộng hòa non trẻ, chính Lương Khải Siêu là người viết những bài chính luận đanh thép để phản đối, rồi trực tiếp góp sức vào phong trào chống lại âm mưu ấy. Ông dám đối đầu với những thế lực mà trước đó ông từng hợp tác. Ở đây, ta thấy hai số phận trí thức đối lập: một người để ngọn lửa của mình đông cứng thành sự cố chấp, một người biết dùng nước đá để giữ cho lửa luôn tươi mới và biết chuyển hướng theo lẽ phải. Cuộc chia ly giữa hai thầy trò là một bi kịch, nhưng cũng là minh chứng cảm động nhất cho khí phách "lấy cái tôi hôm nay công kích cái tôi hôm qua" của họ Lương.</p>
+        </div>
+      </section>
+
+      <section id="viet-nam" class="essay-section" aria-labelledby="heading-viet-nam">
+        <div class="reading-column">
+          <span class="section-number">Phần VI</span>
+          <h2 id="heading-viet-nam">Ngọn lửa vượt biên giới</h2>
+          <p>Ảnh hưởng của Lương Khải Siêu không chỉ giới hạn trong biên giới Trung Hoa. Ngọn lửa từ ngòi bút của ông đã vượt biển, lan sang cả Việt Nam. Vào những năm đầu thế kỷ hai mươi, các "tân thư", tức những cuốn sách mới chứa đựng tư tưởng duy tân của Khang Hữu Vi và Lương Khải Siêu, đã bí mật truyền vào nước ta và làm bừng tỉnh cả một thế hệ sĩ phu. Phan Bội Châu, Phan Châu Trinh, những nhà chí sĩ hàng đầu của phong trào yêu nước Việt Nam thời ấy, đều chịu ảnh hưởng sâu sắc từ nguồn tư tưởng này. Chính những cuốn tân thư ấy đã mở mắt cho họ, cho họ thấy một thế giới rộng lớn bên ngoài lũy tre làng, và gợi ý cho họ những con đường cứu nước mới mẻ.</p>
+          <p>Đặc biệt, khi Phan Bội Châu sang Nhật Bản vào năm 1905 để khởi động phong trào Đông Du, ông đã trực tiếp gặp gỡ Lương Khải Siêu. Hai nhà cách mạng của hai dân tộc, cùng chung cảnh mất nước hoặc sắp mất nước, đã có những cuộc bút đàm sâu sắc. Lương Khải Siêu không chỉ cho Phan Bội Châu những lời khuyên chân thành về đường lối, mà còn giúp ông kết nối với các chính khách Nhật Bản. Cũng chính trong mối duyên ấy, tác phẩm "Việt Nam vong quốc sử", một áng văn bi thiết ghi lại nỗi đau mất nước của dân tộc ta, đã ra đời và được phổ biến qua sự trợ giúp của Lương Khải Siêu. Có thể nói, ngọn lửa "Ẩm Băng" đã âm thầm góp phần thắp sáng cả phong trào Duy Tân và Đông Kinh Nghĩa Thục trên đất Việt. Đây là điều mà không phải người đọc nào ngày nay cũng biết đến, và nó cho thấy trí tuệ chân chính không bao giờ bị giam hãm trong một biên giới.</p>
+        </div>
+      </section>
+
+      <section id="cai-gia" class="essay-section" aria-labelledby="heading-cai-gia">
+        <div class="reading-column">
+          <span class="section-number">Phần VII</span>
+          <h2 id="heading-cai-gia">Cái giá của một đời cháy sáng</h2>
+          <p>Tuy nhiên, sẽ là thiếu sót nếu chỉ nói về vinh quang mà quên đi cái giá phải trả. Đằng sau hình ảnh một bậc đại trí thức lẫy lừng là những năm tháng lưu vong đằng đẵng, xa quê hương, sống nhờ đất khách. Là nỗi cô đơn của một người đi trước thời đại, thường bị hiểu lầm, bị công kích từ cả hai phía: phe bảo hoàng chê ông quá cấp tiến, phe cách mạng chê ông quá ôn hòa. Suốt đời, ông đứng ở lằn ranh chông chênh giữa cải lương và cách mạng, giữa cái cũ và cái mới, và cái giá của vị trí ấy là sự cô độc. Ông làm việc không ngơi nghỉ, viết hàng nghìn trang sách, giảng dạy, hoạt động chính trị, đến mức sức khỏe hao mòn.</p>
+          <p>Cái chết của ông cũng mang một nỗi ngậm ngùi rất đời thường, rất "không hào nhoáng". Năm 1929, ở tuổi năm mươi sáu, ông qua đời sau một ca phẫu thuật thận được cho là đã có sai sót về y khoa. Một trong những bộ óc lớn nhất của thời đại, người từng khiến máu nóng của triệu người sôi trào, lại ra đi lặng lẽ trên giường bệnh vì một sự tắc trách. Không có tiếng súng, không có pháp trường, chỉ có sự mệt mỏi của một đời người đã cháy hết mình. Ngọn lửa nội nhiệt cuối cùng cũng lụi tàn, nhưng những gì nó soi sáng thì còn ở lại. Toàn bộ trước tác của ông, tập hợp trong bộ "Ẩm Băng Thất hợp tập" đồ sộ, vẫn là một kho tàng tư tưởng cho hậu thế.</p>
+        </div>
+
+        <blockquote class="pull-quote reveal">
+          Ngọn lửa nội nhiệt cuối cùng cũng lụi tàn, nhưng những gì nó soi sáng thì còn ở lại.
+          <cite>Một đời Ẩm Băng</cite>
+        </blockquote>
+      </section>
+    </article>
+  </main>
+
+  <div class="finale">
+    <article class="essay">
+      <section id="bai-hoc" class="essay-section" aria-labelledby="heading-bai-hoc">
+        <div class="reading-column">
+          <span class="section-number">Phần VIII</span>
+          <h2 id="heading-bai-hoc">Bài học vượt thời gian</h2>
+          <p>Nghĩ về Lương Khải Siêu và hai chữ "Ẩm Băng", tôi thấy ở đó một bài học vượt thời gian. Trong thời đại của chúng ta hôm nay, khi thông tin bùng nổ và cảm xúc dễ dàng bị kích động, khi mạng xã hội biến mỗi người thành một ngọn đuốc chực chờ bốc cháy vì phẫn nộ, thì hình ảnh "người uống nước đá" lại càng thấm thía. Chúng ta không thiếu những trái tim nóng. Cái chúng ta thiếu là những cái đầu lạnh biết đi kèm với trái tim ấy. Chúng ta không thiếu người sẵn sàng nổi giận vì một điều bất công. Cái chúng ta thiếu là người đủ tỉnh táo để nổi giận đúng chỗ, đúng lúc, và đủ khiêm nhường để nhận ra rằng có thể chính mình đang sai.</p>
+          <p>Lương Khải Siêu dạy chúng ta rằng lòng nhiệt thành mà không có lý trí dẫn đường thì chỉ là sự cuồng nhiệt vô ích, có khi còn phá hoại. Nhưng lý trí mà không có ngọn lửa của tình yêu và trách nhiệm thì lại lạnh lẽo, vô hồn. Cái khó, và cũng là cái vĩ đại, là biết ôm giữ cả hai cùng một lúc: một trái tim bốc lửa vì đại nghĩa và một cái đầu lạnh như băng để soi đường. Đó là ý nghĩa sâu xa nhất của biệt hiệu Ẩm Băng Tử. Và có lẽ, đó cũng là điều mà mỗi người trong chúng ta, dù ở thời đại nào, cũng cần học lấy: biết uống nước đá, không phải để dập tắt ngọn lửa trong lòng, mà để ngọn lửa ấy cháy sáng lâu bền và soi rọi được cho người khác.</p>
+        </div>
+
+        <blockquote class="pull-quote reveal">
+          Biết uống nước đá, không phải để dập tắt ngọn lửa trong lòng, mà để ngọn lửa ấy cháy sáng lâu bền và soi rọi được cho người khác.
+          <cite>Ẩm Băng Tử</cite>
+        </blockquote>
+      </section>
+    </article>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <span class="footer-label">Nguồn văn bản</span>
+        <p>Toàn bộ nội dung bài viết được giữ nguyên từ bản thảo do người dùng cung cấp.</p>
+      </div>
+      <div>
+        <span class="footer-label">Tư liệu được nhắc trong bài</span>
+        <ul>
+          <li>Trang Tử — thiên Nhân gian thế</li>
+          <li>Ẩm Băng Thất hợp tập</li>
+          <li>Thiếu niên Trung Quốc thuyết</li>
+          <li>Việt Nam vong quốc sử</li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer-label">Ghi chú &amp; credit</span>
+        <p>Phiên âm và phần dịch nghĩa được giữ nguyên theo bản gốc.<br>Thiết kế long-form editorial · 2026.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      const progressBar = document.getElementById("progressBar");
+      const tocToggle = document.getElementById("tocToggle");
+      const mobileTocNav = document.getElementById("mobileTocNav");
+      const sectionIds = ["can-nguyen", "noi-nhiet", "mau-tuat", "tan-dan", "tu-phu-dinh", "viet-nam", "cai-gia", "bai-hoc"];
+      const sections = sectionIds.map((id) => document.getElementById(id)).filter(Boolean);
+      const tocLinks = Array.from(document.querySelectorAll(".toc a"));
+
+      const updateProgress = () => {
+        const root = document.documentElement;
+        const distance = root.scrollHeight - root.clientHeight;
+        const progress = distance > 0 ? Math.min(1, Math.max(0, root.scrollTop / distance)) : 0;
+        progressBar.style.width = `${progress * 100}%`;
+      };
+
+      const setActiveSection = (id) => {
+        tocLinks.forEach((link) => {
+          if (link.getAttribute("href") === `#${id}`) {
+            link.setAttribute("aria-current", "true");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+      };
+
+      tocToggle.addEventListener("click", () => {
+        const expanded = tocToggle.getAttribute("aria-expanded") === "true";
+        tocToggle.setAttribute("aria-expanded", String(!expanded));
+        mobileTocNav.classList.toggle("is-open", !expanded);
+      });
+
+      mobileTocNav.addEventListener("click", (event) => {
+        if (event.target.closest("a")) {
+          tocToggle.setAttribute("aria-expanded", "false");
+          mobileTocNav.classList.remove("is-open");
+        }
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && mobileTocNav.classList.contains("is-open")) {
+          tocToggle.setAttribute("aria-expanded", "false");
+          mobileTocNav.classList.remove("is-open");
+          tocToggle.focus();
+        }
+      });
+
+      const sectionObserver = new IntersectionObserver((entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+        if (visible) setActiveSection(visible.target.id);
+      }, { rootMargin: "-20% 0px -62% 0px", threshold: [0, 0.12, 0.35] });
+
+      sections.forEach((section) => sectionObserver.observe(section));
+
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (reduceMotion) {
+        document.querySelectorAll(".reveal").forEach((element) => element.classList.add("is-visible"));
+      } else {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+        document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe(element));
+      }
+
+      updateProgress();
+      window.addEventListener("scroll", updateProgress, { passive: true });
+      window.addEventListener("resize", updateProgress);
+    })();
+  </script>
+</body>
+</html>

@@ -1,67 +1,117 @@
-# NEEDS-CONFIRMATION.md — improvement pass v2
+# Evidence and publication inputs
 
-Items raised in `CLAUDE.md`'s "Known open items" and in `AUDIT.md`, decided or still pending
-as of this PR. Per the working rules, none of these were acted on unilaterally — everything
-here either reflects a decision you already made in this thread, or is still waiting on you.
+This is the complete input list required to remove publication gates. A case may be complete in source while remaining unlinked and `noindex`.
 
----
+## L&D operating manual
 
-## Resolved this pass
+### Required facts
 
-**1. Bilingual system (`CLAUDE.md` open item)** — **decided: stripped.**
-Confirmed in `AUDIT.md` §4 that it was 100% dead (zero live `.vi` elements, no toggle, ~140
-lines of unreachable CSS, a fully-downloaded unused Be Vietnam Pro font family). Removed in
-its own commit so it can be reverted alone if you change your mind. `CLAUDE.md`'s Type rule
-and "Known open items" both updated to match.
+- Confirm final length: `150 pages` or provide the corrected figure.
+- Confirm number of source groups: `6` or provide the corrected figure.
+- State Kris's role: sole author, primary author, co-author or contributor.
+- Provide the start month and completion month in 2026.
+- Name the six source categories using wording safe for public disclosure.
+- Name the reviewer or approver by role, not by personal name if confidentiality applies.
 
-**2. Background portrait (`CLAUDE.md` open item)** — **decided: kept.**
-Deliberate choice, no code change. `CLAUDE.md` updated to record this as settled rather than
-an open judgement call.
+### Required artifacts
 
----
+- One redacted contents page.
+- One redacted recurring-workflow spread.
+- Optional source-to-chapter map if the source categories are public-safe.
 
-## Still open — your call
+### Required adoption and effect evidence
 
-**3. No photograph of Kris on the site.**
-Still true; none added, none sourced. If you supply one, my recommendation for placement:
-the background-portrait slot (`#ata`) is already built for exactly this kind of fixed,
-faded, left-margin treatment and is hidden below 1180px — a real photo could either replace
-the Atatürk portrait in that same slot, or sit as a small, deliberately unglamorous headshot
-near the hero (not a hero-filling photo — the site's whole language is text-first). I have
-not sourced a stock image and will not.
+- State who received access by role or team.
+- Confirm whether another person completed a real task using the manual.
+- State which recurring task was tested and when.
+- Provide any recorded question, error, retrieval-time or feedback evidence.
+- If nothing was measured, explicitly approve the wording `Adoption and effect were not measured for this iteration.`
 
-**4. No downloadable CV.**
-Still true; none fabricated. If you supply a PDF, the natural place is a new row in the
-Contact section's `.links` list (same pattern as LinkedIn/Facebook/Phone/Email — an icon, a
-label, a value) — that's a five-minute addition once the file exists. No placeholder link
-has been added because a dead link is worse than no link.
+## Role-based learning paths
 
-**5. The Evidence section has no metrics.**
-Still true; none invented. Of the six projects listed, the ones most likely to carry a
-defensible number without touching anything confidential:
-- **Role-based learning paths** — you already state "nineteen associates" mapped; a
-  completion-rate or time-to-map number would strengthen this one most, if you have it.
-- **Certified Departmental Trainer workshop** — "three sessions, eleven nominated trainers"
-  is already a number; a completion or satisfaction figure would round it out.
-- **Marriott Culture Week** — attendance or participation-rate, if you tracked it.
+### Required facts
 
-The other three (operating manual, daily stand-up, AI workflow) are harder to put an honest
-number on without over-claiming — I'd leave those as qualitative unless you have something
-specific. Tell me which numbers you actually have and I'll place them; I won't estimate.
+- Confirm the total number of associates reviewed.
+- Confirm the number of clear matches.
+- Confirm the number of ambiguous or escalated cases.
+- Identify the authoritative role-information source.
+- Identify the learning-path reference used.
+- Name the decision approver and system updater by role.
+- Confirm the month or date range in 2026.
 
-**6. The Study section lists a UEH HRM master's as "Enrolling."**
-Confirm this is the programme actually chosen before it ships as anything more definite.
+### Required artifacts
 
----
+- One redacted mapping overview with the actual field structure.
+- One anonymised exception example showing the source gap, escalation and final decision.
+- Optional decision flow if it reflects the real process.
 
-## Also flagged this pass, not part of the original six
+### Required adoption and effect evidence
 
-**7. BA Psychology card status (`AUDIT.md` §8)** — **decided: reworded.**
-The card showed "Completed" against dates `08/2024 — 09/2026`, with the end date still in
-the future relative to today. You confirmed: coursework is done, degree conferral is
-pending, and the dates are correct as printed. Chip now reads "Coursework complete" —
-wording only, same visual style as before.
+- Confirm whether approved mappings were entered in Digital Learning Zone.
+- Confirm whether a post-update audit occurred.
+- Provide any recorded assignment, access, obsolete-learning or completion findings.
+- If nothing was measured, explicitly approve the wording `System effect was not measured for this iteration.`
 
-**8. Toolkit chip accessibility pattern** — **decided: applied to all chips.**
-Demoed on one chip (Claude), then applied the same `.sr-only` pattern to all 56 — each
-chip's visible name plus a hidden "— Fluent / Working / Scoped" suffix matching its level.
+## Marriott Culture Week
+
+### Required facts
+
+- Confirm the full programme dates and duration.
+- Confirm the date, time and venue of Obstacle Challenge as actually delivered.
+- Separate Kris's responsibilities across concept, activity design, HTML build, script writing, coordination, MC work and facilitation.
+- Name collaborators by role and state which outputs belonged to the wider team.
+- Confirm whether the game was used live.
+- Provide participant count, team count and represented departments if recorded.
+- State who operated the interface and who acted as MC.
+
+### Required artifacts and permissions
+
+- Approve a redacted public version of the Obstacle Challenge HTML.
+- Identify company names, dates, venue details, images and brand marks that must be removed.
+- For each workplace photograph, confirm the photographer or source, every identifiable person's consent, brand approval and the exact event shown.
+- Provide descriptive alt-text facts for every approved image.
+
+### Required adoption and effect evidence
+
+- Provide any attendance record, facilitator note, participant feedback or completion record.
+- Provide any knowledge, recall or behaviour measure if one exists.
+- If nothing was measured, explicitly approve the wording `Participant response and learning effect were not measured in a reportable form.`
+
+## Certified Departmental Trainer
+
+- Confirm the certificate title, issuing body and completion date.
+- Confirm whether `26 June 2026` is correct.
+- Confirm whether Kris only completed the programme or also designed, coordinated or facilitated any session.
+- Approve a redacted certificate image if it will be displayed.
+- Confirm whether the certificate image contains a credential number that should be hidden.
+
+## CV and professional profile
+
+- Approve final current-role start date and trainee-to-coordinator chronology.
+- Confirm every education programme, completion state and conferral date.
+- Confirm current city and relocation wording.
+- Confirm whether the phone number should remain public on both website and CV.
+- Approve a final public PDF filename and version date.
+- Confirm whether Facebook should remain excluded.
+
+## Writing
+
+For each item intended for the Writing route, provide:
+
+- Title.
+- Canonical URL.
+- Publication date.
+- Language.
+- Publication platform.
+- Kris's contribution if co-authored or produced with AI support.
+- A one-sentence summary approved for the card.
+
+## Vietnamese version
+
+- Decide whether it is required for the current hiring target.
+- If yes, choose full bilingual parity or a smaller Vietnamese profile route.
+- Approve whether English or Vietnamese is the default language.
+
+## How to submit future artifacts
+
+Add only approved, redacted files to `public/artifacts/<case-slug>/` through a pull request. Do not add a public upload form. Repository review keeps publication rights and confidentiality visible before deployment.

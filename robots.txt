@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://krisnguyen2k1.github.io/sitemap.xml
