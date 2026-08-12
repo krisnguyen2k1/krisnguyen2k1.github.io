@@ -11,6 +11,7 @@ All project outputs created during the portfolio workflow are stored in this rep
 5. [`phase-4-case-studies.md`](project-phases/phase-4-case-studies.md)
 6. [`phase-5-design-build.md`](project-phases/phase-5-design-build.md)
 7. [`phase-6-verification.md`](project-phases/phase-6-verification.md)
+8. [`phase-7-handover.md`](project-phases/phase-7-handover.md)
 
 ## Machine-readable evidence
 

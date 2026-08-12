@@ -1,42 +1,117 @@
-# Evidence and publication backlog
+# Evidence and publication inputs
 
-These items control what can enter public navigation. A complete case page can exist in source while still remaining `noindex` and unlinked.
+This is the complete input list required to remove publication gates. A case may be complete in source while remaining unlinked and `noindex`.
 
 ## L&D operating manual
 
-- Confirm the 150-page figure and six-source figure.
-- Confirm whether Kris was sole author, primary author or contributor.
-- Confirm the start and completion month in 2026.
-- Supply a redacted contents page.
-- Supply one redacted workflow spread.
-- Name the safe source categories and the reviewer role.
-- Confirm whether another person used the manual for a real task.
+### Required facts
+
+- Confirm final length: `150 pages` or provide the corrected figure.
+- Confirm number of source groups: `6` or provide the corrected figure.
+- State Kris's role: sole author, primary author, co-author or contributor.
+- Provide the start month and completion month in 2026.
+- Name the six source categories using wording safe for public disclosure.
+- Name the reviewer or approver by role, not by personal name if confidentiality applies.
+
+### Required artifacts
+
+- One redacted contents page.
+- One redacted recurring-workflow spread.
+- Optional source-to-chapter map if the source categories are public-safe.
+
+### Required adoption and effect evidence
+
+- State who received access by role or team.
+- Confirm whether another person completed a real task using the manual.
+- State which recurring task was tested and when.
+- Provide any recorded question, error, retrieval-time or feedback evidence.
+- If nothing was measured, explicitly approve the wording `Adoption and effect were not measured for this iteration.`
 
 ## Role-based learning paths
 
-- Confirm the number of associates reviewed.
-- Confirm the number of clear matches and ambiguous cases.
-- Supply a redacted mapping view with the real field structure.
-- Confirm who approved decisions and who updated the learning system.
-- Supply one safely anonymised exception example.
-- Confirm whether a post-update check occurred.
+### Required facts
+
+- Confirm the total number of associates reviewed.
+- Confirm the number of clear matches.
+- Confirm the number of ambiguous or escalated cases.
+- Identify the authoritative role-information source.
+- Identify the learning-path reference used.
+- Name the decision approver and system updater by role.
+- Confirm the month or date range in 2026.
+
+### Required artifacts
+
+- One redacted mapping overview with the actual field structure.
+- One anonymised exception example showing the source gap, escalation and final decision.
+- Optional decision flow if it reflects the real process.
+
+### Required adoption and effect evidence
+
+- Confirm whether approved mappings were entered in Digital Learning Zone.
+- Confirm whether a post-update audit occurred.
+- Provide any recorded assignment, access, obsolete-learning or completion findings.
+- If nothing was measured, explicitly approve the wording `System effect was not measured for this iteration.`
 
 ## Marriott Culture Week
 
-- Confirm programme dates and duration.
-- Confirm the boundaries of Kris's design, coordination, MC and facilitation work.
-- Confirm whether Obstacle Challenge was used live.
-- Confirm participant count and departments represented, if recorded.
-- Review the HTML artifact for company branding and internal information.
-- Confirm publication rights for each workplace photograph and each person shown.
+### Required facts
 
-## Site-wide
+- Confirm the full programme dates and duration.
+- Confirm the date, time and venue of Obstacle Challenge as actually delivered.
+- Separate Kris's responsibilities across concept, activity design, HTML build, script writing, coordination, MC work and facilitation.
+- Name collaborators by role and state which outputs belonged to the wider team.
+- Confirm whether the game was used live.
+- Provide participant count, team count and represented departments if recorded.
+- State who operated the interface and who acted as MC.
 
-- Prepare a public CV PDF with final dates, education status and safe contact details.
-- Confirm current city and relocation wording before adding location.
-- Supply a verified writing index before adding Writing to primary navigation.
-- Confirm whether a Vietnamese site version is needed.
+### Required artifacts and permissions
 
-## How to add future artifacts
+- Approve a redacted public version of the Obstacle Challenge HTML.
+- Identify company names, dates, venue details, images and brand marks that must be removed.
+- For each workplace photograph, confirm the photographer or source, every identifiable person's consent, brand approval and the exact event shown.
+- Provide descriptive alt-text facts for every approved image.
 
-Place approved, redacted files in `public/artifacts/` and reference them from the matching case route. Do not add a public upload form. Repository-managed files keep publication review inside the normal code review and deployment process.
+### Required adoption and effect evidence
+
+- Provide any attendance record, facilitator note, participant feedback or completion record.
+- Provide any knowledge, recall or behaviour measure if one exists.
+- If nothing was measured, explicitly approve the wording `Participant response and learning effect were not measured in a reportable form.`
+
+## Certified Departmental Trainer
+
+- Confirm the certificate title, issuing body and completion date.
+- Confirm whether `26 June 2026` is correct.
+- Confirm whether Kris only completed the programme or also designed, coordinated or facilitated any session.
+- Approve a redacted certificate image if it will be displayed.
+- Confirm whether the certificate image contains a credential number that should be hidden.
+
+## CV and professional profile
+
+- Approve final current-role start date and trainee-to-coordinator chronology.
+- Confirm every education programme, completion state and conferral date.
+- Confirm current city and relocation wording.
+- Confirm whether the phone number should remain public on both website and CV.
+- Approve a final public PDF filename and version date.
+- Confirm whether Facebook should remain excluded.
+
+## Writing
+
+For each item intended for the Writing route, provide:
+
+- Title.
+- Canonical URL.
+- Publication date.
+- Language.
+- Publication platform.
+- Kris's contribution if co-authored or produced with AI support.
+- A one-sentence summary approved for the card.
+
+## Vietnamese version
+
+- Decide whether it is required for the current hiring target.
+- If yes, choose full bilingual parity or a smaller Vietnamese profile route.
+- Approve whether English or Vietnamese is the default language.
+
+## How to submit future artifacts
+
+Add only approved, redacted files to `public/artifacts/<case-slug>/` through a pull request. Do not add a public upload form. Repository review keeps publication rights and confidentiality visible before deployment.
