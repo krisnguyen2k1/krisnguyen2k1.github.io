@@ -63,6 +63,25 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="section-pad bg-surface" aria-labelledby="education-about-heading">
+        <div className="shell grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
+          <div>
+            <p className="eyebrow">Education & credentials</p>
+            <h2 id="education-about-heading" className="section-title mt-4">
+              Hospitality, psychology and English language.
+            </h2>
+          </div>
+          <div>
+            <p className="text-lg leading-8 text-secondary">
+              My formal education spans hotel management, psychology and English language, supported by credentials in tertiary pedagogy, psychological counselling and English-language tour guiding.
+            </p>
+            <div className="mt-7">
+              <ButtonLink href="/education/" variant="secondary">View education and credentials</ButtonLink>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section-pad border-t border-border" aria-labelledby="next-role-heading">
         <div className="shell grid gap-8 md:grid-cols-[0.8fr_1.2fr]">
           <h2 id="next-role-heading" className="section-title">What I am looking for next.</h2>

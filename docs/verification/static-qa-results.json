@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T02:17:55.953Z",
+  "generatedAt": "2026-08-12T02:57:43.193Z",
   "summary": {
-    "total": 100,
-    "passed": 100,
+    "total": 107,
+    "passed": 107,
     "failed": 0
   },
   "checks": [
@@ -108,6 +108,41 @@
     },
     {
       "name": "out/digital-work/index.html has description",
+      "passed": true,
+      "evidence": "Rendered meta description"
+    },
+    {
+      "name": "out/education/index.html exists",
+      "passed": true,
+      "evidence": "out/education/index.html"
+    },
+    {
+      "name": "out/education/index.html has one h1",
+      "passed": true,
+      "evidence": "1 h1 elements"
+    },
+    {
+      "name": "out/education/index.html has one main",
+      "passed": true,
+      "evidence": "1 main elements"
+    },
+    {
+      "name": "out/education/index.html has skip link",
+      "passed": true,
+      "evidence": "Skip link points to #main-content"
+    },
+    {
+      "name": "out/education/index.html images have alt",
+      "passed": true,
+      "evidence": "No img element is missing alt"
+    },
+    {
+      "name": "out/education/index.html has title",
+      "passed": true,
+      "evidence": "Rendered title element"
+    },
+    {
+      "name": "out/education/index.html has description",
       "passed": true,
       "evidence": "Rendered meta description"
     },

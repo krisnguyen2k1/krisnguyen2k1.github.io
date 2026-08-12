@@ -128,6 +128,7 @@ There is deliberately no public upload form. Repository review is the publicatio
 | `/` | Public |
 | `/work/` | Public |
 | `/digital-work/` | Public |
+| `/education/` | Public |
 | `/about/` | Public |
 | `/notes/reading/` | Public |
 | `/writing/` | Built, unlinked from primary navigation, `noindex` |

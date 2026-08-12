@@ -17,6 +17,7 @@ export const site = {
 export const navItems = [
   { href: "/work/", label: "Work" },
   { href: "/digital-work/", label: "Digital work" },
+  { href: "/education/", label: "Education" },
   { href: "/about/", label: "About" },
   { href: "/notes/reading/", label: "Reading" },
 ];

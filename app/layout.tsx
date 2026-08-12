@@ -43,6 +43,20 @@ const personSchema = {
   url: site.url,
   sameAs: [site.linkedin, site.bookstore],
   jobTitle: "Learning and Development Coordinator",
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "University of Economics - The University of Danang",
+  },
+  knowsLanguage: "English",
+  hasCredential: [
+    "International Tour Guide (English)",
+    "Pedagogical Skills (College/University Level)",
+    "School Psychological Counseling Skills - USSH HCMC",
+    "IELTS 6.5",
+  ].map((name) => ({
+    "@type": "EducationalOccupationalCredential",
+    name,
+  })),
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
