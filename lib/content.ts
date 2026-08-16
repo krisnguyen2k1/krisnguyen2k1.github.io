@@ -102,6 +102,14 @@ export const projects: Project[] = [
     selected: true,
   },
   {
+    title: "Steve Jobs: An Interactive Biography",
+    category: "Interactive biography",
+    summary:
+      "An independent reading companion that maps Steve Jobs's life, relationships, product shifts and all 42 chapters of Walter Isaacson's biography.",
+    capability: "Long-form research, interactive editorial design and information architecture.",
+    href: "https://krisnguyen2k1.github.io/steve-jobs-interactive-biography/",
+  },
+  {
     title: "Psychology in Vietnam",
     category: "Career information design",
     summary:
