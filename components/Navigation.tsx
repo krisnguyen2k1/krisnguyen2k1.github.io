@@ -75,6 +75,9 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
+                target={item.newTab ? "_blank" : undefined}
+                rel={item.newTab ? "noreferrer" : undefined}
+                aria-label={item.newTab ? `${item.label} (opens in a new tab)` : undefined}
                 aria-current={active ? "page" : undefined}
                 className={`flex min-h-11 items-center border-b px-2 text-sm font-medium md:border-b-2 md:px-3 ${
                   active

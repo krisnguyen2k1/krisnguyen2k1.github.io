@@ -11,13 +11,20 @@ export const site = {
   linkedin: "https://www.linkedin.com/in/krisnguyen2k1/",
   bookstore:
     "https://www.oreka.vn/store/9ojs3iuupttxjo?sort=createdAt&order=desc&page=2",
-  cvHref: null as string | null,
+  cvHref: "/documents/nguyen-trung-kien-ld-cv.pdf",
 };
 
-export const navItems = [
+export type NavItem = {
+  href: string;
+  label: string;
+  newTab?: boolean;
+};
+
+export const navItems: NavItem[] = [
   { href: "/work/", label: "Work" },
   { href: "/digital-work/", label: "Digital work" },
   { href: "/education/", label: "Education" },
   { href: "/about/", label: "About" },
   { href: "/notes/reading/", label: "Reading" },
+  { href: site.cvHref, label: "CV", newTab: true },
 ];
