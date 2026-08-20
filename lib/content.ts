@@ -110,7 +110,7 @@ export const projects: Project[] = [
     href: "https://krisnguyen2k1.github.io/steve-jobs-interactive-biography/",
   },
   {
-    title: "The Laws of Human Nature — Interactive Guide",
+    title: "The Laws of Human Nature - Interactive Guide",
     category: "Interactive book companion",
     summary:
       "A complete learning companion for Robert Greene’s 18 laws, with historical cases, pattern comparisons, quizzes, reflection and private browser-based progress.",
