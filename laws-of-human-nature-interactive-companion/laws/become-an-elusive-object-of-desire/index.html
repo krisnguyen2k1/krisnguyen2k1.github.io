@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Loading The Laws of Human Nature...</title>
+    <style>
+      :root { color-scheme: dark; font-family: Georgia, "Times New Roman", serif; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #07163c; color: #f7f0df; }
+      main { width: min(42rem, calc(100% - 2rem)); padding: 3rem; border: 1px solid #b98a33; background: #0a1c49; text-align: center; }
+      .mark { width: 4rem; height: 4rem; display: grid; place-items: center; margin: 0 auto 1.5rem; border-radius: 50%; background: #ed0029; font: 700 1.1rem/1 Arial, sans-serif; }
+      h1 { margin: 0; font-size: clamp(2rem, 8vw, 4.5rem); font-weight: 400; line-height: .95; }
+      p { max-width: 34rem; margin: 1.5rem auto 0; color: #d9cba9; font: 500 .78rem/1.7 Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
+      .bar { height: 2px; width: 100%; margin-top: 2rem; overflow: hidden; background: #20315b; }
+      .bar::after { content: ""; display: block; width: 42%; height: 100%; background: #d49b32; animation: load 1.2s ease-in-out infinite alternate; }
+      a { color: #f7f0df; }
+      @keyframes load { to { transform: translateX(138%); } }
+      @media (prefers-reduced-motion: reduce) { .bar::after { animation: none; width: 100%; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark" aria-hidden="true">HN</div>
+      <h1>The Laws of<br />Human Nature</h1>
+      <p id="status">Preparing the interactive companion for this browser...</p>
+      <div class="bar" aria-hidden="true"></div>
+      <noscript><p>JavaScript is required. <a href="https://laws-of-human-nature-guide.krisnguyen2k1.chatgpt.site">Open the live companion</a>.</p></noscript>
+    </main>
+    <script>
+      (() => {
+        const status = document.getElementById("status");
+        const scope = "/laws-of-human-nature-interactive-companion/";
+
+        if (!("serviceWorker" in navigator) || !("DecompressionStream" in window)) {
+          status.innerHTML = 'This browser cannot prepare the GitHub edition. <a href="https://laws-of-human-nature-guide.krisnguyen2k1.chatgpt.site">Open the live companion</a>.';
+          return;
+        }
+
+        let reloading = false;
+        const reload = () => {
+          if (reloading) return;
+          reloading = true;
+          status.textContent = "Opening the companion...";
+          window.location.reload();
+        };
+
+        navigator.serviceWorker.addEventListener("controllerchange", reload, { once: true });
+        navigator.serviceWorker.register(scope + "sw.js", { scope })
+          .then(async (registration) => {
+            await navigator.serviceWorker.ready;
+            if (navigator.serviceWorker.controller && registration.active) {
+              const channel = new MessageChannel();
+              channel.port1.onmessage = (event) => {
+                if (event.data === "ready") reload();
+                if (event.data && event.data.error) status.textContent = "Could not prepare the companion. Please refresh to try again.";
+              };
+              registration.active.postMessage("prepare", [channel.port2]);
+            }
+          })
+          .catch(() => {
+            status.innerHTML = 'Could not prepare the GitHub edition. <a href="https://laws-of-human-nature-guide.krisnguyen2k1.chatgpt.site">Open the live companion</a>.';
+          });
+      })();
+    </script>
+  </body>
+</html>
