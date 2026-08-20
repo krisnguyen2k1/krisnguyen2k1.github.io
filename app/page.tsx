@@ -32,7 +32,7 @@ export default function HomePage() {
           <h2 id="evidence-heading" className="sr-only">Evidence at a glance</h2>
           <div className="grid gap-8 md:grid-cols-3">
             <MetricBlock eyebrow="Operating documentation" value="150 pages" label="Candidate-reported L&D reference built from six knowledge sources." />
-            <MetricBlock eyebrow="Published digital work" value="9 products" label="Live projects spanning learning, research, data and long-form publishing." />
+            <MetricBlock eyebrow="Published digital work" value="10 products" label="Live projects spanning learning, research, data and long-form publishing." />
             <MetricBlock eyebrow="Verified interaction" value="10 clues" label="Mechanics in a working team challenge built for Culture Week." />
           </div>
         </div>

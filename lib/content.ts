@@ -110,6 +110,14 @@ export const projects: Project[] = [
     href: "https://krisnguyen2k1.github.io/steve-jobs-interactive-biography/",
   },
   {
+    title: "The Laws of Human Nature — Interactive Guide",
+    category: "Interactive book companion",
+    summary:
+      "A complete learning companion for Robert Greene’s 18 laws, with historical cases, pattern comparisons, quizzes, reflection and private browser-based progress.",
+    capability: "Long-form synthesis, learning design, interaction design and information architecture.",
+    href: "https://krisnguyen2k1.github.io/laws-of-human-nature-interactive-companion/",
+  },
+  {
     title: "Psychology in Vietnam",
     category: "Career information design",
     summary:
