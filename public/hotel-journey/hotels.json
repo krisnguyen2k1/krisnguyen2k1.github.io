@@ -1,21 +1,1603 @@
 [
-  {"name":"Sheraton Grand Danang Beach Resort & Spa","destination":"Da Nang","brand":"Sheraton Grand","group":"Marriott International","tier":"Luxury","setting":"Beach resort"},
-  {"name":"Danang Marriott Resort & Spa","destination":"Da Nang","brand":"Marriott Hotels","group":"Marriott International","tier":"Upper upscale","setting":"Beach resort"},
-  {"name":"Danang Marriott Resort & Spa, Non Nuoc Beach Villas","destination":"Da Nang","brand":"Marriott Hotels","group":"Marriott International","tier":"Luxury","setting":"Private villas"},
-  {"name":"Four Points by Sheraton Danang","destination":"Da Nang","brand":"Four Points by Sheraton","group":"Marriott International","tier":"Upscale","setting":"Coastal hotel"},
-  {"name":"Crowne Plaza Danang City Centre","destination":"Da Nang","brand":"Crowne Plaza","group":"IHG Hotels & Resorts","tier":"Upper upscale","setting":"City hotel"},
-  {"name":"Hyatt Regency Danang Resort and Spa","destination":"Da Nang","brand":"Hyatt Regency","group":"Hyatt","tier":"Upper upscale","setting":"Beach resort"},
-  {"name":"Radisson Hotel Danang","destination":"Da Nang","brand":"Radisson","group":"Radisson Hotel Group","tier":"Upscale","setting":"Coastal hotel"},
-  {"name":"Wyndham Danang Golden Bay","destination":"Da Nang","brand":"Wyndham","group":"Wyndham Hotels & Resorts","tier":"Upper upscale","setting":"Bayfront hotel"},
-  {"name":"Banyan Tree Lang Co","destination":"Hue / Lang Co","brand":"Banyan Tree","group":"Banyan Group","tier":"Luxury","setting":"Pool villa resort"},
-  {"name":"Sheraton Nha Trang Hotel & Spa","destination":"Nha Trang / Cam Ranh","brand":"Sheraton","group":"Marriott International","tier":"Upper upscale","setting":"Coastal hotel"},
-  {"name":"The Westin Resort & Spa Cam Ranh","destination":"Nha Trang / Cam Ranh","brand":"Westin","group":"Marriott International","tier":"Upper upscale","setting":"Beach resort"},
-  {"name":"JW Marriott Cam Ranh Bay Resort & Spa","destination":"Nha Trang / Cam Ranh","brand":"JW Marriott","group":"Marriott International","tier":"Luxury","setting":"Beach resort"},
-  {"name":"Novotel Nha Trang","destination":"Nha Trang / Cam Ranh","brand":"Novotel","group":"Accor","tier":"Upscale","setting":"Coastal hotel"},
-  {"name":"InterContinental Nha Trang","destination":"Nha Trang / Cam Ranh","brand":"InterContinental","group":"IHG Hotels & Resorts","tier":"Luxury","setting":"Coastal hotel"},
-  {"name":"voco Scenia Bay Nha Trang","destination":"Nha Trang / Cam Ranh","brand":"voco","group":"IHG Hotels & Resorts","tier":"Upper upscale","setting":"Bayfront hotel"},
-  {"name":"Hyatt Regency Nha Trang","destination":"Nha Trang / Cam Ranh","brand":"Hyatt Regency","group":"Hyatt","tier":"Upper upscale","setting":"Coastal hotel"},
-  {"name":"Le Méridien Saigon","destination":"Ho Chi Minh City","brand":"Le Méridien","group":"Marriott International","tier":"Upper upscale","setting":"Riverfront city hotel"},
-  {"name":"Novotel Saigon Centre","destination":"Ho Chi Minh City","brand":"Novotel","group":"Accor","tier":"Upscale","setting":"City hotel"}
+  {
+    "name": "Sheraton Grand Danang Beach Resort & Spa",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Sheraton Grand",
+    "group": "Marriott International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Danang Marriott Resort & Spa",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Marriott Hotels",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Danang Marriott Resort & Spa, Non Nuoc Beach Villas",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Marriott Hotels",
+    "group": "Marriott International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Four Points by Sheraton Danang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Four Points by Sheraton",
+    "group": "Marriott International",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Courtyard by Marriott Danang Han River",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Courtyard by Marriott",
+    "group": "Marriott International",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Marriott Executive Apartments Danang, Han River",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Marriott Executive Apartments",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Renaissance Danang Hoi An Resort & Spa",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Renaissance Hotels",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hoi An Marriott Resort & Spa",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Marriott Hotels",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Sheraton Nha Trang Hotel & Spa",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Sheraton",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Four Points by Sheraton Nha Trang",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Four Points by Sheraton",
+    "group": "Marriott International",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Nha Trang Marriott Resort & Spa, Hon Tre Island",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Marriott Hotels",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "The Westin Resort & Spa Cam Ranh",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Westin",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "JW Marriott Cam Ranh Bay Resort & Spa",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "JW Marriott",
+    "group": "Marriott International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "JW Marriott",
+    "group": "Marriott International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Sheraton Phu Quoc Long Beach Resort",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Sheraton",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Fairfield by Marriott Phu Quoc Hon Thom",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Fairfield by Marriott",
+    "group": "Marriott International",
+    "tier": "Upscale",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Moxy Phu Quoc Hon Thom",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Moxy",
+    "group": "Marriott International",
+    "tier": "Upscale",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "JW Marriott Hotel & Suites Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "JW Marriott",
+    "group": "Marriott International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "JW Marriott Hotel & Suites Saigon, The Apartments",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "JW Marriott",
+    "group": "Marriott International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Sheraton Saigon Grand Opera Hotel",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Sheraton",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Renaissance Riverside Hotel Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Renaissance Hotels",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Le Méridien Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Le Méridien",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Vinpearl Landmark 81, Autograph Collection",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Autograph Collection",
+    "group": "Marriott International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Bach Suites Saigon, a Member of Design Hotels",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Design Hotels",
+    "group": "Marriott International",
+    "tier": "Luxury boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Fairfield by Marriott South Binh Duong",
+    "destination": "Binh Duong / Dong Nai",
+    "province": "Ho Chi Minh City",
+    "brand": "Fairfield by Marriott",
+    "group": "Marriott International",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Sheraton Can Tho",
+    "destination": "Can Tho / Mekong Delta",
+    "province": "Can Tho",
+    "brand": "Sheraton",
+    "group": "Marriott International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Legacy Mekong, Can Tho, Autograph Collection",
+    "destination": "Can Tho / Mekong Delta",
+    "province": "Can Tho",
+    "brand": "Autograph Collection",
+    "group": "Marriott International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Pullman Danang Beach Resort",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Pullman",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Novotel Danang Premier Han River",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Novotel",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Grand Mercure Danang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Grand Mercure",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mercure Danang French Village Bana Hills",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Mercure",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hotel Royal Hoi An - MGallery",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "MGallery",
+    "group": "Accor",
+    "tier": "Luxury boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Grand Mercure Quy Nhon",
+    "destination": "Quy Nhon / Binh Dinh",
+    "province": "Gia Lai",
+    "brand": "Grand Mercure",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mövenpick Resort Cam Ranh",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Mövenpick",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Novotel Nha Trang",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Novotel",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "ibis Styles Nha Trang",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "ibis Styles",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "The Morning Glow - Handwritten Collection",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Handwritten Collection",
+    "group": "Accor",
+    "tier": "Upscale boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mövenpick Resort Phan Thiet",
+    "destination": "Phan Thiet / Mui Ne",
+    "province": "Lam Dong",
+    "brand": "Mövenpick",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mercure Dalat Resort",
+    "destination": "Da Lat",
+    "province": "Lam Dong",
+    "brand": "Mercure",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Sofitel Saigon Plaza",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Sofitel",
+    "group": "Accor",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hôtel des Arts Saigon - MGallery",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "MGallery",
+    "group": "Accor",
+    "tier": "Luxury boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Pullman Saigon Centre",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Pullman",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Novotel Saigon Centre",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Novotel",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Novotel Living Saigon South",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Novotel Living",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Pullman Vung Tau",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "Pullman",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mercure Vung Tau",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "Mercure",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "ibis Styles Vung Tau",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "ibis Styles",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "La Veranda Resort Phu Quoc - MGallery",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "MGallery",
+    "group": "Accor",
+    "tier": "Luxury boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mövenpick Resort Waverly Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Mövenpick",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mövenpick Villas & Residences Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Mövenpick",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Novotel Phu Quoc Resort",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Novotel",
+    "group": "Accor",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Pullman Phu Quoc Beach Resort",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Pullman",
+    "group": "Accor",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Premier Residences Phu Quoc Emerald Bay, Managed by Accor",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Managed by Accor",
+    "group": "Accor",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Premier Village Phu Quoc Resort, Managed by Accor",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Managed by Accor",
+    "group": "Accor",
+    "tier": "Luxury villas",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Rixos Phu Quoc Vietnam - Ultra All Inclusive",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Rixos",
+    "group": "Accor",
+    "tier": "Luxury",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "InterContinental Danang Sun Peninsula Resort",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "InterContinental",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Crowne Plaza Danang City Centre",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Crowne Plaza",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "voco Ma Belle Danang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "voco",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Moire Hoi An, Vignette Collection",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Vignette Collection",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "voco Quang Binh Resort",
+    "destination": "Quang Binh / Quang Tri",
+    "province": "Quang Tri",
+    "brand": "voco",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "InterContinental Nha Trang",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "InterContinental",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "voco Scenia Bay Nha Trang",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "voco",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Six Senses Ninh Van Bay",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Six Senses",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "InterContinental Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "InterContinental",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "InterContinental Residences Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "InterContinental Residences",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hotel Indigo Saigon - The City",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Hotel Indigo",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Upper upscale boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Holiday Inn & Suites Saigon Airport",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Holiday Inn",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Holiday Inn Resort Ho Tram Beach",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "Holiday Inn Resort",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "InterContinental Grand Ho Tram",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "InterContinental",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "InterContinental Residences Grand Ho Tram",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "InterContinental Residences",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "InterContinental Phu Quoc Long Beach Resort",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "InterContinental",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Regent Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Regent",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Ultra-luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Crowne Plaza Phu Quoc Starbay",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Crowne Plaza",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Six Senses Con Dao",
+    "destination": "Con Dao",
+    "province": "Ho Chi Minh City",
+    "brand": "Six Senses",
+    "group": "IHG Hotels & Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hilton Da Nang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Hilton Hotels & Resorts",
+    "group": "Hilton",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hilton Garden Inn Da Nang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Hilton Garden Inn",
+    "group": "Hilton",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "NHAAN Resort & Spa Hoi An, Tapestry Collection by Hilton",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Tapestry Collection",
+    "group": "Hilton",
+    "tier": "Upscale boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Namia River Retreat, an SLH Hotel",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Small Luxury Hotels of the World",
+    "group": "Hilton partner / SLH",
+    "tier": "Luxury boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Azerai La Residence Hue, an SLH Hotel",
+    "destination": "Hue / Lang Co",
+    "province": "Hue",
+    "brand": "Small Luxury Hotels of the World",
+    "group": "Hilton partner / SLH",
+    "tier": "Luxury boutique",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "The Anam Mui Ne, an SLH Hotel",
+    "destination": "Phan Thiet / Mui Ne",
+    "province": "Lam Dong",
+    "brand": "Small Luxury Hotels of the World",
+    "group": "Hilton partner / SLH",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hilton Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Hilton Hotels & Resorts",
+    "group": "Hilton",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "La Festa Phu Quoc, Curio Collection by Hilton",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Curio Collection",
+    "group": "Hilton",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hyatt Regency Danang Resort and Spa",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Hyatt Regency",
+    "group": "Hyatt",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Hyatt Regency Nha Trang",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Hyatt Regency",
+    "group": "Hyatt",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Andaz Cam Ranh Bay",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Andaz",
+    "group": "Hyatt",
+    "tier": "Luxury",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Park Hyatt Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Park Hyatt",
+    "group": "Hyatt",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hyatt Regency Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Hyatt Regency",
+    "group": "Hyatt",
+    "tier": "Upper upscale",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hyatt Regency Ho Tram Resort and Spa",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "Hyatt Regency",
+    "group": "Hyatt",
+    "tier": "Upper upscale",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Radisson Hotel Danang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Radisson",
+    "group": "Radisson Hotel Group",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Radisson RED Danang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Radisson RED",
+    "group": "Radisson Hotel Group",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Radisson Blu Resort Hoi An",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Radisson Blu",
+    "group": "Radisson Hotel Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Radisson Blu Resort Cam Ranh",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Radisson Blu",
+    "group": "Radisson Hotel Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Radisson Resort Phan Thiet",
+    "destination": "Phan Thiet / Mui Ne",
+    "province": "Lam Dong",
+    "brand": "Radisson",
+    "group": "Radisson Hotel Group",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Radisson Resort Mui Ne",
+    "destination": "Phan Thiet / Mui Ne",
+    "province": "Lam Dong",
+    "brand": "Radisson",
+    "group": "Radisson Hotel Group",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Radisson Blu Resort Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Radisson Blu",
+    "group": "Radisson Hotel Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Vinpearl Danang Riverfront",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Meliá Vinpearl",
+    "group": "Meliá Hotels International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Vinpearl Hue",
+    "destination": "Hue / Lang Co",
+    "province": "Hue",
+    "brand": "Meliá Vinpearl",
+    "group": "Meliá Hotels International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Vinpearl Quang Binh",
+    "destination": "Quang Binh / Quang Tri",
+    "province": "Quang Tri",
+    "brand": "Meliá Vinpearl",
+    "group": "Meliá Hotels International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Vinpearl Hoi An",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Meliá Vinpearl",
+    "group": "Meliá Hotels International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Vinpearl Cam Ranh Beach Resort",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Meliá Vinpearl",
+    "group": "Meliá Hotels International",
+    "tier": "Luxury villas",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Vinpearl Nha Trang Empire",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Meliá Vinpearl",
+    "group": "Meliá Hotels International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Villa Le Corail, A Gran Meliá Hotel",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Gran Meliá",
+    "group": "Meliá Hotels International",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Ho Tram Beach Resort",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "Meliá",
+    "group": "Meliá Hotels International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Vinpearl Tay Ninh",
+    "destination": "Other Southern Vietnam",
+    "province": "Tay Ninh",
+    "brand": "Meliá Vinpearl",
+    "group": "Meliá Hotels International",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Meliá Vinpearl Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Meliá Vinpearl",
+    "group": "Meliá Hotels International",
+    "tier": "Luxury villas",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "SOL by Meliá Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "SOL by Meliá",
+    "group": "Meliá Hotels International",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Wyndham Danang Golden Bay",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Wyndham",
+    "group": "Wyndham Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Wyndham Hoi An Royal Beachfront Resort & Villas",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Wyndham",
+    "group": "Wyndham Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Wyndham Garden Hoi An Cua Dai",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Wyndham Garden",
+    "group": "Wyndham Hotels & Resorts",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Wyndham Garden Cam Ranh Resort",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Wyndham Garden",
+    "group": "Wyndham Hotels & Resorts",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Wyndham Grand KN Paradise Cam Ranh",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Wyndham Grand",
+    "group": "Wyndham Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Wyndham Grand Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Wyndham Grand",
+    "group": "Wyndham Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Wyndham Garden Grandworld Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Wyndham Garden",
+    "group": "Wyndham Hotels & Resorts",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Ramada Encore by Wyndham Saigon D1",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Ramada Encore",
+    "group": "Wyndham Hotels & Resorts",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Best Western Premier Marvella Nha Trang",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Best Western Premier",
+    "group": "BWH Hotels",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Best Western Premier Imperial Da Lat",
+    "destination": "Da Lat",
+    "province": "Lam Dong",
+    "brand": "Best Western Premier",
+    "group": "BWH Hotels",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Costamigo Phan Thiet, BW Premier Collection",
+    "destination": "Phan Thiet / Mui Ne",
+    "province": "Lam Dong",
+    "brand": "BW Premier Collection",
+    "group": "BWH Hotels",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Best Western Premier Sonasea Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Best Western Premier",
+    "group": "BWH Hotels",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Best Western Premier Sonasea Villas Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Best Western Premier",
+    "group": "BWH Hotels",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Banyan Tree Lang Co",
+    "destination": "Hue / Lang Co",
+    "province": "Hue",
+    "brand": "Banyan Tree",
+    "group": "Banyan Group",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Visited"
+  },
+  {
+    "name": "Angsana Lang Co",
+    "destination": "Hue / Lang Co",
+    "province": "Hue",
+    "brand": "Angsana",
+    "group": "Banyan Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Angsana Ho Tram",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "Angsana",
+    "group": "Banyan Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Dhawa Ho Tram",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "Dhawa",
+    "group": "Banyan Group",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Anantara Hoi An Resort",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Anantara",
+    "group": "Minor Hotels",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Anantara Quy Nhon Villas",
+    "destination": "Quy Nhon / Binh Dinh",
+    "province": "Gia Lai",
+    "brand": "Anantara",
+    "group": "Minor Hotels",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Avani Quy Nhon Resort",
+    "destination": "Quy Nhon / Binh Dinh",
+    "province": "Gia Lai",
+    "brand": "Avani",
+    "group": "Minor Hotels",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Anantara Mui Ne Resort",
+    "destination": "Phan Thiet / Mui Ne",
+    "province": "Lam Dong",
+    "brand": "Anantara",
+    "group": "Minor Hotels",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Alba Wellness Valley by Fusion",
+    "destination": "Hue / Lang Co",
+    "province": "Hue",
+    "brand": "Fusion",
+    "group": "Fusion Hotel Group",
+    "tier": "Upper upscale wellness",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Grand Royal Riverside Hue - Fusion Collection",
+    "destination": "Hue / Lang Co",
+    "province": "Hue",
+    "brand": "Fusion Collection",
+    "group": "Fusion Hotel Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Fusion Resort & Villas Da Nang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Fusion",
+    "group": "Fusion Hotel Group",
+    "tier": "Luxury wellness",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Fusion Resort Cam Ranh",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Fusion",
+    "group": "Fusion Hotel Group",
+    "tier": "Luxury wellness",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "The Ocean Resort by Fusion Quy Nhon",
+    "destination": "Quy Nhon / Binh Dinh",
+    "province": "Gia Lai",
+    "brand": "Fusion",
+    "group": "Fusion Hotel Group",
+    "tier": "Upper upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Fusion Suites Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Fusion Suites",
+    "group": "Fusion Hotel Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Fusion Original Saigon Centre",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Fusion Original",
+    "group": "Fusion Hotel Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Fusion Suites Vung Tau",
+    "destination": "Vung Tau / Ho Tram",
+    "province": "Ho Chi Minh City",
+    "brand": "Fusion Suites",
+    "group": "Fusion Hotel Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "HIIVE by Fusion Binh Duong",
+    "destination": "Binh Duong / Dong Nai",
+    "province": "Ho Chi Minh City",
+    "brand": "HIIVE by Fusion",
+    "group": "Fusion Hotel Group",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "HIIVE by Fusion Binh Duong New City",
+    "destination": "Binh Duong / Dong Nai",
+    "province": "Ho Chi Minh City",
+    "brand": "HIIVE by Fusion",
+    "group": "Fusion Hotel Group",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Four Seasons Resort The Nam Hai, Hoi An",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Four Seasons",
+    "group": "Four Seasons Hotels and Resorts",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Amanoi",
+    "destination": "Ninh Thuan / Phu Yen",
+    "province": "Khanh Hoa",
+    "brand": "Aman",
+    "group": "Aman Resorts",
+    "tier": "Ultra-luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Zannier Bãi San Hô",
+    "destination": "Ninh Thuan / Phu Yen",
+    "province": "Dak Lak",
+    "brand": "Zannier Hotels",
+    "group": "Zannier Hotels",
+    "tier": "Luxury",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mandarin Oriental, Bai Nom",
+    "destination": "Ninh Thuan / Phu Yen",
+    "province": "Dak Lak",
+    "brand": "Mandarin Oriental",
+    "group": "Mandarin Oriental Hotel Group",
+    "tier": "Ultra-luxury",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mandarin Oriental, Da Nang",
+    "destination": "Da Nang",
+    "province": "Da Nang",
+    "brand": "Mandarin Oriental",
+    "group": "Mandarin Oriental Hotel Group",
+    "tier": "Ultra-luxury",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Mandarin Oriental, Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Mandarin Oriental",
+    "group": "Mandarin Oriental Hotel Group",
+    "tier": "Ultra-luxury",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Rosewood Hoi An",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Rosewood",
+    "group": "Rosewood Hotel Group",
+    "tier": "Ultra-luxury",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "New World Saigon Hotel",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "New World Hotels & Resorts",
+    "group": "Rosewood Hotel Group",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Kempinski Saigon River",
+    "destination": "Binh Duong / Dong Nai",
+    "province": "Dong Nai",
+    "brand": "Kempinski",
+    "group": "Kempinski Hotels",
+    "tier": "Luxury",
+    "status": "Announced / opening soon",
+    "journey": "Future stay"
+  },
+  {
+    "name": "PARKROYAL Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "PARKROYAL",
+    "group": "Pan Pacific Hotels Group",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Hotel Nikko Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Nikko Hotels International",
+    "group": "Okura Nikko Hotel Management",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Lotte Hotel Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Lotte Hotels & Resorts",
+    "group": "Lotte Hotels & Resorts",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Eastin Grand Hotel Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Eastin Grand",
+    "group": "Absolute Hotel Services",
+    "tier": "Upper upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Centara Mirage Resort Mui Ne",
+    "destination": "Phan Thiet / Mui Ne",
+    "province": "Lam Dong",
+    "brand": "Centara Mirage",
+    "group": "Centara Hotels & Resorts",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Dusit Princess Moonrise Beach Resort Phu Quoc",
+    "destination": "Phu Quoc",
+    "province": "An Giang",
+    "brand": "Dusit Princess",
+    "group": "Dusit International",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "TUI BLUE Nam Hoi An",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "TUI BLUE",
+    "group": "TUI Hotels & Resorts",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "TUI BLUE Tuy Hoa",
+    "destination": "Ninh Thuan / Phu Yen",
+    "province": "Dak Lak",
+    "brand": "TUI BLUE",
+    "group": "TUI Hotels & Resorts",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Swandor Cam Ranh Resort",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Swandor",
+    "group": "Swandor Hotels & Resorts",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Swiss-Belresort Tuyen Lam Dalat",
+    "destination": "Da Lat",
+    "province": "Lam Dong",
+    "brand": "Swiss-Belresort",
+    "group": "Swiss-Belhotel International",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Citadines Pearl Hoi An",
+    "destination": "Hoi An / Quang Nam",
+    "province": "Da Nang",
+    "brand": "Citadines",
+    "group": "The Ascott Limited",
+    "tier": "Upscale resort",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Citadines Bayfront Nha Trang",
+    "destination": "Nha Trang / Cam Ranh",
+    "province": "Khanh Hoa",
+    "brand": "Citadines",
+    "group": "The Ascott Limited",
+    "tier": "Upscale",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Oakwood Residence Saigon",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Oakwood",
+    "group": "The Ascott Limited",
+    "tier": "Upscale serviced residence",
+    "status": "Operating",
+    "journey": "Future stay"
+  },
+  {
+    "name": "Somerset Vista Ho Chi Minh City",
+    "destination": "Ho Chi Minh City",
+    "province": "Ho Chi Minh City",
+    "brand": "Somerset",
+    "group": "The Ascott Limited",
+    "tier": "Upscale serviced residence",
+    "status": "Operating",
+    "journey": "Future stay"
+  }
 ]
 
