@@ -156,6 +156,12 @@ img {
   text-decoration-thickness: 2px;
 }
 
+#site-navigation a[aria-current="page"] {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.32em;
+}
+
 .button-primary,
 .button-secondary {
   display: inline-flex;
