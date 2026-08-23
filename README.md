@@ -10,7 +10,7 @@ Original rebuild: pull request #3, merged into `main` on 12 August 2026.
 
 - Pull request #3 introduced the Next.js rebuild and was merged into `main` on 12 August 2026.
 - The production site is the statically exported Next.js build deployed from `main` through GitHub Actions.
-- The static export verification script checks 100 required conditions.
+- The static export verification script currently checks 107 required conditions.
 - Three case-study routes remain unlinked and `noindex` until their evidence gates are closed.
 - The public CV is linked from the site; the internal Obstacle Challenge file and workplace photographs are not in the public build.
 
