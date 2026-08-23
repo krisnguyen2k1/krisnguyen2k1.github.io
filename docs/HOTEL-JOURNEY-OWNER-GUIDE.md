@@ -22,12 +22,16 @@ Each property uses this structure:
 {
   "name": "Hotel name",
   "destination": "Destination",
+  "province": "Province or municipality",
   "brand": "Brand",
   "group": "International hotel group",
   "tier": "Luxury",
-  "setting": "Beach resort"
+  "status": "Operating",
+  "journey": "Future stay"
 }
 ```
+
+Use `"journey": "Visited"` after you have experienced the property. Use `"journey": "Future stay"` while it remains a travel goal. The public counters and both categories update automatically.
 
 ## Publication path
 
@@ -41,5 +45,5 @@ The expected public URL is:
 
 ## Content note
 
-The initial 18-property collection was transcribed from the checked entries in the six screenshots supplied on 23 August 2026. The chandelier photograph guided the color palette only and is not published on the website.
+The complete ledger contains 160 properties from the researched master checklist: 18 visited properties transcribed from the checked entries in the supplied screenshots and 142 future stays. The chandelier photograph guided the color palette only and is not published on the website.
 
