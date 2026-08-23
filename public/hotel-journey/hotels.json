@@ -1,0 +1,21 @@
+[
+  {"name":"Sheraton Grand Danang Beach Resort & Spa","destination":"Da Nang","brand":"Sheraton Grand","group":"Marriott International","tier":"Luxury","setting":"Beach resort"},
+  {"name":"Danang Marriott Resort & Spa","destination":"Da Nang","brand":"Marriott Hotels","group":"Marriott International","tier":"Upper upscale","setting":"Beach resort"},
+  {"name":"Danang Marriott Resort & Spa, Non Nuoc Beach Villas","destination":"Da Nang","brand":"Marriott Hotels","group":"Marriott International","tier":"Luxury","setting":"Private villas"},
+  {"name":"Four Points by Sheraton Danang","destination":"Da Nang","brand":"Four Points by Sheraton","group":"Marriott International","tier":"Upscale","setting":"Coastal hotel"},
+  {"name":"Crowne Plaza Danang City Centre","destination":"Da Nang","brand":"Crowne Plaza","group":"IHG Hotels & Resorts","tier":"Upper upscale","setting":"City hotel"},
+  {"name":"Hyatt Regency Danang Resort and Spa","destination":"Da Nang","brand":"Hyatt Regency","group":"Hyatt","tier":"Upper upscale","setting":"Beach resort"},
+  {"name":"Radisson Hotel Danang","destination":"Da Nang","brand":"Radisson","group":"Radisson Hotel Group","tier":"Upscale","setting":"Coastal hotel"},
+  {"name":"Wyndham Danang Golden Bay","destination":"Da Nang","brand":"Wyndham","group":"Wyndham Hotels & Resorts","tier":"Upper upscale","setting":"Bayfront hotel"},
+  {"name":"Banyan Tree Lang Co","destination":"Hue / Lang Co","brand":"Banyan Tree","group":"Banyan Group","tier":"Luxury","setting":"Pool villa resort"},
+  {"name":"Sheraton Nha Trang Hotel & Spa","destination":"Nha Trang / Cam Ranh","brand":"Sheraton","group":"Marriott International","tier":"Upper upscale","setting":"Coastal hotel"},
+  {"name":"The Westin Resort & Spa Cam Ranh","destination":"Nha Trang / Cam Ranh","brand":"Westin","group":"Marriott International","tier":"Upper upscale","setting":"Beach resort"},
+  {"name":"JW Marriott Cam Ranh Bay Resort & Spa","destination":"Nha Trang / Cam Ranh","brand":"JW Marriott","group":"Marriott International","tier":"Luxury","setting":"Beach resort"},
+  {"name":"Novotel Nha Trang","destination":"Nha Trang / Cam Ranh","brand":"Novotel","group":"Accor","tier":"Upscale","setting":"Coastal hotel"},
+  {"name":"InterContinental Nha Trang","destination":"Nha Trang / Cam Ranh","brand":"InterContinental","group":"IHG Hotels & Resorts","tier":"Luxury","setting":"Coastal hotel"},
+  {"name":"voco Scenia Bay Nha Trang","destination":"Nha Trang / Cam Ranh","brand":"voco","group":"IHG Hotels & Resorts","tier":"Upper upscale","setting":"Bayfront hotel"},
+  {"name":"Hyatt Regency Nha Trang","destination":"Nha Trang / Cam Ranh","brand":"Hyatt Regency","group":"Hyatt","tier":"Upper upscale","setting":"Coastal hotel"},
+  {"name":"Le Méridien Saigon","destination":"Ho Chi Minh City","brand":"Le Méridien","group":"Marriott International","tier":"Upper upscale","setting":"Riverfront city hotel"},
+  {"name":"Novotel Saigon Centre","destination":"Ho Chi Minh City","brand":"Novotel","group":"Accor","tier":"Upscale","setting":"City hotel"}
+]
+
