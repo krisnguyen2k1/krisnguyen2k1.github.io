@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#120b08">
+  <meta name="description" content="A curated personal record of international hotels and resorts experienced across Vietnam.">
+  <meta property="og:title" content="The Hotel Ledger | A Personal Hospitality Journey">
+  <meta property="og:description" content="International hotels and resorts experienced across Vietnam, presented as a private collection made public.">
+  <meta property="og:type" content="website">
+  <title>The Hotel Ledger | A Personal Hospitality Journey</title>
+  <style>
+    :root{--espresso:#120b08;--mahogany:#29130d;--copper:#8f4b27;--gold:#d7a85d;--champagne:#f0d8aa;--ivory:#f7f1e7;--cream:#e9dece;--ink:#241a15;--muted:#75665c;--line:#d8c8b3;--shadow:0 24px 80px rgba(30,12,5,.22)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--ink);font:15px/1.6 "Segoe UI",Arial,sans-serif}button,input{font:inherit}a{color:inherit}.shell{width:min(1180px,calc(100% - 40px));margin:auto}
+    .hero{position:relative;min-height:720px;overflow:hidden;background:radial-gradient(circle at 76% 34%,rgba(224,164,76,.2),transparent 18%),linear-gradient(135deg,#0d0806 8%,#2a130d 55%,#6f351d 120%);color:var(--ivory)}
+    .hero:before{content:"";position:absolute;inset:-30% -20% auto 52%;height:760px;border-radius:50%;background:repeating-conic-gradient(from 4deg,rgba(239,194,114,.12) 0 1deg,transparent 1deg 7deg);filter:blur(.2px);opacity:.7}
+    .chandelier{position:absolute;right:max(4vw,30px);top:44px;width:min(44vw,520px);height:600px;opacity:.86;filter:drop-shadow(0 0 30px rgba(246,184,86,.3));pointer-events:none}
+    .chandelier:before{content:"";position:absolute;left:48%;top:-80px;width:10px;height:270px;background:linear-gradient(90deg,#77502d,#f7d18a,#7f4f25);box-shadow:0 0 35px #ffd17e;border-radius:10px}
+    .chandelier:after{content:"";position:absolute;left:9%;top:175px;width:82%;height:180px;border:9px solid #b7793e;border-top-width:25px;border-radius:50%;background:radial-gradient(ellipse at 50% 0,#fff2bf 0 7%,#d89b4e 38%,rgba(92,44,20,.2) 70%);box-shadow:0 -15px 60px #ffcc73,0 20px 70px rgba(0,0,0,.65),inset 0 0 36px #ffe3a5}
+    .nav{height:92px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(244,218,174,.2);position:relative;z-index:2}.mark{display:flex;align-items:center;gap:13px;font-family:Georgia,serif;letter-spacing:.08em}.mark i{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;font-style:normal;color:var(--champagne)}.nav-note{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:#d9c4a7}
+    .hero-copy{position:relative;z-index:2;max-width:690px;padding:105px 0 130px}.kicker{display:flex;align-items:center;gap:14px;color:var(--gold);font-size:12px;font-weight:750;letter-spacing:.22em;text-transform:uppercase}.kicker:before{content:"";width:52px;height:1px;background:var(--gold)}h1{font:500 clamp(55px,8.5vw,110px)/.9 Georgia,serif;letter-spacing:-.055em;margin:29px 0 30px;max-width:720px}.hero-copy p{max-width:570px;color:#ddcdbc;font:19px/1.7 Georgia,serif}.hero-actions{display:flex;gap:13px;align-items:center;margin-top:38px;flex-wrap:wrap}.primary{display:inline-flex;align-items:center;gap:16px;background:var(--gold);color:#241208;text-decoration:none;padding:14px 20px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.primary:after{content:"↓";font-size:18px}.edition{color:#cdbda9;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+    .summary{position:relative;margin-top:-58px;z-index:3}.summary-grid{display:grid;grid-template-columns:1.35fr repeat(3,1fr);background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}.summary-intro,.stat{padding:31px 34px;min-height:140px}.summary-intro{background:var(--mahogany);color:var(--ivory)}.summary-intro small,.stat small{display:block;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}.summary-intro strong{font:500 22px/1.3 Georgia,serif}.stat{border-right:1px solid var(--line)}.stat:last-child{border:0}.stat strong{display:block;font:500 48px/1 Georgia,serif}.stat span{display:block;color:var(--muted);font-size:12px;margin-top:8px}
+    .story{padding:120px 0 70px;display:grid;grid-template-columns:.85fr 1.4fr;gap:90px}.section-label{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:var(--copper)}.story h2,.collection-head h2{font:500 clamp(40px,5vw,72px)/1 Georgia,serif;letter-spacing:-.04em;margin:16px 0}.story-copy{padding-top:35px}.story-copy p{font:18px/1.8 Georgia,serif;color:#56473e;margin:0 0 20px}.rule{width:90px;height:1px;background:var(--gold);margin:35px 0}
+    .collection{padding:55px 0 120px}.collection-head{display:flex;justify-content:space-between;align-items:end;gap:40px;padding-bottom:35px;border-bottom:1px solid var(--line)}.collection-head h2{margin-bottom:0}.collection-head p{max-width:450px;color:var(--muted);margin:0}.tools{display:grid;grid-template-columns:1.2fr 2fr;gap:15px;margin:28px 0 35px}.search{position:relative}.search:before{content:"⌕";position:absolute;left:17px;top:50%;transform:translateY(-52%);color:var(--copper);font-size:22px}.search input{width:100%;height:50px;border:1px solid var(--line);background:#fff;padding:0 16px 0 45px;color:var(--ink);outline:none}.search input:focus{border-color:var(--copper);box-shadow:0 0 0 3px rgba(143,75,39,.12)}.filters{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}.filter{border:1px solid var(--line);background:transparent;padding:9px 14px;color:#5e5048;cursor:pointer}.filter[aria-pressed="true"],.filter:hover{background:var(--mahogany);border-color:var(--mahogany);color:var(--ivory)}
+    .destination{margin-top:54px}.destination-title{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:17px}.destination-title h3{font:500 30px Georgia,serif;margin:0}.destination-title span{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--copper)}.cards{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.card{position:relative;min-height:280px;padding:29px;background:#fff;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s,background .25s}.card:hover{z-index:2;transform:translateY(-5px);box-shadow:0 22px 50px rgba(68,36,20,.14);background:#fffaf2}.number{font:italic 16px Georgia,serif;color:var(--gold)}.brand{margin-top:auto;font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--copper)}.card h4{font:500 25px/1.18 Georgia,serif;margin:12px 0}.meta{color:var(--muted);font-size:13px}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:19px}.tag{padding:5px 8px;border:1px solid #e4d6c5;color:#705f54;font-size:10px;letter-spacing:.07em;text-transform:uppercase}.empty{padding:60px;text-align:center;border:1px solid var(--line);color:var(--muted);background:#fff}
+    footer{background:var(--espresso);color:#c9b8a4;padding:62px 0}.footer-grid{display:flex;align-items:end;justify-content:space-between;gap:30px}.footer-title{font:500 28px Georgia,serif;color:var(--ivory);margin-bottom:8px}.footer-note{max-width:550px}.updated{text-align:right;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+    @media(max-width:900px){.chandelier{right:-160px;opacity:.45}.hero-copy{max-width:620px}.summary-grid{grid-template-columns:1fr 1fr}.summary-intro{grid-column:1/-1}.stat{min-height:auto}.story{grid-template-columns:1fr;gap:15px}.cards{grid-template-columns:repeat(2,1fr)}.tools{grid-template-columns:1fr}.filters{justify-content:flex-start}.collection-head{align-items:start;flex-direction:column}}
+    @media(max-width:600px){.shell{width:min(100% - 28px,1180px)}.hero{min-height:680px}.nav-note{display:none}.hero-copy{padding:85px 0 110px}.hero-copy p{font-size:17px}.chandelier{right:-280px;top:100px}.summary{margin-top:-36px}.summary-grid{grid-template-columns:1fr 1fr}.summary-intro{padding:25px}.stat{padding:23px 20px;min-height:120px}.stat strong{font-size:40px}.story{padding-top:85px}.collection-head h2{font-size:46px}.cards{grid-template-columns:1fr}.card{min-height:245px}.footer-grid{align-items:start;flex-direction:column}.updated{text-align:left}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="chandelier" aria-hidden="true"></div>
+    <div class="shell">
+      <nav class="nav" aria-label="Primary"><div class="mark"><i>HL</i><span>The Hotel Ledger</span></div><div class="nav-note">A personal hospitality collection</div></nav>
+      <div class="hero-copy">
+        <div class="kicker">Vietnam collection</div>
+        <h1>Places that shaped the journey.</h1>
+        <p>A curated record of international hotels and resorts I have personally experienced, from city landmarks to quiet coastal retreats.</p>
+        <div class="hero-actions"><a class="primary" href="#collection">Explore the collection</a><span class="edition">Private experiences, publicly presented</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary shell" aria-label="Collection summary">
+      <div class="summary-grid">
+        <div class="summary-intro"><small>The record</small><strong>An evolving archive of stays, service cultures and places.</strong></div>
+        <div class="stat"><small>Properties</small><strong id="propertyCount">18</strong><span>Hotels and resorts</span></div>
+        <div class="stat"><small>Destinations</small><strong id="destinationCount">4</strong><span>Across Vietnam</span></div>
+        <div class="stat"><small>Hotel groups</small><strong id="groupCount">7</strong><span>International portfolios</span></div>
+      </div>
+    </section>
+
+    <section class="story shell">
+      <div><div class="section-label">The point of view</div><h2>Hospitality, experienced from the inside.</h2></div>
+      <div class="story-copy"><p>This collection is more than a list of addresses. Each property represents a different expression of arrival, design, service and sense of place.</p><p>Together, they form a personal hospitality map across Vietnam, shaped by international brands and grounded in distinct local destinations.</p><div class="rule"></div><div class="section-label">Curated from personal visits</div></div>
+    </section>
+
+    <section class="collection shell" id="collection">
+      <div class="collection-head"><div><div class="section-label">The collection</div><h2>Hotels & resorts</h2></div><p>Browse the complete personal record by destination. This public view is intentionally read-only.</p></div>
+      <div class="tools"><label class="search"><span style="position:absolute;clip:rect(0 0 0 0)">Search the collection</span><input id="search" type="search" placeholder="Search by property, brand or hotel group"></label><div class="filters" id="filters" aria-label="Filter by destination"></div></div>
+      <div id="collectionGrid" aria-live="polite"><div class="empty">Loading the collection...</div></div>
+    </section>
+  </main>
+
+  <footer><div class="shell footer-grid"><div><div class="footer-title">The Hotel Ledger</div><div class="footer-note">A personal record of international hospitality experiences across Vietnam.</div></div><div class="updated">Collection updated · August 2026</div></div></footer>
+
+  <script>
+    const state={hotels:[],destination:'All',query:''};
+    const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+    function renderFilters(){const destinations=['All',...new Set(state.hotels.map(h=>h.destination))];document.querySelector('#filters').innerHTML=destinations.map(d=>`<button class="filter" data-destination="${esc(d)}" aria-pressed="${d===state.destination}">${esc(d)}</button>`).join('');document.querySelectorAll('.filter').forEach(b=>b.onclick=()=>{state.destination=b.dataset.destination;renderFilters();renderCollection()})}
+    function renderCollection(){const q=state.query.toLowerCase();const visible=state.hotels.filter(h=>(state.destination==='All'||h.destination===state.destination)&&(!q||Object.values(h).join(' ').toLowerCase().includes(q)));const grouped={};visible.forEach(h=>(grouped[h.destination]??=[]).push(h));const root=document.querySelector('#collectionGrid');if(!visible.length){root.innerHTML='<div class="empty">No properties match this search.</div>';return}let n=0;root.innerHTML=Object.entries(grouped).map(([destination,hotels])=>`<section class="destination" id="${slug(destination)}"><div class="destination-title"><h3>${esc(destination)}</h3><span>${hotels.length} ${hotels.length===1?'property':'properties'}</span></div><div class="cards">${hotels.map(h=>{n++;return `<article class="card"><div class="number">${String(n).padStart(2,'0')}</div><div class="brand">${esc(h.brand)}</div><h4>${esc(h.name)}</h4><div class="meta">${esc(h.group)}</div><div class="tags"><span class="tag">${esc(h.tier)}</span><span class="tag">${esc(h.setting)}</span></div></article>`}).join('')}</div></section>`).join('')}
+    async function init(){try{const response=await fetch('./hotels.json',{cache:'no-store'});if(!response.ok)throw new Error('Data unavailable');state.hotels=await response.json();document.querySelector('#propertyCount').textContent=state.hotels.length;document.querySelector('#destinationCount').textContent=new Set(state.hotels.map(h=>h.destination)).size;document.querySelector('#groupCount').textContent=new Set(state.hotels.map(h=>h.group)).size;renderFilters();renderCollection()}catch(error){document.querySelector('#collectionGrid').innerHTML='<div class="empty">The collection could not be loaded. Please refresh the page.</div>'}}
+    document.querySelector('#search').addEventListener('input',event=>{state.query=event.target.value.trim();renderCollection()});
+    init();
+  </script>
+</body>
+</html>
+
