@@ -150,9 +150,16 @@ img {
   transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1), text-decoration-color 200ms cubic-bezier(0.16, 1, 0.3, 1), text-decoration-thickness 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.text-link:hover {
+.text-link:hover,
+.text-link:focus-visible {
   color: var(--accent-press);
   text-decoration-color: var(--accent-hover);
+  text-decoration-thickness: 2px;
+}
+
+.text-link:active {
+  color: var(--accent-press);
+  text-decoration-color: var(--accent-press);
   text-decoration-thickness: 2px;
 }
 
