@@ -4,15 +4,15 @@ An evidence-led portfolio for Kris Nguyen, a Learning and Development Coordinato
 
 Production URL: https://krisnguyen2k1.github.io/
 
-Review branch: `codex/ld-portfolio-rebuild`
+Original rebuild: pull request #3, merged into `main` on 12 August 2026.
 
 ## Current release status
 
-- The rebuild is held in draft pull request #3.
-- The production site has not been replaced by this rebuild.
-- Static verification passes 100 of 100 checks.
+- Pull request #3 introduced the Next.js rebuild and was merged into `main` on 12 August 2026.
+- The production site is the statically exported Next.js build deployed from `main` through GitHub Actions.
+- The static export verification script currently checks 107 required conditions.
 - Three case-study routes remain unlinked and `noindex` until their evidence gates are closed.
-- The CV, internal Obstacle Challenge file and workplace photographs are not in the public build.
+- The public CV is linked from the site; the internal Obstacle Challenge file and workplace photographs are not in the public build.
 
 ## Stack
 
