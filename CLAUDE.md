@@ -63,7 +63,9 @@ The source of truth is `:root` in `app/globals.css`:
 
 Reuse these tokens instead of introducing one-off colours. Any token change requires an explicit contrast report and user approval.
 
-`--accent` is not suitable as small text or as the sole essential 3:1 boundary on the light backgrounds. `--text-muted` is defined but currently unused in rendered source; do not introduce it for normal-sized text without a deliberate contrast decision.
+`--text-muted #86837b` has no rendered usages and fails WCAG AA for text on `--bg-canvas`, `--bg-surface` and `--bg-sunken` (3.59:1 / 3.26:1 / 3.00:1). Do not introduce it as text; use `--text-secondary`.
+
+The existing `--accent` left rules on metric blocks, the education score and case-study blockquotes are decorative. Their 2.96:1 contrast against `--bg-canvas` is not used to carry information: blockquote semantics and metric typography provide it without the rules. WCAG 2.2 Success Criterion 1.4.11 therefore does not apply, and no colour change is required. Do not reopen this decision unless the rules take on an informational function or Kris asks.
 
 ### Typography and layout
 
