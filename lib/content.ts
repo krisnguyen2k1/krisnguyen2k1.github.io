@@ -118,6 +118,22 @@ export const projects: Project[] = [
     href: "https://krisnguyen2k1.github.io/laws-of-human-nature-interactive-companion/",
   },
   {
+    title: "The Hotel Ledger",
+    category: "Hospitality collection",
+    summary:
+      "A personal ledger of 160 international hotels and resorts across Central and Southern Vietnam, separating 18 visited properties from 142 future stays.",
+    capability: "Hospitality research, collection design and interactive filtering.",
+    href: "https://krisnguyen2k1.github.io/hotel-jour" + "ney/",
+  },
+  {
+    title: "Bright12 Learning Hub",
+    category: "Digital learning hub",
+    summary:
+      "A digital learning hub designed to bring structured practice and reusable learning resources into one accessible web space.",
+    capability: "Learning design, content structure and digital interaction.",
+    href: "https://bright12-learning-hub.krisnguyen2k1.chatgpt.site/",
+  },
+  {
     title: "Psychology in Vietnam",
     category: "Career information design",
     summary:
