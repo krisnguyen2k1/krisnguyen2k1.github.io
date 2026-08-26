@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Grammar Studio | 10-Hour Interactive Course</title>
+  <meta name="description" content="A clear, interactive 10-hour English grammar course with 15 lessons, instant feedback, mixed review, mock exams, and teacher-ready activities.">
+  <meta name="author" content="Kris Nguyen">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1f1e1d">
+  <link rel="canonical" href="https://krisnguyen2k1.github.io/english-grammar-studio/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="English Grammar Studio">
+  <meta property="og:description" content="Learn 15 essential grammar systems through simple explanations, examples, practice, and full mock exams.">
+  <meta property="og:url" content="https://krisnguyen2k1.github.io/english-grammar-studio/">
+  <link rel="stylesheet" href="styles.css">
+  <script src="course-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to the course</a>
+  <div class="page-progress" aria-hidden="true"><span id="page-progress-bar"></span></div>
+
+  <header class="site-header">
+    <a class="brand" href="#dashboard" aria-label="English Grammar Studio home">
+      <span class="brand-mark" aria-hidden="true">EG</span>
+      <span>
+        <strong>English Grammar Studio</strong>
+        <small>Learn the system. Use it with confidence.</small>
+      </span>
+    </a>
+    <nav class="primary-nav" aria-label="Course sections">
+      <button class="nav-button is-active" type="button" data-view="dashboard">Overview</button>
+      <button class="nav-button" type="button" data-view="course">Lessons</button>
+      <button class="nav-button" type="button" data-view="practice">Practice Lab</button>
+      <button class="nav-button" type="button" data-view="mocks">Mock Exams</button>
+      <button class="nav-button" type="button" data-view="teacher">Teach</button>
+    </nav>
+    <div class="header-progress" aria-label="Course completion">
+      <span id="header-progress-label">0% complete</span>
+      <span class="mini-track" aria-hidden="true"><span id="header-progress-bar"></span></span>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A practical grammar course for confident communication</p>
+        <h1 id="page-title">Grammar becomes easier when you can see the pattern.</h1>
+        <p class="hero-lead">Move from tense choices to complex clauses in fifteen focused, teacher-ready sessions. Every lesson explains form, meaning, and use in plain English before you practise.</p>
+        <div class="hero-actions">
+          <button class="button button-primary" type="button" data-action="resume-course">Start the course</button>
+          <button class="button button-secondary" type="button" data-action="open-diagnostic">Take a diagnostic</button>
+        </div>
+        <p class="save-note"><span aria-hidden="true">●</span> Progress is saved automatically in this browser.</p>
+      </div>
+      <aside class="hero-plan" aria-label="Course at a glance">
+        <p class="plan-label">Your complete core path</p>
+        <div class="plan-number">10</div>
+        <p class="plan-unit">hours of guided learning</p>
+        <dl class="plan-stats">
+          <div><dt>15</dt><dd>lessons</dd></div>
+          <div><dt>300</dt><dd>original exercises</dd></div>
+          <div><dt>4</dt><dd>mock exams</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="workspace" aria-label="Interactive course workspace">
+      <div id="app-view" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>English Grammar Studio</strong>
+      <p>Adapted into an interactive course from the supplied Grammar 4 review outline. Practice materials are original and are not official examination questions.</p>
+    </div>
+    <button class="text-button inverse-link" type="button" data-action="reset-progress">Reset my progress</button>
+  </footer>
+
+  <dialog class="course-dialog" id="course-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-head">
+      <h2 id="dialog-title">Activity</h2>
+      <button class="icon-button" type="button" data-action="close-dialog" aria-label="Close dialog">×</button>
+    </div>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript>
+    <div class="noscript-message">This course needs JavaScript to check answers and save progress. Please enable JavaScript and reload the page.</div>
+  </noscript>
+</body>
+</html>
