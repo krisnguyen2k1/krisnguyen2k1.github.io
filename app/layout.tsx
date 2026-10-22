@@ -35,6 +35,11 @@ export const metadata: Metadata = {
   },
 };
 
+// The portfolio moved to Netlify on 22 Oct 2026. Every page rendered by this
+// app forwards visitors there. Preserved static routes under public/ and the
+// Laws of Human Nature companion are separate files and are not affected.
+const newPortfolioUrl = "https://krisnguyen.netlify.app/";
+
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -62,6 +67,10 @@ const personSchema = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <meta httpEquiv="refresh" content={`0; url=${newPortfolioUrl}`} />
+        <link rel="canonical" href={newPortfolioUrl} />
+      </head>
       <body>
         <a className="skip-link" href="#main-content">
           Skip to main content
