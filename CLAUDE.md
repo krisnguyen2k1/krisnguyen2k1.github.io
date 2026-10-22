@@ -4,6 +4,8 @@ This repository contains the personal portfolio of Kris Nguyen (Nguyen Trung Kie
 
 The primary audience is recruiters, hiring managers and L&D leaders. Every change should make the current evidence, professional point of view and future direction easier to understand.
 
+**Status (22 Oct 2026):** the live portfolio moved to https://krisnguyen.netlify.app. Its source lives in the claude.ai project "IHG Bà Nà | L&D and Talent" (`claude/portfolio-website/`). `app/layout.tsx` adds a meta refresh so every page this app renders forwards there. Preserved static routes under `public/` and the Laws of Human Nature companion still serve normally. Do not update portfolio copy here; update the Netlify site instead.
+
 The current source on `main` is authoritative. This file must be updated whenever the architecture, design system or deployment workflow changes.
 
 ## Hard rules
